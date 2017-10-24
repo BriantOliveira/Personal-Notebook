@@ -2,11 +2,9 @@
 
 ---
 
-  ** CS - 2**
+** CS - 2**
 
-##                                              Tweet Generator:
-
-
+## Tweet Generator:
 
 ** Iterative Steps**
 
