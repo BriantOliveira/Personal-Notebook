@@ -1,3 +1,4 @@
-# My Awesome Book
+# Welcome to my Notebook
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+This is my personal notebook where I take notes during classes and express my ideas. 
+
