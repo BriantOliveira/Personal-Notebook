@@ -1,26 +1,18 @@
-#                                                 LINK LIST
-
-
+# LINK LIST
 
 ---
 
 **Linked Lists** are a way to store data in which appending and prepending data is very fast. While looping through the data can be quite slow. A linked list is basically a chain of Nodes attached to each other.
 
-
-
 The first concept we need to understand is the concept of **Reference vs Value**. In most computer science languages, there are two things a variable can be. It can either be a value like 1, 2, 3, 4... Or a reference to an object. What I mean by a reference is the value of the variable will be the location in which your object resides.
 
-**Value Types**:  \(Int, Strings\)  
+**Value Types**:  \(Int, Strings\)
 
 If you pass variables by value, assigning a new variable to a value variable will give you a new variable with that constant value.
 
 **Reference Types**:
 
 If you pass a variable by reference, assigning a new variable to your current then changing your first will also change it for the second.
-
-
-
-
 
 ```
 a = 7 #Value type
@@ -42,11 +34,11 @@ print(b)
 >>> 3
 ```
 
-### Node 
+### Node
 
 **DATA \| NEXT**
 
-The first element of our Link list is the **Head** Reference and the **Tail** Reference is the last element &lt;&gt; \| both are Node. 
+The first element of our Link list is the **Head** Reference and the **Tail** Reference is the last element &lt;&gt; \| both are Node.
 
 The first thing we have to understand when creating a Linked List is something called a node. A node is used in multiple data structures in many different ways, but the concept of a node is the same. Nodes are used to store data and link to one or more other nodes.
 
@@ -69,8 +61,6 @@ We first get the head, and we get the next node using the next reference and we 
 #### Delete
 
 The most complicated of all the Linked List functions, but still quite simple. Like the find function, we get the head and keep getting the next node until we find the node we are looking for. Once we find the node we are looking for we set the last nodes next variable to the next variable in the node you want to delete. If the node was the list's head, assign the next variable to the next head. If the node was the tail, assign the tail to the reference to the last node.
-
-
 
 ##### Ex of link list:
 
@@ -96,8 +86,6 @@ is \(5,"hi"\) = to \(12, "h"\)  **no**, so you go to the **next value** -&gt;-&g
 
 ex: \[1, 2, **3**, 4\]
 
-
-
 * **Current** = **Head** & last = None
 * Check if current is **not** None 
 * If item is **==** to data  **\(IF YES  \| IF NO\)**
@@ -114,8 +102,6 @@ ex: \[1, 2, **3**, 4\]
 
 In the Double Link Link the **Node** does know the **LAST**
 
-
-
 ##### Reverse Link List:
 
 \[1,2,3,4\]
@@ -128,9 +114,7 @@ In the Double Link Link the **Node** does know the **LAST**
 
 3,2,1,**\|4\|**
 
-4,3,2,1 
-
-
+4,3,2,1
 
 1. Check if **NEXT** = **HEAD** . **NEXT**
 2. **HEAD**.**NEXT** = **NONE**
@@ -140,7 +124,24 @@ In the Double Link Link the **Node** does know the **LAST**
 6. **NEXT** = **Current.NEXT**
 7. Seek.**HEAD** = **Current**
 
+```
+def reverse(self):
+        # Next node in the list
+        next_node = self.head.next
+        
+        # Previous node in our list
+        previous_node = self.head
+        
+		# Our head will be the tail after this is done
+        self.tail = previous_node
 
+        # Will be new last node so we don't want it's next to have anything
+        self.head.next = None
+
+        while next_node is not None:
+            # Set our current node to the current next_node
+            current_node = next_node
+```
 
 
 
