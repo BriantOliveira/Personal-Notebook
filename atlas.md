@@ -1,4 +1,4 @@
-#                                           **ATLAS GUIDE**
+# **ATLAS GUIDE**
 
 ---
 
@@ -11,8 +11,6 @@
 * Build an impressive project to add to their portfolio and present at the Winter Open House
 * Develop greater resourcefulness in generating code, problem solving, and squashing bugs.
 
-
-
 ### Timeline
 
 1. Week 1 - Pick teams & Ideate
@@ -22,7 +20,7 @@
 5. Week 5 - Sprint 3
 6. Week 6 - Presentations
 
-### Requirements 
+### Requirements
 
 Two partners working together.
 
@@ -34,9 +32,7 @@ Two partners working together.
 6. Must be live on the web and in the app store \(if app\)
 7. At least weekly meetings \(on the calendar with a time and location\).
 8. Projects must be written in Make School technologies: Python, JavaScript, Swift, Express.js, Flask, React.js, MongoDB, PostgreSQL, etc.
-9. A presentation \(5min pitch, demo, and Q&A\)
-
-
+9. A presentation \(5min pitch, demo, and Q&A\).
 
 
 
