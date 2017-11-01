@@ -9,4 +9,5 @@
 * [SQL](sql.md)
 * [ORM & Sequelize.js ](orm-and-sequelizejs.md)
 * [Chapter\_3](chapter3.md)
+* [Color\_Theory](colortheory.md)
 
