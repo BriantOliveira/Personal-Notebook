@@ -5,4 +5,5 @@
 * [Color\_Theory](colortheory.md)
 * [Tweet\_generator\_notes](tweetgenerator-notes.md)
 * [LINK\_LIST](linklist.md)
+* [BIG\_O](hashmap.md)
 
