@@ -8,4 +8,5 @@
 * [BIG\_O](hashmap.md)
 * [CORE\_A](corea.md)
 * [Markov\_Chain](markovchain.md)
+* [Regular\_expression](regularexpression.md)
 
