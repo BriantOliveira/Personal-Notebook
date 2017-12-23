@@ -8,4 +8,5 @@
 * [CORE\_A](corea.md)
 * [Markov\_Chain](markovchain.md)
 * [Regular\_expression](regularexpression.md)
+* [CS50 - WEEK 1](cs50.md)
 
