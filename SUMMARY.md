@@ -10,4 +10,7 @@
 * [Regular\_expression](regularexpression.md)
 * [CS50 - WEEK 1](cs50.md)
 * [Simulation Neuroscience ](simulation-neuroscience.md)
+* [Data-Science-Statistics](data-science-statistics.md)
+* [CS3-Week1](cs3-week1.md)
+* [Core-B](core-b.md)
 
