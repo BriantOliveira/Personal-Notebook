@@ -55,11 +55,18 @@ Mean
 * It is nor affected by extreme scores\(outliners\).
 * For normal distributions, it is approximately equal to the mean and mode.
 
-Outilier &lt; Q1 - 1.5 \(IQR\)
+**Outilier** &lt; Q1 - 1.5 \(IQR\)
 
 Q3 + 1.5 \(IQR\)
 
+**SS** \(Sum of squares\) = M \(xi - x\)
 
 
-SS \(Sum of squares\) = M \(xi - x\)
+
+**Variance** -
+
+* Mean of squared deviations
+* Sum of squared deviations divided by n
+
+
 
