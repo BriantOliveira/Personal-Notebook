@@ -78,9 +78,11 @@ A negative Z-Score means:
 
 The z-score of any value, that's one standard deviation away from the mean, will then be 1 after we standardize it.
 
-
-
 **Standard normal distribution **
 
-When we have a normal distributions, we can standardize it by first subtracting the mean, shifting it to 0. And then dividing by the standard deviation, which makes the standard deviation 1. 
+When we have a normal distributions, we can standardize it by first subtracting the mean, shifting it to 0. And then dividing by the standard deviation, which makes the standard deviation 1.
+
+
+
+Probability Density Function \(PDF\).
 
