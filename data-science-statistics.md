@@ -61,12 +61,15 @@ Q3 + 1.5 \(IQR\)
 
 **SS** \(Sum of squares\) = M \(xi - x\)
 
-
-
 **Variance** -
 
 * Mean of squared deviations
 * Sum of squared deviations divided by n
+
+**Standard deviation** - 
+
+* Square root of average squared deviation 
+* Square root of \(\(Sum of square deviations\) divided by n\)
 
 
 
