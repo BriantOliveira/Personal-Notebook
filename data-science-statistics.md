@@ -18,17 +18,13 @@ Population Standard deviation / the square root of n \(sample size\).
 
 Margin of error - Two times the population standard deviation divided by the root n.
 
+#### Measures of center
 
+Mean
 
-#### Measures of center 
-
-Mean 
-
-*  has a simple equation \(the sum of X / n\). 
+* has a simple equation \(the sum of X / n\). 
 * The mean will also change if any data values changes. 
 * The mean will not be affected by change in the bin size
-
-
 
 ~ QUIZ
 
@@ -65,7 +61,5 @@ Q3 + 1.5 \(IQR\)
 
 
 
-
-
-
+SS \(Sum of squares\) = M \(xi - x\)
 
