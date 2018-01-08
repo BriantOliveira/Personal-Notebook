@@ -66,10 +66,10 @@ Q3 + 1.5 \(IQR\)
 * Mean of squared deviations
 * Sum of squared deviations divided by n
 
-**Standard deviation** - 
+**Standard deviation** -
 
-* Square root of average squared deviation 
-* Square root of \(\(Sum of square deviations\) divided by n\)
+* Square root of average squared deviation. 
+* Square root of \(\(Sum of square deviations\) divided by n\).
 
 
 
