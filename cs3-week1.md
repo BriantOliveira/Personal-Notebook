@@ -61,7 +61,7 @@ Repeat until no unsorted elements remain:
 
 * **Best-case scenario**: The array is already perfectly sorted, and we simply keep moving the line between "unsorted" and "sorted" as we examine each element. Ω\(n\)
 
-#### Linear Search 
+#### Linear Search
 
 * In linear search, the idea of the algorithm is to iterate across the array from left to right, searching for a specified element.
 
@@ -71,10 +71,26 @@ Repeat until no unsorted elements remain:
   * If the first element is what you're looking for \(the target\), stop. 
   * Otherwise, move to the next element.
 
-
-
 * **Worse-case scenario**: We have to look through the entire array of n elements, either because the target element is the last element of the array or doesn't exist in the array at all. O\(n\)
 * **Best case scenario**: The target element is the first element of the array, and so we can stop looking immediately after we start. Ω\(1\)
+
+#### Binary Search
+
+* In binary search, the idea of the algorithm is to divide and conquer, reducing the search area by half each time, trying to find a target number. 
+  * In order to leverage this power however, our array must first be sorted, else we cannot make assumptions about the array's contents.
+
+
+
+**In Pseudocode:**
+
+* Repeat until the \(sub\)array is of size 0:
+  * Calculate the middle point of the current \(sub\)array.
+  * If the target is at the middle, stop. 
+  * Otherwise, if the target is greater than what's at the middle, repeat, changing the end point to be just the left of the middle. 
+  * Otherwise, if the target is greater than what's at the middle, repeat, changing the start point to be just to the right of that middle.
+
+* Worse-case scenario: We have to divide a list of n elements in half repeatedly to find the target element, either because the target element will be found at the end of the last division or doesn't exist in the array at all. O\(log n\)
+* Best-case scenario: The target element is at the midpoint of the full array, and so we can stop looking immediately after we start. Ω\(1\)
 
 
 
