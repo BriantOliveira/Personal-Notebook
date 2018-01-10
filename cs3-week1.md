@@ -42,12 +42,23 @@ Repeat until no unsorted elements remain:
     * If two adjacent elements are not in order, swap them and add one to the swap counter.
 * To know if the list is in order you set the counter back to 0 and check each adjacent pair - if the counter remains 0 means that the list is completely sorted. 
 
-
-
 * Worse-case scenario: The array is in reverse order; we have to "bubble" each of the_ n elements_ all the way across the array, and since we can only fully bubble one element into position per pass, we must do this _n times_. O\(n^2\)
 * Best-case scenario: The array is already perfectly sorted, and we make no swap on the first pass. Ω\(n\)
 
+#### Insertion Sort 
 
+* In insertion sort, the idea of algorithm is to build your sorted array in place, shifting element out of the way if necessary to make room as you go. 
+
+**In Pseudocode:**
+
+* Call the first element of the array "sorted".
+* Repeat until all elements are sorted: 
+  * Look at the next unsorted element. Insert into the "sorted" portion by shifting the requisite number of elements.
+
+
+
+* **Worse-case scenario**: The array is in reverse order; we have to shift each of the _n elements n positions_ each time we make an insertion. 
+* **Best-case scenario**: The array is already perfectly sorted, and we simply keep moving the line between "unsorted" and "sorted" as we examine each element.
 
 
 
