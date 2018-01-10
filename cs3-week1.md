@@ -20,15 +20,16 @@ The main thing we use logarithms for is solving for** x** when **x** is an **exp
 
 **In Pseudocode:**
 
-* Repeat until no unsorted elements remain:
-  * Search the unsorted part of the data to find the smallest value.
-  * Swap the smallest found value with the first element of the unsorted part.
+Repeat until no unsorted elements remain:
 
-Worse-case scenario: We have to iterate over each of the n elements of the array \(to find the smallest unsorted element\) and we must  repeat this process n times, since only one element gets sorted on each pass.  O\(n^2\)
+* Search the unsorted part of the data to find the smallest value.
+* Swap the smallest found value with the first element of the unsorted part.
 
-* Best-case scenario: Exactly the same! There's no way to guarantee the array is sorted until we go through this process for all elements. Ω\(n^\)
+* **Worse-case scenario:** We have to iterate over each of the n elements of the array \(to find the smallest unsorted element\) and we must  repeat this process n times, since only one element gets sorted on each pass.  O\(n^2\)
 
-#### Bubble Sort 
+* **Best-case scenario: **Exactly the same! There's no way to guarantee the array is sorted until we go through this process for all elements. Ω\(n^\)
+
+#### Bubble Sort
 
 * In bubble sort, the idea of the algorithm is to move the hight valued elements generally towards the right and the lower value element generally towards the left. 
 
@@ -39,6 +40,12 @@ Worse-case scenario: We have to iterate over each of the n elements of the array
   * Reset swap counter is 0
   * Look at each adjacent pair
     * If two adjacent elements are not in order, swap them and add one to the swap counter.
+* To know if the list is in order you set the counter back to 0 and check each adjacent pair - if the counter remains 0 means that the list is completely sorted. 
+
+
+
+* Worse-case scenario: The array is in reverse order; we have to "bubble" each of the_ n elements_ all the way across the array, and since we can only fully bubble one element into position per pass, we must do this _n times_. O\(n^2\)
+* Best-case scenario: The array is already perfectly sorted, and we make no swap on the first pass. Ω\(n\)
 
 
 
