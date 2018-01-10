@@ -103,5 +103,45 @@ Repeat until no unsorted elements remain:
   * n! equals all the positive integers less than or equal to n, multiplied together. 
   * Thinking in terms of programming, we'll define the mathematical function n! as fact\(n\)
 
+```
+fact(1) = 1
+fact(2) = 2 * 1 
+fact(3) = 3 * 2 * 1
+fact(4) = 4 * 3 * 2 * 1
+fact(5) = 5 * 4 * 3 * 2 * 1
+```
+
+fact\(n\) = n \* fact\(n-1\)
+
+* This forms the basis for a recursive definition of the factorial function
+* Every recursive function has two cases that could apply, given any input. 
+  * The base case, which when triggered will terminate the recursive process. 
+  * The recursive case, which is where the recursion will actually occur. 
+
+```
+int fact(int n)
+ {
+   if (n == 1)
+     return 1;
+   else 
+     return n * fact(n-1);
+ }
+```
+
+* In general, but not always, recursive function replace loops in non-recursive functions. 
+
+```
+int fact2(int n)
+{
+    int product = 1;
+    while (n > 0)
+    {
+        product *= n;
+        n--;
+    }
+    return product;
+}
+```
+
 
 
