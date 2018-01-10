@@ -143,5 +143,7 @@ int fact2(int n)
 }
 ```
 
+* It's also possible to have more than one base or recursive case, if the program might recurse or terminate in different ways, depending on the input being passed in.
+
 
 
