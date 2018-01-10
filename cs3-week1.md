@@ -94,11 +94,14 @@ Repeat until no unsorted elements remain:
 
 * Best-case scenario: The target element is at the midpoint of the full array, and so we can stop looking immediately after we start. Ω\(1\)
 
-#### Recursion 
+#### Recursion
 
 * We might describe an implementation of an algorithm as being particularly "elegant" if it solves a problem in a way that is both interesting and easy to visualize. 
 * The technique of recursion is a very common way to implement such an "elegant" solution. 
 * The definition of a recursive function is on that, as part of it's execution, invokes itself.
+  * The factorial function \(n!\) is defined over all positives integers. 
+  * n! equals all the positive integers less than or equal to n, multiplied together. 
+  * Thinking in terms of programming, we'll define the mathematical function n! as fact\(n\)
 
 
 
