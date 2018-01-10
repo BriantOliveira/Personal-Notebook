@@ -82,7 +82,21 @@ The z-score of any value, that's one standard deviation away from the mean, will
 
 When we have a normal distributions, we can standardize it by first subtracting the mean, shifting it to 0. And then dividing by the standard deviation, which makes the standard deviation 1.
 
-
-
 Probability Density Function \(PDF\).
+
+
+
+Mean - the average 
+
+Median - in the middle 
+
+Mode - The most common
+
+
+
+To find the mean - add up the values in the data set and then divide by the number of values that you added. 
+
+To find the median - list the values of the data set in numerical order and and identify which values of the data set in numerical order and identify which value appears in the middle of the list. 
+
+To find the mode - identify which value in the data set occurs most often. 
 
