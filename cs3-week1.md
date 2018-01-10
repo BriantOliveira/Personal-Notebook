@@ -53,11 +53,28 @@ Repeat until no unsorted elements remain:
 **In Pseudocode:**
 
 * Call the first element of the array "sorted".
-* Repeat until all elements are sorted: 
+* Repeat until all elements are sorted:
+
   * Look at the next unsorted element. Insert into the "sorted" portion by shifting the requisite number of elements.
 
 * **Worse-case scenario**: The array is in reverse order; we have to shift each of the _n elements n positions_ each time we make an insertion. O\(n\)
+
 * **Best-case scenario**: The array is already perfectly sorted, and we simply keep moving the line between "unsorted" and "sorted" as we examine each element. Ω\(n\)
+
+#### Linear Search 
+
+* In linear search, the idea of the algorithm is to iterate across the array from left to right, searching for a specified element.
+
+**In Pseudocode:**
+
+* Repeat, starting at the first element:
+  * If the first element is what you're looking for \(the target\), stop. 
+  * Otherwise, move to the next element.
+
+
+
+* **Worse-case scenario**: We have to look through the entire array of n elements, either because the target element is the last element of the array or doesn't exist in the array at all. O\(n\)
+* **Best case scenario**: The target element is the first element of the array, and so we can stop looking immediately after we start. Ω\(1\)
 
 
 
