@@ -84,19 +84,19 @@ When we have a normal distributions, we can standardize it by first subtracting 
 
 Probability Density Function \(PDF\).
 
+Mean - the average
 
-
-Mean - the average 
-
-Median - in the middle 
+Median - in the middle
 
 Mode - The most common
 
+To find the mean - add up the values in the data set and then divide by the number of values that you added.
+
+To find the median - list the values of the data set in numerical order and and identify which values of the data set in numerical order and identify which value appears in the middle of the list.
+
+To find the mode - identify which value in the data set occurs most often.
+
+#### 
 
 
-To find the mean - add up the values in the data set and then divide by the number of values that you added. 
-
-To find the median - list the values of the data set in numerical order and and identify which values of the data set in numerical order and identify which value appears in the middle of the list. 
-
-To find the mode - identify which value in the data set occurs most often. 
 
