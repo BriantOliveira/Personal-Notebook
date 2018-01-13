@@ -2,8 +2,6 @@
 
 ---
 
-
-
 ## Recursion & Search Algorithms
 
 **Iteration** - is the act of repeating a process, either to generate an unbounded sequence of outcomes, or with the aim of approaching a desired goal, target of result. Each repetition of the process is also called an "iteration", and the result of one iteration are used as the starting point for the next iteration.
@@ -157,51 +155,66 @@ Merge Sort does log n merge steps because each merge step double the list size.
 
 It does n work for each merge step because it must look at every item.
 
-So it runs in O\(n log n\). 
-
-
+So it runs in O\(n log n\).
 
 #### Palindrome -
 
-Is a word, phrase, number, or other sequence of characters which reads the same backward as forward. 
+**Is a word, phrase, number, or other sequence of characters which reads the same backward as forward.**
 
 In automata theory, as set of all palindromes in a given alphabet is a typical example of language that is context-free, but not regular. This means that it is impossible for a computer with a finite amount of memory to reliably test for palindromes on one pass. It is possible to find the longest palindromic substring of a given input string in a linear time.
 
-
-
 #### String Searching algorithm -
 
-Usually called as string matching algorithms, are an important class of string algorithms that try to find a place where one or several strings \(also called patterns\) are found within a large string or text. 
+Usually called as string matching algorithms, are an important class of string algorithms that **try to find a place where one or several strings \(also called patterns\) are found within a large string or text.**
 
-In practice, how the string is encoded can affect the feasible string search algorithms. In particular if a variable width encoding is in use then it may be slower to find the Nth character \(perhaps requiring time proportional to N\). This may slow down some search algorithms. 
-
-
+In practice, how the string is encoded can affect the feasible string search algorithms. In particular if a variable width encoding is in use then it may be slower to find the Nth character \(perhaps requiring time proportional to N\). This may slow down some search algorithms.
 
 #### Permutation -
 
-In mathematics, the notion of permutation relates to the act of arranging all the members of a set into some sequence or order, or if the set is already ordered, rearranging \(reordering\) its elements. 
+In mathematics, the notion of permutation relates to **the act of arranging all the members of a set into some sequence or order, or if the set is already ordered, rearranging \(reordering\) its elements.**
 
-
-
-#### Anagram - 
+#### Anagram -
 
 Is the word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.
 
-
-
-#### Unit Testing - 
+#### Unit Testing -
 
 Is a software testing method by which individual units of source code, set of one or more computer program modules together with associated control data, usage procedures, are tested to determine whether they are fit for use.
 
+---
 
+# Week 2
 
+#### **Abstract Data Type \(ADT\)** - 
 
+Is a mathematical model for data types, where a data type is defined by its behavior \(semantics\) from the point of view of a user of the data, specifically in terms of possible values, possible operations on data of this type, and the behavior of these operations. 
 
+**Arrays** -
 
+* Contiguous piece of memory. 
+* Same size storage space at each index. 
+* Static - Memory allocated once, size can't change. 
+* Dynamic - New memory allocated, array copied to grow. 
 
+**Linked List -**
 
+Not contiguous piece of memory. 
 
+Differing size storage space at each index. 
 
+Dynamic - New \(small\) piece of memory allocated. 
+
+No need to copy the whole thing like an array. 
+
+**Linked List run time:**
+
+Access Element via Index - **O\(n\)**
+
+Find and Insert or Delete Element\(Beginning\) - **O\(1\)**
+
+Find and Insert or Delete Element \(Middle\) - **O\(n\)**
+
+Find and Insert or Delete Element \(End\) - **O\(n\)**
 
 
 
