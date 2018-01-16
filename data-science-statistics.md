@@ -105,7 +105,11 @@ P\(A and B\) = P\(A\)P\(B\|A\).
 
 From this definition, the conditional probabilityP\(B\|A\)is easily obtained by dividing byP\(A\):
 
- P\(B/A\) = P \(A and B\) / P\(A\)
+P\(B/A\) = P \(A and B\) / P\(A\)
 
 
+
+Beer and Dippers 
+
+BI \(Business Intelligence\) uses Data mining is a process that looks for patterns in data, so in a sense it is like querying the data. The Crucial differences between simply querying the data and data mining can be summed up as intent and scale. 
 
