@@ -96,7 +96,16 @@ To find the median - list the values of the data set in numerical order and and 
 
 To find the mode - identify which value in the data set occurs most often.
 
-#### 
+#### Conditional Probability -
+
+Of an event B is the probability that the event will occur given the knowledge that an event A has already happen.
+
+**If eventsAandBare not independent, then the probability of theintersection of A and B**\(the probability that both events occur\) is defined by  
+P\(A and B\) = P\(A\)P\(B\|A\).
+
+From this definition, the conditional probabilityP\(B\|A\)is easily obtained by dividing byP\(A\):
+
+ P\(B/A\) = P \(A and B\) / P\(A\)
 
 
 
