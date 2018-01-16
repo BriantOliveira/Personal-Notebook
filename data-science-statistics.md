@@ -78,9 +78,11 @@ A negative Z-Score means:
 
 The z-score of any value, that's one standard deviation away from the mean, will then be 1 after we standardize it.
 
+X - M/ std
+
 **Standard normal distribution **
 
-When we have a normal distributions, we can standardize it by first subtracting the mean, shifting it to 0. And then dividing by the standard deviation, which makes the standard deviation 1.
+When we have a normal distributions, we can standardize it by **first subtracting the mean, shifting it to 0. And then dividing by the standard deviation, which makes the standard deviation 1.**
 
 Probability Density Function \(PDF\).
 
@@ -107,9 +109,15 @@ From this definition, the conditional probabilityP\(B\|A\)is easily obtained by 
 
 P\(B/A\) = P \(A and B\) / P\(A\)
 
-
-
-Beer and Dippers 
+Beer and Dippers
 
 BI \(Business Intelligence\) uses Data mining is a process that looks for patterns in data, so in a sense it is like querying the data. The Crucial differences between simply querying the data and data mining can be summed up as intent and scale. 
+
+
+
+Different Statistical Distributions 
+
+![](/assets/Screen Shot 2018-01-16 at 3.08.50 PM.png)
+
+
 
