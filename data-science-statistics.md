@@ -111,13 +111,41 @@ P\(B/A\) = P \(A and B\) / P\(A\)
 
 Beer and Dippers
 
-BI \(Business Intelligence\) uses Data mining is a process that looks for patterns in data, so in a sense it is like querying the data. The Crucial differences between simply querying the data and data mining can be summed up as intent and scale. 
+BI \(Business Intelligence\) uses Data mining is a process that looks for patterns in data, so in a sense it is like querying the data. The Crucial differences between simply querying the data and data mining can be summed up as intent and scale.
 
-
-
-Different Statistical Distributions 
+Different Statistical Distributions
 
 ![](/assets/Screen Shot 2018-01-16 at 3.08.50 PM.png)
+
+
+
+##### **Regression** - 
+
+The goal of regression is to predict _continuous-valued_ features associated with many samples. Continuous-valued meaning small changes in the input result in small changes of the output. 
+
+**Clustering - **
+
+The goal of clustering is to automatically group similar samples into sets. 
+
+Since a clustering algorithm has no prior knowledge of how the sets should be defined, and furthermore, since the clustering process is unsupervised, it needs to have a way to tell which samples are the most similar so it can group them accordingly. It does this the same way we humans do: by looking at the various characteristics and features of each sample.
+
+**Dimensionality Reduction - **
+
+The goal of dimensionality reduction is to systematically and intelligently reduce the number of features considered in a dataset. Stated differently, trim the fat off. Often times, in one's eagerness to collect enough data for machine learning to be effective, you might add irrelevant features to your dataset. Bad features have the effect of hindering the machine learning process, and make your data harder to understand. Dimensionality reduction attempts to trim your dataset down to the bare essentials needed for decision-making.
+
+**Reinforcement Learning - **
+
+The goal of reinforcement learning is to maximize a cumulative reward function -- or equivalently , minimize a cost function--given a set of actions and results. 
+
+Reinforcement learning is a bit different from regular supervised and unsupervised learning. With unsupervised learning, none of your data has a label.
+
+
+
+
+
+
+
+
 
 
 
