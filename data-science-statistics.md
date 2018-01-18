@@ -141,13 +141,5 @@ Reinforcement learning is a bit different from regular supervised and unsupervis
 
 You can start with any distribution that contain a well defined mean and variance. The central limit theorem states that given a distribution of the mean \(μ\) approaches a normal distribution with a mean and a variance σ²/N as N, the sample size, increases.
 
-**With** **replacement** means that you take a value and then you return. **Without replacement** means that you take a value and you do not return.
-
-
-
-
-
-
-
-
+**With** **replacement** means that you take a value and then you return. **Without replacement** means that you take a value and you do not return. 
 
