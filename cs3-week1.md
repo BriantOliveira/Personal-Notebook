@@ -165,7 +165,7 @@ In automata theory, as set of all palindromes in a given alphabet is a typical e
 
 #### String Searching algorithm -
 
-Usually called as string matching algorithms, are an important class of string algorithms that **try to find a place where one or several strings \(also called patterns\) are found within a large string or text.**
+Usually called as z matching algorithms, are an important class of string algorithms that **try to find a place where one or several strings \(also called patterns\) are found within a large string or text.**
 
 In practice, how the string is encoded can affect the feasible string search algorithms. In particular if a variable width encoding is in use then it may be slower to find the Nth character \(perhaps requiring time proportional to N\). This may slow down some search algorithms.
 
@@ -185,9 +185,9 @@ Is a software testing method by which individual units of source code, set of on
 
 # Week 2
 
-#### **Abstract Data Type \(ADT\)** - 
+#### **Abstract Data Type \(ADT\)** -
 
-Is a mathematical model for data types, where a data type is defined by its behavior \(semantics\) from the point of view of a user of the data, specifically in terms of possible values, possible operations on data of this type, and the behavior of these operations. 
+Is a mathematical model for data types, where a data type is defined by its behavior \(semantics\) from the point of view of a user of the data, specifically in terms of possible values, possible operations on data of this type, and the behavior of these operations.
 
 **Arrays** -
 
@@ -198,13 +198,13 @@ Is a mathematical model for data types, where a data type is defined by its beha
 
 **Linked List -**
 
-Not contiguous piece of memory. 
+Not contiguous piece of memory.
 
-Differing size storage space at each index. 
+Differing size storage space at each index.
 
-Dynamic - New \(small\) piece of memory allocated. 
+Dynamic - New \(small\) piece of memory allocated.
 
-No need to copy the whole thing like an array. 
+No need to copy the whole thing like an array.
 
 **Linked List run time:**
 
@@ -215,8 +215,4 @@ Find and Insert or Delete Element\(Beginning\) - **O\(1\)**
 Find and Insert or Delete Element \(Middle\) - **O\(n\)**
 
 Find and Insert or Delete Element \(End\) - **O\(n\)**
-
-
-
-
 

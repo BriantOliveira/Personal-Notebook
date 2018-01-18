@@ -117,15 +117,13 @@ Different Statistical Distributions
 
 ![](/assets/Screen Shot 2018-01-16 at 3.08.50 PM.png)
 
+##### **Regression** -
 
-
-##### **Regression** - 
-
-The goal of regression is to predict _continuous-valued_ features associated with many samples. Continuous-valued meaning small changes in the input result in small changes of the output. 
+The goal of regression is to predict _continuous-valued_ features associated with many samples. Continuous-valued meaning small changes in the input result in small changes of the output.
 
 **Clustering - **
 
-The goal of clustering is to automatically group similar samples into sets. 
+The goal of clustering is to automatically group similar samples into sets.
 
 Since a clustering algorithm has no prior knowledge of how the sets should be defined, and furthermore, since the clustering process is unsupervised, it needs to have a way to tell which samples are the most similar so it can group them accordingly. It does this the same way we humans do: by looking at the various characteristics and features of each sample.
 
@@ -135,17 +133,13 @@ The goal of dimensionality reduction is to systematically and intelligently redu
 
 **Reinforcement Learning - **
 
-The goal of reinforcement learning is to maximize a cumulative reward function -- or equivalently , minimize a cost function--given a set of actions and results. 
+The goal of reinforcement learning is to maximize a cumulative reward function -- or equivalently , minimize a cost function--given a set of actions and results.
 
 Reinforcement learning is a bit different from regular supervised and unsupervised learning. With unsupervised learning, none of your data has a label.
 
 
 
+#### Central Limit Theorem
 
-
-
-
-
-
-
+You can start with any distribution that contain a well defined mean and variance. The central limit theorem states that given a distribution of the mean \(μ\) approaches a normal distribution with a mean and a variance σ²/N as N, the sample size, increases.
 
