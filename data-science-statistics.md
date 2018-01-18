@@ -71,7 +71,7 @@ Q3 + 1.5 \(IQR\)
 * Square root of average squared deviation. 
 * Square root of \(\(Sum of square deviations\) divided by n\).
 
-A negative Z-Score means:
+A negative **Z-Score** means:
 
 * The original value is less than the mean. 
 * The original value minus the mean is negative. 
@@ -137,9 +137,17 @@ The goal of reinforcement learning is to maximize a cumulative reward function -
 
 Reinforcement learning is a bit different from regular supervised and unsupervised learning. With unsupervised learning, none of your data has a label.
 
-
-
 #### Central Limit Theorem
 
 You can start with any distribution that contain a well defined mean and variance. The central limit theorem states that given a distribution of the mean \(μ\) approaches a normal distribution with a mean and a variance σ²/N as N, the sample size, increases.
+
+**With** **replacement** means that you take a value and then you return. **Without replacement** means that you take a value and you do not return.
+
+
+
+
+
+
+
+
 
