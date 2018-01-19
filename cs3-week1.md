@@ -243,3 +243,5 @@ Delete           O\(1\)                 O\(1\)
 
 
 
+**Double-ended queue \(deque\)  - **is an abstract data type that generalizes a queue, for which elements can be added to or removed from either the front \(head\) or back tail \(tail\).
+
