@@ -227,7 +227,31 @@ Find and Insert or Delete Element \(End\) - **O\(n\)**
 
 _Non- essential operations: In many implementations, a stack has more operations than "push" and "pop". An example is "top of stack", or "peek", which observes the top-most element without removing it from the stack. Since this can be done with a "pop" and a "push" with the same data, it's not essential._
 
+#### Operations
+
+_push - add an object to the top._
+
+_pop - remove and return the object on the top. _
+
+_peek - view the object on the top._
+
+_LIFO - last in, first out._
+
+
+
+Time complexity in big O notation: 
+
+Space      **O\(n\)**
+
+Push        **O\(1\)**
+
+Pop          **O\(1\)**
+
+Peek        **O\(1\)**
+
 _**Queue **\_is a particular kind od **abstract data or collection**_ in which the entities in the collection are kept in order and the principle \(or only\) operations on the collection are the addition of entities to the rear terminal position, known as_ **enqueue. **In **FIFO data structure **the first element added to the requirement that once a new element is added, all elements that were added before have to be removed before the new element can be removed. Often a **peek**, of front operation is also entered, returning the value of the value of the front element without dequeuing it.A queue is an example of \_linear data structure_, or more abstractly a sequential collection.
+
+_Every time you remove and item of the list, it moves all the other items forward on space of memory. That's why it's not good to implement Queues with list._
 
 Time complexity in big O notation:
 
@@ -241,7 +265,45 @@ Insert            O\(1\)                 O\(1\)
 
 Delete           O\(1\)                 O\(1\)
 
-
-
 **Double-ended queue \(deque\)  - **is an abstract data type that generalizes a queue, for which elements can be added to or removed from either the front \(head\) or back tail \(tail\).
+
+
+
+#### Operations 
+
+_enqueue - add an object to the back _
+
+_dequeue - remove and return the object at the front _
+
+_front - view the object at the front_
+
+_FIFO - first in, first out._
+
+
+
+**double-ended queue -**
+
+* Store elements in a less easily definable \(EIEIO\) order.
+* **Deque**: Use doubly-linked list.
+  * Left = **head**
+  * Right = **tail**
+    * insertLeft = insertFirst, insertRight = insertLast
+
+    * deleteLeft = removeFirst, deleteRight = removeLast
+
+##### Linked List Implementations
+
+
+
+* Deque: Use doubly-linked list. 
+  * Left = head 
+  * Right = tail
+    * InsertLeft = insertFirst, insertRight = insertLast
+    * deleteLeft = removeFirst, deleteRight = removeLast
+* Queue: Singly-linked list with tail reference will do.
+  * enqueue = insertLast, dequeue = removeFirst
+* Stack: Singly-linked list without tail reference will do. 
+  * push = insertLast, dequeue = removeLast
+
+
 
