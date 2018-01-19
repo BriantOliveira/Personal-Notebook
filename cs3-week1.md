@@ -216,3 +216,34 @@ Find and Insert or Delete Element \(Middle\) - **O\(n\)**
 
 Find and Insert or Delete Element \(End\) - **O\(n\)**
 
+
+
+---
+
+# Week 5
+
+**Stack **is an **abstract data** type that serves as a collection of elements, with two principal operations:
+
+* **push** -  which adds an element to the collection. 
+* **pop** - which removes the removes the most recently added element that was not yet removed.
+
+_Non- essential operations: In many implementations, a stack has more operations than "push" and "pop". An example is "top of stack", or "peek", which observes the top-most element without removing it from the stack. Since this can be done with a "pop" and a "push" with the same data, it's not essential._
+
+_**Queue **_is a particular kind od **abstract data or collection**_ in which the entities in the collection are kept in order and the principle \(or only\) operations on the collection are the addition of entities to the rear terminal position, known as_ **enqueue. **In **FIFO data structure **the first element added to the requirement that once a new element is added, all elements that were added before have to be removed before the new element can be removed. Often a **peek**, of front operation is also entered, returning the value of the value of the front element without dequeuing it.A queue is an example of _linear data structure_, or more abstractly a sequential collection. 
+
+Time complexity in big O notation: 
+
+**Algorithm    Average      Worst case**
+
+   Space            O\(n\)                  O\(n\)
+
+   Search           O\(n\)                 O\(n\)
+
+    Insert            O\(1\)                 O\(1\)
+
+    Delete           O\(1\)                 O\(1\)
+
+
+
+
+
