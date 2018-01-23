@@ -237,9 +237,7 @@ _peek - view the object on the top._
 
 _LIFO - last in, first out._
 
-
-
-Time complexity in big O notation: 
+Time complexity in big O notation:
 
 Space      **O\(n\)**
 
@@ -267,9 +265,7 @@ Delete           O\(1\)                 O\(1\)
 
 **Double-ended queue \(deque\)  - **is an abstract data type that generalizes a queue, for which elements can be added to or removed from either the front \(head\) or back tail \(tail\).
 
-
-
-#### Operations 
+#### Operations
 
 _enqueue - add an object to the back _
 
@@ -279,21 +275,19 @@ _front - view the object at the front_
 
 _FIFO - first in, first out._
 
-
-
 **double-ended queue -**
 
 * Store elements in a less easily definable \(EIEIO\) order.
 * **Deque**: Use doubly-linked list.
+
   * Left = **head**
   * Right = **tail**
+
     * insertLeft = insertFirst, insertRight = insertLast
 
     * deleteLeft = removeFirst, deleteRight = removeLast
 
 ##### Linked List Implementations
-
-
 
 * Deque: Use doubly-linked list. 
   * Left = head 
@@ -304,6 +298,52 @@ _FIFO - first in, first out._
   * enqueue = insertLast, dequeue = removeFirst
 * Stack: Singly-linked list without tail reference will do. 
   * push = insertLast, dequeue = removeLast
+
+
+
+---
+
+#### Hash Table
+
+Maps keys --&gt; object
+
+dict\(\) creates a hash table 
+
+Used because of strong average case performance
+
+**Hash functions** 
+
+Converts a variable-size input to a fixed-size output. 
+
+Same input --&gt; Same output
+
+Input can be anything - String, pointer, custom class. 
+
+**Collisions **
+
+It is impossible to map all possible input to a fixed output space without some inputs generating the same output. Differing input generating the same output is a collision. 
+
+**Chaining **
+
+* Each bucket contains a linked list. 
+* On collision - add to end of the linked list. 
+* To retrieve - find bucket, find in linked list. 
+
+**Linear Probing **
+
+* Each bucket contains one object
+* On collision - go to next open bucket, add object there. 
+* To retrieve - find bucket, if that's not object, iterate buckets until you find it. 
+
+**Load Factor **
+
+LF = entries / buckets 
+
+**String Hashing **
+
+* String are list of chars 
+* Chars have numerical values
+* Add up the chars - there's your hash!
 
 
 
