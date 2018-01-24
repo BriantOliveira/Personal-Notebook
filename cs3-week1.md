@@ -345,9 +345,26 @@ LF = entries / buckets
 
 **Set \(Abstract data type\) - **
 
-A data type that can store certain values, without any particular order, and no repeated values. 
+A data type that can store certain values, without any particular order, and no repeated values.
 
-**Multiset \(bag\) -** 
+**Multiset \(bag\) -**
 
-is similar to a set but allows repeated \("equal'\) values \(duplicated\). This is used in two distinct senses: either equal values are considered_ identical_, and are simply counted, or equal values are considered _equivalen_t, and are stored as distinct items.   
+is similar to a set but allows repeated \("equal'\) values \(duplicated\). This is used in two distinct senses: either equal values are considered_ identical_, and are simply counted, or equal values are considered \_equivalen\_t, and are stored as distinct items.
+
+A circular buffer -
+
+is a data structure that uses a single, fixed-size buffer as if it were connected end-to-end. 
+
+**Circular Buffer - **
+
+is a data structure that uses a single, fixed-size buffer as if it were connected end-to-end. 
+
+How it works:
+
+* A circular buffer first starts empty of some predefined length. For example, this is a 7 element buffer
+
+* | A |
+  | :--- |
+
+
 
