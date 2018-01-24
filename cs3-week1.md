@@ -299,29 +299,27 @@ _FIFO - first in, first out._
 * Stack: Singly-linked list without tail reference will do. 
   * push = insertLast, dequeue = removeLast
 
-
-
 ---
 
 #### Hash Table
 
 Maps keys --&gt; object
 
-dict\(\) creates a hash table 
+dict\(\) creates a hash table
 
 Used because of strong average case performance
 
-**Hash functions** 
+**Hash functions**
 
-Converts a variable-size input to a fixed-size output. 
+Converts a variable-size input to a fixed-size output.
 
 Same input --&gt; Same output
 
-Input can be anything - String, pointer, custom class. 
+Input can be anything - String, pointer, custom class.
 
 **Collisions **
 
-It is impossible to map all possible input to a fixed output space without some inputs generating the same output. Differing input generating the same output is a collision. 
+It is impossible to map all possible input to a fixed output space without some inputs generating the same output. Differing input generating the same output is a collision.
 
 **Chaining **
 
@@ -337,7 +335,7 @@ It is impossible to map all possible input to a fixed output space without some 
 
 **Load Factor **
 
-LF = entries / buckets 
+LF = entries / buckets
 
 **String Hashing **
 
@@ -345,5 +343,11 @@ LF = entries / buckets
 * Chars have numerical values
 * Add up the chars - there's your hash!
 
+**Set \(Abstract data type\) - **
 
+A data type that can store certain values, without any particular order, and no repeated values. 
+
+**Multiset \(bag\) -** 
+
+is similar to a set but allows repeated \("equal'\) values \(duplicated\). This is used in two distinct senses: either equal values are considered_ identical_, and are simply counted, or equal values are considered _equivalen_t, and are stored as distinct items.   
 
