@@ -378,3 +378,96 @@ How it works:
 
 
 
+---
+
+
+
+### **Binary Trees and Search tree algorithms**
+
+
+
+Tree - is a widely used data structure that simulates a hierarchical tree structure, with a root value and subtrees of children with a parent node, represented as a set of linked node.
+
+A tree data structure can be defined[ ](https://en.wikipedia.org/wiki/Recursion)recursively \(locally\) as a collection of nodes \(starting at a root node\), where each node is a data structure consisting of a value, together with a list of references to nodes \(the "children"\), with the constraints that no reference is duplicated, and none points to the root.
+
+
+
+**Root** - topmost node
+
+**parent** - converse of child 
+
+**descendant** - node reachable from parent to child
+
+**ancestor** - node reachable from child to parent 
+
+**leaf /external node** - node with no children 
+
+**internal node** - node with at least on child 
+
+
+
+**height \(tree\)** - number of edges on longest downward path from robot to leaf.
+
+**height \(node\) **- number of edges on longest downward path from node to leaf.
+
+**level** - 1+ number of edges between the node and the root. 
+
+**depth** - number of edges between the node and the root. \(count up\)
+
+**size** - number of nodes in the tree.
+
+
+
+**Complete tree** - Every level except possibly last is completely filled and nodes are as far left as possible. 
+
+**Balanced tree** - All leaves are at minimum possible depth.
+
+**Binary search tree:**
+
+* Always sorted 
+* For each node 
+* Left children are smaller
+* Right children are larger 
+* No duplicated keys
+
+Fast search, insertion, deletion - especially when balanced.  Sort as you go instead of all at once. 
+
+Fairly simple implementation for good performance. 
+
+Only allocate memory as it's needed. 
+
+Doesn't have to reallocate memory to grow \(like a hash table\).
+
+Complexity: log n means log2n
+
+```
+#Search 
+
+#Call initially with node == root node 
+def find_recursive(key, node):
+    if node is None or node.key == key:
+        return node 
+    elif key < node.key:
+        return find_recursive(key, node.left)
+    else: 
+        return find_recursive(key, node.right)
+```
+
+**Insertion** - Same as search except once you find a node without a child on the next side your're traversing, add it there. 
+
+**Deletion** - Three cases. No children. One child. Two children. 
+
+_Complexity:_
+
+**Space**      O\(n\)                     O\(n\)
+
+**Search**    O\(log n\)              O\(n\)
+
+**Insert **     O\(log n\)              O\(n\)
+
+**Delete**     O\(log n\)              O\(n\)
+
+**Binary Logarithm** - the power by which 2 must be raised by to obtain n.
+
+
+
