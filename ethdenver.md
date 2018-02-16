@@ -2,14 +2,14 @@
 
 \(MetaMask\)
 
-Decentralizing networks and blockchain technology 
+Decentralizing networks and blockchain technology
 
 * Open source.
 * No central point of failure \(Can't be hacked\).
 * Immutable ledger.
 * Secure with cryptography.
 
-**Benefits** 
+**Benefits**
 
 * Own your own data.
 * Automated escrow \(automated for any transactions\).
@@ -32,7 +32,7 @@ Decentralizing networks and blockchain technology
 * Price ceillings
 * Calculated in gwei
 
-**Cryptocurrency Distortions** 
+**Cryptocurrency Distortions**
 
 _ALTCoins/ Tokens/ App coins/ Protocol Token_
 
@@ -54,7 +54,7 @@ _ALTCoins/ Tokens/ App coins/ Protocol Token_
 * Roadmap
 * Community support 
 
-**Initial Coin Offering** 
+**Initial Coin Offering**
 
 * White paper 
 * Team 
@@ -87,49 +87,12 @@ contract Hodar {
 }
 ```
 
- 
-
 **The Young & The Trustless: Effective User Experience Design in Blockchain Product**
 
 * Reach your user base \(meet their needs\).
   * User surveys.
   * User comments. 
   * Usability test \(have user to test the product\).
-  * 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
