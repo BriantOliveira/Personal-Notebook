@@ -143,11 +143,7 @@ You can start with any distribution that contain a well defined mean and varianc
 
 **With** **replacement** means that you take a value and then you return. **Without replacement** means that you take a value and you do not return.
 
-
-
 #### 
-
-
 
 
 

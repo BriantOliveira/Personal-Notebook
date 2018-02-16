@@ -14,4 +14,5 @@
 * [CS3](cs3-week1.md)
 * [Core-B](core-b.md)
 * [Blockchain-Development](blockchain-development.md)
+* [EthDenver](ethdenver.md)
 

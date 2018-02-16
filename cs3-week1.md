@@ -6,7 +6,7 @@
 
 **Iteration** - is the act of repeating a process, either to generate an unbounded sequence of outcomes, or with the aim of approaching a desired goal, target of result. Each repetition of the process is also called an "iteration", and the result of one iteration are used as the starting point for the next iteration.
 
-**Recursion** - is a method where the solution to a problem depends on solution to a problem depends on a solution to smaller instances of the same problem \(as opposed to iteration\).
+**Recursion** - is a method where the solution to a problem depends on smaller instances of the same problem \(as opposed to iteration\).
 
 **Logarithm** - Is the inverse operation to exponentiation, just as division is the inverse of multiplication and vice versa. That means the algorithm of a number is the exponent to which another fixed number, the base, must be raised to produce that number.
 
@@ -376,49 +376,37 @@ How it works:
 * |  |
   | :--- |
 
-
-
 ---
 
-
-
 ### **Binary Trees and Search tree algorithms**
-
-
 
 Tree - is a widely used data structure that simulates a hierarchical tree structure, with a root value and subtrees of children with a parent node, represented as a set of linked node.
 
 A tree data structure can be defined[ ](https://en.wikipedia.org/wiki/Recursion)recursively \(locally\) as a collection of nodes \(starting at a root node\), where each node is a data structure consisting of a value, together with a list of references to nodes \(the "children"\), with the constraints that no reference is duplicated, and none points to the root.
 
-
-
 **Root** - topmost node
 
-**parent** - converse of child 
+**parent** - converse of child
 
 **descendant** - node reachable from parent to child
 
-**ancestor** - node reachable from child to parent 
+**ancestor** - node reachable from child to parent
 
-**leaf /external node** - node with no children 
+**leaf /external node** - node with no children
 
-**internal node** - node with at least on child 
-
-
+**internal node** - node with at least on child
 
 **height \(tree\)** - number of edges on longest downward path from robot to leaf.
 
 **height \(node\) **- number of edges on longest downward path from node to leaf.
 
-**level** - 1+ number of edges between the node and the root. 
+**level** - 1+ number of edges between the node and the root.
 
 **depth** - number of edges between the node and the root. \(count up\)
 
 **size** - number of nodes in the tree.
 
-
-
-**Complete tree** - Every level except possibly last is completely filled and nodes are as far left as possible. 
+**Complete tree** - Every level except possibly last is completely filled and nodes are as far left as possible.
 
 **Balanced tree** - All leaves are at minimum possible depth.
 
@@ -430,11 +418,11 @@ A tree data structure can be defined[ ](https://en.wikipedia.org/wiki/Recursion)
 * Right children are larger 
 * No duplicated keys
 
-Fast search, insertion, deletion - especially when balanced.  Sort as you go instead of all at once. 
+Fast search, insertion, deletion - especially when balanced.  Sort as you go instead of all at once.
 
-Fairly simple implementation for good performance. 
+Fairly simple implementation for good performance.
 
-Only allocate memory as it's needed. 
+Only allocate memory as it's needed.
 
 Doesn't have to reallocate memory to grow \(like a hash table\).
 
@@ -453,9 +441,9 @@ def find_recursive(key, node):
         return find_recursive(key, node.right)
 ```
 
-**Insertion** - Same as search except once you find a node without a child on the next side your're traversing, add it there. 
+**Insertion** - Same as search except once you find a node without a child on the next side your're traversing, add it there.
 
-**Deletion** - Three cases. No children. One child. Two children. 
+**Deletion** - Three cases. No children. One child. Two children.
 
 _Complexity:_
 
@@ -468,6 +456,20 @@ _Complexity:_
 **Delete**     O\(log n\)              O\(n\)
 
 **Binary Logarithm** - the power by which 2 must be raised by to obtain n.
+
+
+
+---
+
+
+
+
+
+
+
+
+
+
 
 
 
