@@ -15,4 +15,6 @@
 * [Core-B](core-b.md)
 * [Blockchain-Development](blockchain-development.md)
 * [EthDenver](ethdenver.md)
+* [React](react.md)
+* [Machine Learning](machine-learning.md)
 
