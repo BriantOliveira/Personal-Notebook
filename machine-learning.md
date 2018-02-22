@@ -14,9 +14,9 @@ Machine learning terms can be confusing. Here are definitions of key terms to he
 
 ### Supervised and unsupervised learning {#supervised-and-unsupervised-learning}
 
-**Supervised learning**algorithms are trained with labeled data - in other words, data comprised of examples of the answers wanted. For instance, a model that identifies fraudulent credit card use would be trained from a data set with labeled data points of known fraudulent and valid charges. Most machine learning is supervised.
+**Supervised learning **algorithms are trained with labeled data - in other words, data comprised of examples of the answers wanted. For instance, a model that identifies fraudulent credit card use would be trained from a data set with labeled data points of known fraudulent and valid charges. Most machine learning is supervised.
 
-**Unsupervised learning**is used on data with no labels, and the goal is to find relationships in the data. For instance, you might want to find groupings of customer demographics with similar buying habits.
+**Unsupervised learning **is used on data with no labels, and the goal is to find relationships in the data. For instance, you might want to find groupings of customer demographics with similar buying habits.
 
 #### Training data {#training-data}
 
@@ -104,9 +104,7 @@ Reinforcement learning algorithms gather data as they go, learning from trial an
 
 **What are some common applications of machine learning in industry today?**
 
-Banks use machine learning to predict which transactions where made by you. Netflix uses machine learning to predict which movies you most likely would like to watch. 
+Banks use machine learning to predict which transactions where made by you. Netflix uses machine learning to predict which movies you most likely would like to watch.
 
 What are 3-5 questions \_YOU\_ are interested in using machine learning to answer?
-
-
 
