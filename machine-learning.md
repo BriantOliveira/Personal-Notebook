@@ -108,3 +108,9 @@ Banks use machine learning to predict which transactions where made by you. Netf
 
 What are 3-5 questions \_YOU\_ are interested in using machine learning to answer?
 
+
+
+    Gini is a measure of impurely.
+
+
+
