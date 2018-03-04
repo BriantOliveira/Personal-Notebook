@@ -110,7 +110,17 @@ What are 3-5 questions \_YOU\_ are interested in using machine learning to answe
 
 
 
-    Gini is a measure of impurely.
+In decision threes gini represent the enpure data.  
+
+In Machine learning when you are replacing any missing data values is -99999, most algorithms recognizes those values as outliers. Ex:
+
+```
+df.replace('?', -99999, inplace=True)
+```
+
+
+
+
 
 
 
