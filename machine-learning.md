@@ -108,9 +108,7 @@ Banks use machine learning to predict which transactions where made by you. Netf
 
 What are 3-5 questions \_YOU\_ are interested in using machine learning to answer?
 
-
-
-In decision threes gini represent the enpure data.  
+In decision threes gini represent the enpure data.
 
 In Machine learning when you are replacing any missing data values is -99999, most algorithms recognizes those values as outliers. Ex:
 
@@ -118,9 +116,23 @@ In Machine learning when you are replacing any missing data values is -99999, mo
 df.replace('?', -99999, inplace=True)
 ```
 
+The **KNN algorithm **is a classic choice for classification in Machine Learning. KNN works on the assumption that things that are "near" each other are more similar, and therefore more likely to be the same class. Here's a brief explanation of how KNN actually works under the hood:
 
-
-
+1. KNN stores all the data points and labels when
+   `.fit()`
+   is called. No actual computation is done at this point.
+2. When used for predicting the class of an array of objects, the user passes in an array of X\_values and a value for K.
+3. KNN calculates the Euclidean distance between the point in question and all other points it stored during the
+   `.fit()`
+   step.
+4. KNN uses these Euclidean distance metrics to select the K nearest points, and looks at what class each is.
+5. The algorithm predicts that the data point in question is whichever class most the majority of it's K nearest neighbors are. For instance, if
+   `K=5`
+   , and 3 of the neighbors for
+   `X[0]`
+   are class A and 2 are class B, the algorithm will predict that
+   `X[0]`
+   is class A.
 
 
 
