@@ -248,11 +248,21 @@ Dimensionality Reduction
 
 Calculating the relationship between a black hole's mass and its Hawking radiation.
 
-
-
 ---
 
-All of your data or your features can broadly be separeted into two types. Categorial features and then continuous features. 
+All of your data or your features can broadly be separeted into two types. Categorial features and then continuous features.
 
 Continuous features are things such as distance or time or currency or temperature or steps, acceleration. Basically any kind of numeric value, where you can measure a difference between those values, where it makes sense to measure a difference between the values. However, with categorical features, it's no longer makes sense. There's no measurable difference between the values. Some key points to keep in mind for continuous features are, again, there's this measurable difference that exist between them.
+
+
+
+**Determining Features** 
+
+You know that you need to collect a lot of samples along with features that describe them, keeping in mind a challenge you want to solve. This is the prerequisite for machine learning. You now also know these features can either be continuous numeric values, or they can be categorical. But how exactly should you go about choosing features? And what's more important to focus on: adding additional features, or collecting more samples?
+
+These are reasonable questions everyone has when they start collecting the data they need to solve an issue. The answer to which is, it_depends_. Just as in the example of Angie & Craig's lists mentioned in the Machine Learning section, your own intuition about the problem being tackled should really be the driving force behind what data you collect. The only unbreakable rule is that you need to ensure you collect as many features and samples as you possibly can.
+
+If you ever become unsure which one of the two you should focus on more, try concentrate on collecting more samples. At least during collection, try to make sure you have more samples than features because some machine learning algorithms won't work well if that isn't the case. This is also known as the curse of dimensionality. At its core, many algorithms are implemented as matrix operations, and without a greater than or equal to number of samples than features, a fully-formed system of independent equations cannot be made. You can always create more features based off of your existing ones. But creating_pseudo-samples_, while not impossible, might be a bit more difficult!
+
+
 
