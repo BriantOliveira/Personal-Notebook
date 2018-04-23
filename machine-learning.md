@@ -104,6 +104,7 @@ With regression, a mathematical relationship is modeled for your samples so that
 * Explore if a correlation exists between the hours a student spends studying, spends watching TV, and their final exam score.
 
 * Estimate how many power plants should be constructed in the next 50 years, based upon the historical energy consumption per household.
+
 * Figure out how many days a person has left to live based on the severity of their symptoms.
 
 Regression falls into the realm of supervised learning because you have to provide the computer with labeled samples. It then attempts to fit an equation to the samples' features.
@@ -212,40 +213,46 @@ The **KNN algorithm **is a classic choice for classification in Machine Learning
 
 Arming you with the know-how needed solve data driven problems, then having you attempt to do so.
 
-2. **Which statement makes the most sense about data analysis?**
+1. **Which statement makes the most sense about data analysis?**
 
 Special care ought be dedicated to collecting data, so that you have enough of it to do effective analysis.
 
-3. **If you want to engage the data analysis process, the best place to start is by...**
+1. **If you want to engage the data analysis process, the best place to start is by...**
 
 Having a question in mind to drive your data collection process.
 
-4. **What is the difference between supervised and unsupervised learning?**
+1. **What is the difference between supervised and unsupervised learning?**
 
 Unsupervised learning attempts to extract patterns; supervised learning tries to fit rules and equations.
 
-5. **Select the three best applications of machine learning:**
+1. **Select the three best applications of machine learning:**
 
-* Getting computers to solve data driven problems.
+2. Getting computers to solve data driven problems.
 
-* Using computers to solve tasks that involve fine-tuning many parameters.
+3. Using computers to solve tasks that involve fine-tuning many parameters.
 
-* When you have many observations to train a computer against.
+4. When you have many observations to train a computer against.
 
-6. The small credit union / bank you've worked at for the past ten years is having cash-flow issues. Upon further inspection, it turns out most of their clients are defaulting on loans! In trying to rectify the business, you've been assigned the task of studying all client data, and then suggesting a method to identify which prospective borrowers are likely to default on their loans.  
-**What type of machine learning would you engage to solve this problem?**
+5. The small credit union / bank you've worked at for the past ten years is having cash-flow issues. Upon further inspection, it turns out most of their clients are defaulting on loans! In trying to rectify the business, you've been assigned the task of studying all client data, and then suggesting a method to identify which prospective borrowers are likely to default on their loans.  
+   **What type of machine learning would you engage to solve this problem?**
 
 Classification
 
-7. After doing a great job of solving the cash flow issue by denying loans to bad clients, your boss issued a client satisfaction survey to ensure that those who remained loyal customers were happy with all the new process changes. Apparently, he was really motivated while creating the survey because he came up with thirty questions. Even more amazingly, almost all the clients responded! Now your weekend plans are ruined because you have to go through thousands of survey responses to summarize how the clients are feeling about the credit union.
+1. After doing a great job of solving the cash flow issue by denying loans to bad clients, your boss issued a client satisfaction survey to ensure that those who remained loyal customers were happy with all the new process changes. Apparently, he was really motivated while creating the survey because he came up with thirty questions. Even more amazingly, almost all the clients responded! Now your weekend plans are ruined because you have to go through thousands of survey responses to summarize how the clients are feeling about the credit union.
 
 **What type of machine learning would you engage to solve this problem?**
 
 Dimensionality Reduction
 
-8. **Which of the following is an example of regression?**
+1. **Which of the following is an example of regression?**
 
 Calculating the relationship between a black hole's mass and its Hawking radiation.
 
 
+
+---
+
+All of your data or your features can broadly be separeted into two types. Categorial features and then continuous features. 
+
+Continuous features are things such as distance or time or currency or temperature or steps, acceleration. Basically any kind of numeric value, where you can measure a difference between those values, where it makes sense to measure a difference between the values. However, with categorical features, it's no longer makes sense. There's no measurable difference between the values. Some key points to keep in mind for continuous features are, again, there's this measurable difference that exist between them.
 
