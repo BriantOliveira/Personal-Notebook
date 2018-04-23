@@ -64,7 +64,7 @@ For example:
 
 This question can also be rephrased to include more than two options: Is this A or B or C or D, etc.? This is called multiclass classification and it's useful when you have several — or several thousand — possible answers. Multiclass classification chooses the most likely one.
 
-The goal of classification is to identify what_class_a sample belongs to.
+The goal of classification is to identify what\_class\_a sample belongs to.
 
 A class could be something like_Windows 10 Mobile_, whereas a sample could be something like_phone_. To get classification working, you have to feed the computer a large number phone samples, some of them labeled_Windows 10 Mobile_, and others labeled, well..._non-Windows 10 Mobile_. With enough training data, a classifier will eventually be able to generalize what similarities constitute a Windows 10 Mobile phone and voilà, you've trained a computer to figure out phone types!Given a list of emails marked spam and not-spam, figure out if a newly received message is actually spam or not.
 
@@ -93,7 +93,7 @@ Sometimes you want to understand the structure of a data set - How is this organ
 
 There are a lot of ways to tease out the structure of data. One approach is clustering. It separates data into natural "clumps," for easier interpretation. With clustering, there is no one right answer.
 
-The goal of regression is to predict_continuous-valued_features associated with many samples. Continuous-valued meaning small changes in the input result in small changes of the output.
+The goal of regression is to predict\_continuous-valued\_features associated with many samples. Continuous-valued meaning small changes in the input result in small changes of the output.
 
 Imagine driving from New York to San Francisco. As time progresses, your distance from New York increases and your distance to San Francisco decreases. Even though you stop for meals and to rest, these distance values transition smoothly. Throughout the course of your travel, you never magically teleport a large distance. Instead, you smoothly and incrementally make your way bit by bit.
 
@@ -102,6 +102,7 @@ With regression, a mathematical relationship is modeled for your samples so that
 * Calculate an equation to predict the size of a house given its price, or the price of a house given its size.
 
 * Explore if a correlation exists between the hours a student spends studying, spends watching TV, and their final exam score.
+
 * Estimate how many power plants should be constructed in the next 50 years, based upon the historical energy consumption per household.
 * Figure out how many days a person has left to live based on the severity of their symptoms.
 
@@ -160,8 +161,6 @@ With reinforcement learning, your goal might be something like given a rubick's 
 
 To learn more about reinforcement learning, take a look at the Dive Deeper section. We won't return to reinforcement learning in this class, but it's important to be aware of it as a data scientist. Much work has been done using reinforcement learning and deep neural networks that are of benefit to machine learning.
 
-
-
 **6. Dimensionality Reduction**
 
 The goal of dimensionality reduction is to systematically and intelligently reduce the number of features considered in a dataset. Stated differently, trim the fat off. Often times, in one's eagerness to collect enough data for machine learning to be effective, you might add irrelevant features to your dataset. Bad features have the effect of hindering the machine learning process, and make your data harder to understand. Dimensionality reduction attempts to trim your dataset down to the bare essentials needed for decision-making.More Examples
@@ -172,8 +171,6 @@ The goal of dimensionality reduction is to systematically and intelligently redu
 * Summarize a long book.
 
 Dimensionality reduction falls into the realm of unsupervised learning because you don't instruct the computer which features you want it to create. Rather, the computer infers this information automatically by examining your unlabeled data.
-
-
 
 **What are some common applications of machine learning in industry today?**
 
@@ -206,6 +203,49 @@ The **KNN algorithm **is a classic choice for classification in Machine Learning
    are class A and 2 are class B, the algorithm will predict that
    `X[0]`
    is class A.
+
+---
+
+**QUIZ**
+
+1. **This course's approach to instructing data science is through:**
+
+Arming you with the know-how needed solve data driven problems, then having you attempt to do so.
+
+2. **Which statement makes the most sense about data analysis?**
+
+Special care ought be dedicated to collecting data, so that you have enough of it to do effective analysis.
+
+3. **If you want to engage the data analysis process, the best place to start is by...**
+
+Having a question in mind to drive your data collection process.
+
+4. **What is the difference between supervised and unsupervised learning?**
+
+Unsupervised learning attempts to extract patterns; supervised learning tries to fit rules and equations.
+
+5. **Select the three best applications of machine learning:**
+
+* Getting computers to solve data driven problems.
+
+* Using computers to solve tasks that involve fine-tuning many parameters.
+
+* When you have many observations to train a computer against.
+
+6. The small credit union / bank you've worked at for the past ten years is having cash-flow issues. Upon further inspection, it turns out most of their clients are defaulting on loans! In trying to rectify the business, you've been assigned the task of studying all client data, and then suggesting a method to identify which prospective borrowers are likely to default on their loans.  
+**What type of machine learning would you engage to solve this problem?**
+
+Classification
+
+7. After doing a great job of solving the cash flow issue by denying loans to bad clients, your boss issued a client satisfaction survey to ensure that those who remained loyal customers were happy with all the new process changes. Apparently, he was really motivated while creating the survey because he came up with thirty questions. Even more amazingly, almost all the clients responded! Now your weekend plans are ruined because you have to go through thousands of survey responses to summarize how the clients are feeling about the credit union.
+
+**What type of machine learning would you engage to solve this problem?**
+
+Dimensionality Reduction
+
+8. **Which of the following is an example of regression?**
+
+Calculating the relationship between a black hole's mass and its Hawking radiation.
 
 
 
