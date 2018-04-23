@@ -64,6 +64,16 @@ For example:
 
 This question can also be rephrased to include more than two options: Is this A or B or C or D, etc.? This is called multiclass classification and it's useful when you have several — or several thousand — possible answers. Multiclass classification chooses the most likely one.
 
+The goal of classification is to identify what_class_a sample belongs to.
+
+A class could be something like_Windows 10 Mobile_, whereas a sample could be something like_phone_. To get classification working, you have to feed the computer a large number phone samples, some of them labeled_Windows 10 Mobile_, and others labeled, well..._non-Windows 10 Mobile_. With enough training data, a classifier will eventually be able to generalize what similarities constitute a Windows 10 Mobile phone and voilà, you've trained a computer to figure out phone types!Given a list of emails marked spam and not-spam, figure out if a newly received message is actually spam or not.
+
+* Given many different images of your friends, perform facial recognition on a new, never-before seen image of one of your friends.
+* After being trained with a few books, decide which of the before seen authors wrote an unidentified article.
+* Given a list of physical symptoms, determine what ailment a person has.
+
+Classification falls into the realm of supervised learning because for it to work, you have to guide the computer by proving it with examples of correctly labeled records. Once you're done training the computer, you can test it by seeing how accurately it scores those new records.
+
 **2. Is this weird? \(Anomaly detection\)**
 
 If you have a credit card, you’ve already benefited from anomaly detection. Your credit card company analyzes your purchase patterns, so that they can alert you to possible fraud. Charges that are "weird" might be a purchase at a store where you don't normally shop or buying an unusually pricey item.
@@ -83,6 +93,20 @@ Sometimes you want to understand the structure of a data set - How is this organ
 
 There are a lot of ways to tease out the structure of data. One approach is clustering. It separates data into natural "clumps," for easier interpretation. With clustering, there is no one right answer.
 
+The goal of regression is to predict_continuous-valued_features associated with many samples. Continuous-valued meaning small changes in the input result in small changes of the output.
+
+Imagine driving from New York to San Francisco. As time progresses, your distance from New York increases and your distance to San Francisco decreases. Even though you stop for meals and to rest, these distance values transition smoothly. Throughout the course of your travel, you never magically teleport a large distance. Instead, you smoothly and incrementally make your way bit by bit.
+
+With regression, a mathematical relationship is modeled for your samples so that as you gently alter an input feature, your output feature\(s\) respond by being altered as well. In our example, that would be your time journeying and your distance to your destination!
+
+* Calculate an equation to predict the size of a house given its price, or the price of a house given its size.
+
+* Explore if a correlation exists between the hours a student spends studying, spends watching TV, and their final exam score.
+* Estimate how many power plants should be constructed in the next 50 years, based upon the historical energy consumption per household.
+* Figure out how many days a person has left to live based on the severity of their symptoms.
+
+Regression falls into the realm of supervised learning because you have to provide the computer with labeled samples. It then attempts to fit an equation to the samples' features.
+
 **4. How this is organized? \(Clustering Algorithms\)**
 
 Common examples of clustering questions are:
@@ -91,6 +115,20 @@ Common examples of clustering questions are:
 * Which printer models fail the same way?
 
 By understanding how data is organized, you can better understand - and predict - behaviors and events.
+
+The goal of clustering is to automatically group similar samples into sets.
+
+Since a clustering algorithm has no prior knowledge of how the sets should be defined, and furthermore, since the clustering process is unsupervised, it needs to have a way to tell which samples are the most similar so it can group them accordingly. It does this the same way we humans do: by looking at the various characteristics and features of each sample.
+
+Match similar people on a matrimonial website based on their profile answers.
+
+* Through examining search history, recommend houses a prospective home-buyer might be interested in buying.
+* Pinpoint the most likely location for a future earthquake using past seismic data.
+* Identify new characteristics shared by different people suffering from the same disease.
+
+There are different types of clustering algorithms, some supervised, some unsupervised. There are even semi-supervised clustering methods as well.
+
+In this course, you'll only be dealing with unsupervised clustering. In other words, the clustering algorithm you will use won't need anything except your raw data. No labels hinting at desired clustering outcome will be provided to the algorithm.
 
 **5.What should I do next? \(Reinforcement Learning Algorithms\) **
 
@@ -101,6 +139,41 @@ Questions it answers are always about what action should be taken - usually by a
 * For a robot vacuum: Keep vacuuming, or go back to the charging station?
 
 Reinforcement learning algorithms gather data as they go, learning from trial and error.
+
+The goal of reinforcement learning is to maximize a cumulative reward function--or equivalently, minimize a cost function--given a set of actions and results.
+
+Reinforcement learning is modeled to mimic the way we learn in the real world. We try to solve problems using different techniques. Most of the time, nothing of merit results from our experiments. But occasionally, we stumble upon a set of actions that cause a sweet reward. When this happens, we attempt to repeat those actions that get us rewarded.
+
+If we are rewarded yet again, we further associate those actions with the reward, and this is known as the reinforcement cycle. The entire process is also known as performance maximization.
+
+Discover how to fly a quadcopter by minimizing the function which evaluates the chances of it crashing.
+
+* Learn to beat a video game like 'Super Mario Bros.' by minimizing the time it takes to get to the castle.
+* Attempt to take a photo and "re-draw" it in the style of a particular artist.
+* Automate the trading of stocks and securities by maximizing profit and minimizing transaction fees.
+
+Reinforcement learning is a bit different from regular supervised and unsupervised learning. To illustrate this difference, imagine you had a rubick's cube. With unsupervised learning, none of your data has a label. Due to this, you neither know if the cube is in a solved state, an unsolved state, or even what you need to do with it! All you can do is learn about the structure of the cube--namely that it has six distinct colors, and 9 pieces per face, all belonging to a specific color.
+
+With supervised learning, your aim might be to find if the rubick's cube is in a solved configuration or not. To teach a computer this, you'd have to show it many hundreds of examples of rubick's cubes, each labeled solved or not-solved. We refer to this 'dense' labeling.
+
+With reinforcement learning, your goal might be something like given a rubick's cube in some initial configuration, derive a set of actions which would result in it being solved. Training a computer to do this would involve having the computer attempt to change the state of the cube many times, and then after a while, informing the computer if it's succeeded or failed. With enough trials, the computer will get better at quickly doing those actions which result in a successfully solved puzzle, irrespective of the initial configuration of the cube. As such, reinforcement is a type of 'sparsely' labeled, semi-supervised learning.
+
+To learn more about reinforcement learning, take a look at the Dive Deeper section. We won't return to reinforcement learning in this class, but it's important to be aware of it as a data scientist. Much work has been done using reinforcement learning and deep neural networks that are of benefit to machine learning.
+
+
+
+**6. Dimensionality Reduction**
+
+The goal of dimensionality reduction is to systematically and intelligently reduce the number of features considered in a dataset. Stated differently, trim the fat off. Often times, in one's eagerness to collect enough data for machine learning to be effective, you might add irrelevant features to your dataset. Bad features have the effect of hindering the machine learning process, and make your data harder to understand. Dimensionality reduction attempts to trim your dataset down to the bare essentials needed for decision-making.More Examples
+
+* Given a 100 question survey, attempt to find the gist of what is truly being assessed; then rephrase it with just 5 questions.
+* Build a robot that can recognize pictures of similar objects, even if they are rotated at odd angles and orientations.
+* Compress a video stream by reducing the number of colors.
+* Summarize a long book.
+
+Dimensionality reduction falls into the realm of unsupervised learning because you don't instruct the computer which features you want it to create. Rather, the computer infers this information automatically by examining your unlabeled data.
+
+
 
 **What are some common applications of machine learning in industry today?**
 
