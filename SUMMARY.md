@@ -8,7 +8,7 @@
 * [CORE\_A](corea.md)
 * [Markov\_Chain](markovchain.md)
 * [Regular\_expression](regularexpression.md)
-* [CS50 - WEEK 1](cs50.md)
+* [CS50 ](cs50.md)
 * [Simulation Neuroscience ](simulation-neuroscience.md)
 * [Data-Science-Statistics](data-science-statistics.md)
 * [CS3](cs3-week1.md)
@@ -17,4 +17,5 @@
 * [EthDenver](ethdenver.md)
 * [React](react.md)
 * [Machine Learning](machine-learning.md)
+* [Coding-Challenges](coding-challenges.md)
 
