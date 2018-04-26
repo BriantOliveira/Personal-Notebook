@@ -87,7 +87,7 @@ bool isBitSet(int x, unsigned char position) {
 ```
 int modifyBit(int x, unsigned char position, int state) {
     int mask = 1 << position;
-    return (x & ~mask) | (-state & mask;
+    return (x & ~mask) | (-state & mask);
 }
 ```
 
