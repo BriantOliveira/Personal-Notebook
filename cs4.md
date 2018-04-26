@@ -34,7 +34,7 @@ RIGHT SHIFT **&gt;&gt;**
 
 1 \| 1 = 0
 
-**Left shift **-  Shift the binary digits by n, pad 0's on the right. Each shift is a multiply 2 \(unless there's overflow\) 
+**Left shift **-  Shift the binary digits by n, pad 0's on the right. Each shift is a multiply 2 \(unless there's overflow\)
 
 ```
 00010110
@@ -44,9 +44,18 @@ _________
 01011000
 ```
 
-**Right shift** - Shift the binary digits by n, pad 0's on the right. Each shift is a divide by 2 with round towards negative infinity. 
+**Right shift** - Shift the binary digits by n, pad 0's on the right. Each shift is a divide by 2 with round towards negative infinity.
 
 
+
+Set Bit
+
+```
+int setBit(int x, unsigned char position) {
+    int mask = 1 << position; 
+    return x | mask;
+}
+```
 
 
 
