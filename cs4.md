@@ -24,5 +24,15 @@ RIGHT SHIFT **&gt;&gt;**
 
 1 & 1 = 1
 
+**Or** - True if any input bit is true 
+
+0 \| 0 = 0
+
+1 \| 0 = 1
+
+0 \| 1 = 1
+
+1 \| 1 = 1
+
 
 
