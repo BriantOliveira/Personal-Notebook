@@ -78,7 +78,7 @@ Is Bit Set
 ```
 bool isBitSet(int x, unsigned char position) {
     int shifted = x << position;
-    return x & 1;
+    return shifted x & 1;
 }
 ```
 
