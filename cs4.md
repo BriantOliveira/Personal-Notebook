@@ -55,8 +55,6 @@ int setBit(int x, unsigned char position) {
 }
 ```
 
-
-
 **Clear Bit**
 
 ```
@@ -66,7 +64,14 @@ int clearBit(int x, unsigned char position) {
 }
 ```
 
+**Flip Bit**
 
+```
+int flipBit(int x, unsigned char position) {
+    int mask = 1 << position;
+    return x & ^mask;
+}
+```
 
 
 
