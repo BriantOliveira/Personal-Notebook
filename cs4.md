@@ -73,7 +73,7 @@ int flipBit(int x, unsigned char position) {
 }
 ```
 
-Is Bit Set
+**Is Bit Set**
 
 ```
 bool isBitSet(int x, unsigned char position) {
@@ -82,7 +82,7 @@ bool isBitSet(int x, unsigned char position) {
 }
 ```
 
-Modify a Bit
+**Modify a Bit**
 
 ```
 int modifyBit(int x, unsigned char position, int state) {
