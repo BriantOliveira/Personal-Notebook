@@ -73,5 +73,14 @@ int flipBit(int x, unsigned char position) {
 }
 ```
 
+Is Bit Set
+
+```
+bool isBitSet(int x, unsigned char position) {
+    int shifted = x << position;
+    return x & 1;
+}
+```
+
 
 
