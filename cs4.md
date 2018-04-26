@@ -46,9 +46,7 @@ _________
 
 **Right shift** - Shift the binary digits by n, pad 0's on the right. Each shift is a divide by 2 with round towards negative infinity.
 
-
-
-Set Bit
+**Set Bit**
 
 ```
 int setBit(int x, unsigned char position) {
@@ -56,6 +54,19 @@ int setBit(int x, unsigned char position) {
     return x | mask;
 }
 ```
+
+
+
+**Clear Bit**
+
+```
+int clearBit(int x, unsigned char position) {
+    int mask = 1 << position;
+    return x & ~mask;
+}
+```
+
+
 
 
 
