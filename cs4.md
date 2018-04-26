@@ -1,10 +1,8 @@
 ## Class 1: Bit Manipulation
 
+Bitwise Operations
 
-
-Bitwise Operations 
-
-And **&** 
+And **&**
 
 Or **\|**
 
@@ -16,9 +14,7 @@ LEFT SHIFT **&lt;&lt;**
 
 RIGHT SHIFT **&gt;&gt;**
 
-
-
-**And** - Only true if both input bits are true 
+**And** - Only true if both input bits are true
 
 0 & 0 = 0
 
@@ -27,4 +23,6 @@ RIGHT SHIFT **&gt;&gt;**
 0 & 1 = 0
 
 1 & 1 = 1
+
+
 
