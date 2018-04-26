@@ -6,11 +6,13 @@ And **&**
 
 Or **\|**
 
-XOR **^**
+XOR **^ \(**Either one of the other**\)**
 
-NOT** ~**
+NOT** ~ \(**Flips the value**\)**
 
 LEFT SHIFT **&lt;&lt;**
+
+
 
 RIGHT SHIFT **&gt;&gt;**
 
@@ -33,4 +35,6 @@ RIGHT SHIFT **&gt;&gt;**
 0 \| 1 = 1
 
 1 \| 1 = 0
+
+
 
