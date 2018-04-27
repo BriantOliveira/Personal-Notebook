@@ -18,18 +18,15 @@ The **axon \(tree roots\)** is the output structure of the neuron; when a neuron
 
 **Action potential** - Brief electrical event typically generated in the axon that signals the neuron as 'active'. An action potential travels the length of the axon and causes release of neurotransmitter into the synapse. The action potential and consequent transmitter release allow the neuron to communicate with other neurons.
 
-### Types of neurons 
+### Types of neurons
 
 Neurons are the cells that make up the brain and the nervous system. They are fundamental units that send and receive signals which allow us to move our muscles, feel the external world, think form memoriesand much more.
 
 For the spinal cord though, we can say that there are three types of neurons: sensory, motor, and interneurons.
 
+**Sensory neurons** - are the nerve cells that are activated by sensory input from enviroment;  for example, when you a hot surface with your fingertips, the sensory neurons will be the ones firing and sending off signals to the rest of the nervous system about the information they have received.  The inputs that activate sensory neurons can be physical or chemical, corresponding to all five of our senses.
 
+**Motor neurons** - motor neurons of the spinal cord are part of the central nervous system \(CNS\) and connect to muscles, glands and organs throughout the body. These neurons transmit impulses from the spinal cord to skeletal and smooth muscles, and so directly control all of our muscle movements. _There are in fact two type of motor neurons: those that travel between the brain and spinal cord are called upper motor neurons. _
 
-
-
-  
- 
-
-
+**Interneurons** - are the ones in between -- they connect spinal motor and sensory neurons. As well as transferring signals between sensory and motor neurons, interneurons can also communicate with each, forming circuits of various complexity. They are multipolar, just like motor neurons. 
 
