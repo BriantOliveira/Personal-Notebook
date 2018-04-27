@@ -44,3 +44,26 @@ For the spinal cord though, we can say that there are three types of neurons: se
 
 ![](/assets/Screen Shot 2018-04-27 at 10.50.43 AM.png)
 
+**Network Structure **
+
+1. Feed-Forward Network
+2. Recurrent Network
+
+**Learning Paradigms **
+
+* Supervised Learning: 
+  * Given training data consist of pairs of input/outputs, find a function which correctly matches them.
+* Unsupervised Learning:
+
+  * Given a data set, the network find patterns and categorizes into data groups.
+
+**Reinforcement Learning:**
+
+* No data give. Agent interacts with the enviroment calculating cost of actions. 
+
+#### **Simple Perceptron**
+
+* The perceptron is a single layer feed-forward neural network. 
+
+
+
