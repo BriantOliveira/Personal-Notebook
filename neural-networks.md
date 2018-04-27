@@ -65,31 +65,38 @@ For the spinal cord though, we can say that there are three types of neurons: se
 
 * The perceptron is a single layer feed-forward neural network. 
 
-#### Linearly Separable 
+#### Linearly Separable
 
 * The bias is poportional to the offset of the plane from the origin.
 * The weights determine the slope of the line.
 * The weight vector is perpendicular to the plane.
 
-### Perceptron Learning Algorithm 
+### Perceptron Learning Algorithm
 
 * We want to train the perceptron to classify inputs correctly
 * Accomplished by adjusting the connecting weights and the bias 
 * Can only properly handle linearly separable sets
 
-### Perceptron Learning Algorithm 
+### Perceptron Learning Algorithm
 
-* We have a "training set" which is a set of input vectors used to train the perceptron 
+* We have a "training set" which is a set of input vectors used to train the perceptron
 
 * During training both Wi and 0 \(bias\) are modified for convenience, let W0 = 0 \(bias\) are modified for convenience, let W0 = 0 and x0 = 1.
+
 * Let n the learning rate, be a small positive number \(small steps lessen the possibility of destroying correct classification\). 
 * Initialize Wi to some values.
 
-1. Select random sample from training set as input. 
-2. If classification is correct,do nothing. 
-3. If classification is incorrect,modify the weight vector w using Wi = Wi + nd\(n\) xi\(n\)
+* Select random sample from training set as input.
 
-Repeat this procedure until the entire training set is classified correclty. 
+* If classification is correct,do nothing. 
+* If classification is incorrect,modify the weight vector w using Wi = Wi + nd\(n\) xi\(n\)
+
+Repeat this procedure until the entire training set is classified correclty.
+
+### Perceptron Convergence Theorem 
+
+* The theorem states that for any data set which is linearly separable, the perceptron learning rule is guaranteed to find a solution in a finite number of iterations. 
+* Idea behind the proof: Find upper & lower bounds n the length of the weight vector to show finite number of iterations. 
 
 
 
