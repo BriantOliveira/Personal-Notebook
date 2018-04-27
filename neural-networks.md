@@ -28,5 +28,19 @@ For the spinal cord though, we can say that there are three types of neurons: se
 
 **Motor neurons** - motor neurons of the spinal cord are part of the central nervous system \(CNS\) and connect to muscles, glands and organs throughout the body. These neurons transmit impulses from the spinal cord to skeletal and smooth muscles, and so directly control all of our muscle movements. _There are in fact two type of motor neurons: those that travel between the brain and spinal cord are called upper motor neurons. _
 
-**Interneurons** - are the ones in between -- they connect spinal motor and sensory neurons. As well as transferring signals between sensory and motor neurons, interneurons can also communicate with each, forming circuits of various complexity. They are multipolar, just like motor neurons. 
+**Interneurons** - are the ones in between -- they connect spinal motor and sensory neurons. As well as transferring signals between sensory and motor neurons, interneurons can also communicate with each, forming circuits of various complexity. They are multipolar, just like motor neurons.
+
+## **The Simple Perceptron **
+
+**Artificial Neural Network**
+
+* Information processing architecture  loosely modeled on the brain. 
+* Consist of large number of interconnected processing units \(neurons\)
+* Work in parallel to accomplish a global task 
+* Generally used to model relations between inputs and outputs or find patterns in data.
+* 3 types of layers \(Input layer, Hidden layer, Output layer\)
+
+![](/assets/Screen Shot 2018-04-27 at 10.49.54 AM.png)
+
+
 
