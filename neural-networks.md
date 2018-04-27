@@ -42,5 +42,5 @@ For the spinal cord though, we can say that there are three types of neurons: se
 
 ![](/assets/Screen Shot 2018-04-27 at 10.49.54 AM.png)
 
-
+![](/assets/Screen Shot 2018-04-27 at 10.50.43 AM.png)
 
