@@ -83,20 +83,24 @@ For the spinal cord though, we can say that there are three types of neurons: se
 
 * During training both Wi and 0 \(bias\) are modified for convenience, let W0 = 0 \(bias\) are modified for convenience, let W0 = 0 and x0 = 1.
 
-* Let n the learning rate, be a small positive number \(small steps lessen the possibility of destroying correct classification\). 
+* Let n the learning rate, be a small positive number \(small steps lessen the possibility of destroying correct classification\).
+
 * Initialize Wi to some values.
 
 * Select random sample from training set as input.
 
-* If classification is correct,do nothing. 
+* If classification is correct,do nothing.
+
 * If classification is incorrect,modify the weight vector w using Wi = Wi + nd\(n\) xi\(n\)
 
 Repeat this procedure until the entire training set is classified correclty.
 
-### Perceptron Convergence Theorem 
+### Perceptron Convergence Theorem
 
 * The theorem states that for any data set which is linearly separable, the perceptron learning rule is guaranteed to find a solution in a finite number of iterations. 
 * Idea behind the proof: Find upper & lower bounds n the length of the weight vector to show finite number of iterations. 
+
+Perceptron has just 2 layers of nodes \(input node and output node\). Often called a single-layer network on account of having 1 layerof links, between input and output. 
 
 
 
