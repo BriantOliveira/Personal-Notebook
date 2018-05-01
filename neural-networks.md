@@ -59,7 +59,7 @@ For the spinal cord though, we can say that there are three types of neurons: se
 
 **Reinforcement Learning:**
 
-* No data give. Agent interacts with the enviroment calculating cost of actions. 
+* No data given. Agent interacts with the enviroment calculating cost of actions. 
 
 #### **Simple Perceptron**
 
