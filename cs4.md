@@ -93,5 +93,38 @@ int modifyBit(int x, unsigned char position, int state) {
 
 ---
 
+### Class 3
+
+
+
+**Priority Queue Application **
+
+* Prioritizing data packets in route. 
+* Tracking unexplored routes in path-finding. 
+* Bayesian span filtering 
+* Data compression
+* OS: load balancing, interrupt handling.
+
+**Priority Queue**
+
+You can build a priority queue with two queues. Where one queue with dequeue and goes to the queue that has it's priority. 
+
+_Array representation \(unordered\)._
+
+* Perhaps the simplest priority queue implementation is based on our code for pushdown stacks. The code for _insert _in the priority queue is the same as for _push _in the stack. To implement _remove the maximum_, we can add code like the inner loop of selection sort to exchange the maximum item with the item at the end and the delete that one, as we did with pop\(\) for stacks. Program implements a priority queue using this approach.
+
+* _Array representation \(ordered\)._
+  Another approach is to add code for
+  _insert _to move larger entries one position to the right, thus keeping the entries in the array in order \(as in insertion sort\). Thus the largest item is always at the end, and the code for _remove the maximum _in the priority queue is the same as for _pop _in the stack. Program implements a priority queue using this approach.
+
+* _Linked-list representations \(unordered and reverse-ordered\)._
+  Similarly, we can start with our linked-list code for pushdown stacks, either modifying the code for pop\(\) to find and return the maximum or the code for push\(\) to keep items in reverse order and the code for pop\(\) to unlink and return the first \(maximum\) item on the list.
+
+
+
+
+
+
+
 
 
