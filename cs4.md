@@ -157,3 +157,47 @@ Uses less memory than binary tree represented with nodes \(avoids node objects c
 
 Allows sorting an array in-place \(heap sort\)
 
+**Insert**
+
+1. Add element to end
+2. Sift up \(aka bubble up, percolate up, trickleup\)
+3. Swap with parent up to the root until path fulfills heap ordering property. 
+
+**Delete Min/Max**
+
+1. Replace root with last element
+2. Sift down 
+3. Swap with smaller child \(min\) or larger child \(max\) until trio fulfills heap ordering property. 
+
+**Other Methods **
+
+Peek \(Aka find-min or find-max\) returns the root value.
+
+Size \(Aka count or length\) return number of elements. 
+
+### **Heapify**
+
+* Input is an array \(usually unsorted, unordered\). 
+* Output is an array that satisfies the binary heap ordering property. 
+
+```
+# Start at last parent node
+Index = (size - 2) / 2
+while index >=0:
+# Sift down element at index 
+index -=1
+```
+
+**Heap Sort**
+
+Heapify array
+
+```
+while (count > 0):
+    find-min or find-max element (peek)
+    delete-min or delete-max element
+    
+```
+
+
+
