@@ -200,9 +200,7 @@ while (count > 0):
 
 ---
 
-### **Class 4** 
-
-
+### **Class 4**
 
 **Tree Rotation**
 
@@ -212,11 +210,17 @@ There exists an inconsistency in different descriptions as to the definition of 
 
 **AVL Tree**
 
-* Is a height balanced binary search tree. 
+* Is a height balanced binary search tree.
 
 * AVL trees implement the standard Dictionary data type methods, fetch, insert, delete, split and join -- each has O \(log n\) run time for trees containing n nodes.
 
+* The difference between heights of left and right subtrees cannot be more than one for all nodes.
+
+* The height of an AVL tree is always O\(Log n\) where n is the number of nodes in the tree.
+
 **Insert**
+
+* Attach the new node as a leaf according to symmetric order with respect data key k. Set balance of the new node to zero. Back-out of tree adjusting balance fields and restructuring as needed until tree is AVL again. 
 
 
 
