@@ -105,6 +105,11 @@ int modifyBit(int x, unsigned char position, int state) {
 
 **Priority Queue**
 
+* Almost always implemented with a heap
+* Elements with smaller numbers are higher priority
+* Elements are inserted in O\(log n\) time with a heap instead of O\(n\) time with a sorted array or linked list. 
+* Ordering happens during each insertion and deletion, so the cost of ordering is distributed across insertion and deletion operations instead of in one big chunk.
+
 You can build a priority queue with two queues. Where one queue with dequeue and goes to the queue that has it's priority.
 
 _Array representation \(unordered\)._
@@ -116,7 +121,15 @@ _Array representation \(unordered\)._
   \_insert \_to move larger entries one position to the right, thus keeping the entries in the array in order \(as in insertion sort\). Thus the largest item is always at the end, and the code for \_remove the maximum \_in the priority queue is the same as for \_pop \_in the stack. Program implements a priority queue using this approach.
 
 * _Linked-list representations \(unordered and reverse-ordered\)._  
-  Similarly, we can start with our linked-list code for pushdown stacks, either modifying the code for pop\(\) to find and return the maximum or the code for push\(\) to keep items in reverse order and the code for pop\(\) to unlink and return the first \(maximum\) item on the list.  
+  Similarly, we can start with our linked-list code for pushdown stacks, either modifying the code for pop\(\) to find and return the maximum or the code for push\(\) to keep items in reverse order and the code for pop\(\) to unlink and return the first \(maximum\) item on the list.
+
+**Complete Binary Tree**
+
+* Every level except possibly last is completely filled and nodes are as far left as possible. 
+* Almost perfect Binary Tree.
+* Height: O\(log2 n\).
+
+
 
 
 
