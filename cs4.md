@@ -141,6 +141,16 @@ _Array representation \(unordered\)._
 * Heaps are not sorted, instead they are considered "partially ordered".
 * Max element is at the root, but we don't know where min element is only it must be a leaf. 
 
+**Array Representation**
+
+Items stored in \(dynamic\) array following level-order traversal. 
+
+Calculate parent-child index relationships with arithmetic.
+
+* Left child index 2\*i + 1
+* Right child index 2\*i + 2
+* Parent index: \(i - 1\) / 2
+
 
 
 
