@@ -173,7 +173,7 @@ Allows sorting an array in-place \(heap sort\)
 
 Peek \(Aka find-min or find-max\) returns the root value.
 
-Size \(Aka count or length\) return number of elements. 
+Size \(Aka count or length\) return number of elements.
 
 ### **Heapify**
 
@@ -196,8 +196,27 @@ Heapify array
 while (count > 0):
     find-min or find-max element (peek)
     delete-min or delete-max element
-    
 ```
+
+---
+
+### **Class 4** 
+
+
+
+**Tree Rotation**
+
+In discrete mathematics, **tree rotation **is an operation on a binary tree that changes the structure without interfering with the order of the elements. A tree rotation moves one node up in the tree and one node down. It is used to change the shape of the tree, and in particular to decrease its height by moving smaller subtrees down and larger subtrees up, resulting in improved performance of many tree operations.
+
+There exists an inconsistency in different descriptions as to the definition of the **direction of rotations**. Some say that the direction of rotation reflects the direction that a node is moving upon rotation \(a left child rotating into its parent's location is a right rotation\) while others say that the direction of rotation reflects which subtree is rotating \(a left subtree rotating into its parent's location is a left rotation, the opposite of the former\). This article takes the approach of the directional movement of the rotating node.
+
+**AVL Tree**
+
+* Is a height balanced binary search tree. 
+
+* AVL trees implement the standard Dictionary data type methods, fetch, insert, delete, split and join -- each has O \(log n\) run time for trees containing n nodes.
+
+**Insert**
 
 
 
