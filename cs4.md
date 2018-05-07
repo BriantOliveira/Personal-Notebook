@@ -143,7 +143,7 @@ _Array representation \(unordered\)._
 
 **Array Representation**
 
-Items stored in \(dynamic\) array following level-order traversal. 
+Items stored in \(dynamic\) array following level-order traversal.
 
 Calculate parent-child index relationships with arithmetic.
 
@@ -151,7 +151,9 @@ Calculate parent-child index relationships with arithmetic.
 * Right child index 2\*i + 2
 * Parent index: \(i - 1\) / 2
 
+**Advantages**
 
+Uses less memory than binary tree represented with nodes \(avoids node objects containing 3 pointers: data, left, right child\)
 
-
+Allows sorting an array in-place \(heap sort\)
 
