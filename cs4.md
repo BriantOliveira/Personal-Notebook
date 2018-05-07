@@ -136,5 +136,12 @@ _Array representation \(unordered\)._
 * Min-heap - each node is greater than or equal to its parent \(min value is root\).
 * Max-heap - each node is less than or equal to its parent \(max value is root\).
 
+**Note about ordering**
+
+* Heaps are not sorted, instead they are considered "partially ordered".
+* Max element is at the root, but we don't know where min element is only it must be a leaf. 
+
+
+
 
 
