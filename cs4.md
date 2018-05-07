@@ -250,7 +250,7 @@ struct Node * insert(struct Node* node, int key)
     //Left Left Case
     if (balance > 1 && key < node -> left ->key)
         return rightRotate(node);
-        
+
     // Right Right Case
     if (balanced < -1 && key > node -> right -> key)
         return leftRotate(node);
@@ -260,6 +260,12 @@ struct Node * insert(struct Node* node, int key)
             node -> left = leftRotate(node -> left);
             return rightRotate(node);
         }
+    // Right Left Case
+    if (balance > 1 && key > node -> right -> key)
+    {
+        node -> left = rightRotate(node -> right);
+        return leftRotate(node);
+    }
 ```
 
 
