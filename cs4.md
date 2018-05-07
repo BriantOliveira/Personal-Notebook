@@ -220,17 +220,18 @@ There exists an inconsistency in different descriptions as to the definition of 
 
 **Insert**
 
-* Attach the new node as a leaf according to symmetric order with respect data key k. Set balance of the new node to zero. Back-out of tree adjusting balance fields and restructuring as needed until tree is AVL again. 
+* Attach the new node as a leaf according to symmetric order with respect data key k. Set balance of the new node to zero. Back-out of tree adjusting balance fields and restructuring as needed until tree is AVL again.
 
-* For insertion in AVL tree, we first perform standard BST insertion of the node and then rebalance the BST by left or right rotation. 
+* For insertion in AVL tree, we first perform standard BST insertion of the node and then rebalance the BST by left or right rotation.
 
 * After insertion if the tree is not balanced then following 4 cases might occur:
+
   * Left Left case
   * Left Right case
   * Right Right case
   * Right Left case
 
-Case 1: Left Left Case y is the left child of z and x is the left child of y. 
+Case 1: Left Left Case y is the left child of z and x is the left child of y.
 
 ```
 struct Node * insert(struct Node* node, int key)
@@ -243,9 +244,22 @@ struct Node * insert(struct Node* node, int key)
         node -> right = insert (node -> right, key);
     else // Equals key are not allowed in BST
         return node;
-    
+
     node -> height = 1 + max(height(node -> left),
                     height(node -> right));
+    //Left Left Case
+    if (balance > 1 && key < node -> left ->key)
+        return rightRotate(node);
+        
+    // Right Right Case
+    if (balanced < -1 && key > node -> right -> key)
+        return leftRotate(node);
+    // Left Right Case
+    if (balance > 1 && key > node -> left -> key)
+        {
+            node -> left = leftRotate(node -> left);
+            return rightRotate(node);
+        }
 ```
 
 
