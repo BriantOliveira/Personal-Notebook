@@ -129,7 +129,12 @@ _Array representation \(unordered\)._
 * Almost perfect Binary Tree.
 * Height: O\(log2 n\).
 
+**Binary Heap Definition**
 
+* A complete binary tree.
+* Satisfies heap ordering property.
+* Min-heap - each node is greater than or equal to its parent \(min value is root\).
+* Max-heap - each node is less than or equal to its parent \(max value is root\).
 
 
 
