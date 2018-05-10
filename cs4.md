@@ -270,5 +270,5 @@ struct Node * insert(struct Node* node, int key)
 
 **Splay Tree **
 
-Is a self-adjusting binary search tree with the additional property that recently accessed elements are quick to access again.
+Is a self-adjusting binary search tree with the additional property that recently accessed elements are quick to access again. 
 
