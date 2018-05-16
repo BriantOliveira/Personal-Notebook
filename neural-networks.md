@@ -125,26 +125,26 @@ _\(so 1300000/1000=1300\) and the test set is similarly balanced, then what is t
 
 _**0.9987, 0.995**_
 
-There are10001000classes, so if we just choose randomly then the probability of choosing correctly is 1/1000​=0.001. The error rate is defined as E\[\# examples labelled incorrectly\] /\#examples = ∑examples P\(example guessed incorrectly\)/\# examples= \(1−0.001\)×\# examples\# /examples=0.999. In other words, it is the probability of guessing any single example incorrectly. Using this naive method we would expect to mislabel 99.9of the test set!
+There are10001000classes, so if we just choose randomly then the probability of choosing correctly is 1/1000​=0.001. The error rate is defined as E\[\# examples labelled incorrectly\] /\#examples = ∑examples P\(example guessed incorrectly\)/\# examples= \(1−0.001\)×\# examples\# /examples=0.999. In other words, it is the probability of guessing any single example incorrectly. Using this naive method we would expect to mislabel 99.9 of the test set!
 
 If we randomly choose55classes instead, the probability of correctly guessing the class of an example is 5/1000​, so the expected error rate is 0.995. By comparison, a learning system can get much larger improvements.
 
 #### Modularity and the brain
 
-* Different bits of the cortex do different things. 
+* Different bits of the cortex do different things.
+
   * Local damage to the brain has specific effects.
   * Specific tasks increase the blood flow to specific regeions. 
 
-* But cortex looks pretty much the same all over. 
+* But cortex looks pretty much the same all over.
+
   * Early brain damage makes functions relocate. 
 
 * Cortex is made of general purpose stuff that has the ability to turn into special purpose hardware in reponse to esperience.
 
   * This gives a rapid parallel computation plus flexibility.
 
-  * Conventional computers get flexibility by having stored sequential programs, but this require very fast central processors to perform long sequential computations.  
-
-
+  * Conventional computers get flexibility by having stored sequential programs, but this require very fast central processors to perform long sequential computations.
 
 
 
