@@ -146,13 +146,9 @@ If we randomly choose55classes instead, the probability of correctly guessing th
 
   * Conventional computers get flexibility by having stored sequential programs, but this require very fast central processors to perform long sequential computations.
 
-
-
 **1-** _We often don't know how much data we will need in order for a learning system to generalize well from training data to test data on a given task._
 
 _True or false: when choosing how much data to give to a learning system in order to make it generalize well, we need to make sure that we don't give it too much data. _**False**
-
-
 
 **2-**_ Data can change over time, in particular we might observe different input/output relationships. In order to account for this we can adapt our learning system to the new data by, for example, training on new examples._
 
@@ -160,31 +156,29 @@ _If the relationship between inputs and outputs for old examples has not changed
 
 * Train on a mix of old and new data. 
 * Prevent the system from changing the weights too much.
-*  Ignore the issue and hope that everything will be ok.
+* Train two networks, one for old data and one for new data
 
 **3- **_Which of the following are good reasons for why are interested in unsupervised learning?_
 
-* It allows academic researchers to publish more papers. 
 * It lets us avoid supervised learning entirely.
-*  It can be used to learn features that may help with supervised tasks.
-*  It allows us to learn from vast amounts of unlabelled data. 
+* It can be used to learn features that may help with supervised tasks.
+* It allows us to learn from vast amounts of unlabelled data. 
 
 **4- **Which of the following tasks are neural networks good at?
 
 * Recognizing fragments of words in a pre-processed sound wave. 
 * Recognizing badly written characters. 
-* Storing list of names and birthdates.
+* logical reasoning
 
-**5-** Which number is biggest? 
+**5-** Which number is biggest?
 
 The number of synapes in a human brain.
 
 **6-** Which of the following facts provides support for the  theory that the local neural circuits in most parts of the cortex all use the same general purpose learning algorithm?
 
 * If part of the cortex is removed early life, the function that would have served often gets relocated to another part of cortex.
-* The fine-scale anatomy of the cortex looks pretty much the same all over. 
-
-
+* The fine-scale anatomy of the cortex looks pretty much the same all over.
+* Brain scans show that different functions \(like object recognition and language understanding\) are located in different parts of the cortex 
 
 
 
