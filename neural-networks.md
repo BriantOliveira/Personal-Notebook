@@ -129,3 +129,22 @@ There are10001000classes, so if we just choose randomly then the probability of 
 
 If we randomly choose55classes instead, the probability of correctly guessing the class of an example is 5/1000​, so the expected error rate is 0.995. By comparison, a learning system can get much larger improvements.
 
+#### Modularity and the brain
+
+* Different bits of the cortex do different things. 
+  * Local damage to the brain has specific effects.
+  * Specific tasks increase the blood flow to specific regeions. 
+
+* But cortex looks pretty much the same all over. 
+  * Early brain damage makes functions relocate. 
+
+* Cortex is made of general purpose stuff that has the ability to turn into special purpose hardware in reponse to esperience.
+
+  * This gives a rapid parallel computation plus flexibility.
+
+  * Conventional computers get flexibility by having stored sequential programs, but this require very fast central processors to perform long sequential computations.  
+
+
+
+
+
