@@ -117,5 +117,15 @@ A similarkindof thing happens in neurons in the brain \(if excitation greater th
 * Big breakthrough was proof that you could wire up certain class of artificial nets to form any general-purpose computer.
 * Other breakthrough was discovery of powerful learning methods, by which nets could learn to represent initially unknown I-O relationships \(see previous\).
 
+---
 
+_If every class in the ImageNet training has an equal number of examples_
+
+_\(so 1300000/1000=1300\) and the test set is similarly balanced, then what is the expected top-1 error rate of a system that guesses the class of each image uniformly at random? What is the expected top-5 error rate? The top-k error rate is the proportion of test set examples whose correct label isnotamong the top-k predictions of the network._
+
+_**0.9987, 0.995**_
+
+There are10001000classes, so if we just choose randomly then the probability of choosing correctly is 1/1000​=0.001. The error rate is defined as E\[\# examples labelled incorrectly\] /\#examples = ∑examples P\(example guessed incorrectly\)/\# examples= \(1−0.001\)×\# examples\# /examples=0.999. In other words, it is the probability of guessing any single example incorrectly. Using this naive method we would expect to mislabel 99.9of the test set!
+
+If we randomly choose55classes instead, the probability of correctly guessing the class of an example is 5/1000​, so the expected error rate is 0.995. By comparison, a learning system can get much larger improvements.
 
