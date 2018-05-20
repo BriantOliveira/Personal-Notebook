@@ -197,5 +197,13 @@ The number of synapes in a human brain.
 
 #### Recurrent networks
 
+* These have directed cycles in their connection graph.
+  * That means you can sometimes get back to where you started by following the arrows.
+* They can have complicated dynamics and this can make them very difficult to train.
+  * There is a lot of interest at present in finding efficient ways of training recurrent nets.
+* They are more biologically realistic.
+
+
+
 
 
