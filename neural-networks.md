@@ -115,7 +115,7 @@ Some inputs may be positive, some negative \(cancel each other out\).
 A similarkindof thing happens in neurons in the brain \(if excitation greater than inhibition, send a spike of electrical activity on down the output axon\), though researchers generally aren't concerned if there are differences between their models and natural ones.
 
 * Big breakthrough was proof that you could wire up certain class of artificial nets to form any general-purpose computer.
-* Other breakthrough was discovery of powerful learning methods, by which nets could learn to represent initially unknown I-O relationships \(see previous\).
+* Other breakthrough was discovery of powerful learning methods, by which nets could learn to represent initially unknown I-O relationships \(see previous\). 
 
 ---
 
@@ -180,5 +180,5 @@ The number of synapes in a human brain.
 * The fine-scale anatomy of the cortex looks pretty much the same all over.
 * Brain scans show that different functions \(like object recognition and language understanding\) are located in different parts of the cortex 
 
- 
+
 
