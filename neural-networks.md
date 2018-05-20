@@ -180,5 +180,5 @@ The number of synapes in a human brain.
 * The fine-scale anatomy of the cortex looks pretty much the same all over.
 * Brain scans show that different functions \(like object recognition and language understanding\) are located in different parts of the cortex 
 
-
+ 
 
