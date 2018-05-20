@@ -1,3 +1,6 @@
+
+---
+
 ## Neural-Networks
 
 **What is a neuron? **
@@ -179,6 +182,4 @@ The number of synapes in a human brain.
 * If part of the cortex is removed early life, the function that would have served often gets relocated to another part of cortex.
 * The fine-scale anatomy of the cortex looks pretty much the same all over.
 * Brain scans show that different functions \(like object recognition and language understanding\) are located in different parts of the cortex 
-
-
 
