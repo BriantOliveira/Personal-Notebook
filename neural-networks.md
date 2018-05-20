@@ -203,8 +203,6 @@ The number of synapes in a human brain.
   * There is a lot of interest at present in finding efficient ways of training recurrent nets.
 * They are more biologically realistic.
 
-
-
 #### Recurrent neural networks for modeling sequences
 
 * Recurrent neural networks are a very natural way to model sequential data:
@@ -212,6 +210,33 @@ The number of synapes in a human brain.
   * Except that they use the same weights ate every time slice and they get input at every time slice. 
 * They have the ability to remember information in their hidden state for a long time.
   * But its very hard to train them to use this potential.
+
+#### An example of hat recurrent neural nets can now do 
+
+Ilya Sutskever \(2011\) trained a special type of recurrent networks to predict the next character in a sequence.
+
+After training for a long time  on a string of half a billion characters from English Wikepedia, he got it to generate new text. 
+
+* It generates by predicting the probability distribution for the next character and then sampling a character from his distribution.
+* The next slide show an example of the kind of text it generates. Notice how much it knows.
+
+#### Symmetrically connected networks
+
+These are like recurrent networks, but the connections between units are symmetrical \(they have the same weight in both  directions\).
+
+* John Hopfield \(and others\) realized that symmetric networks are much easier to analyze than recurrent networks. 
+* They are also more restricted in what they can do, because they obey an energy function. 
+  * For example, they cannot model cycles.
+* Symmetrically connected nets without hidden units are called "Hopfield nets".
+
+#### Symmetrically connected networks with hidden units
+
+* These are called "Boltzmann machines"
+  * They are much more powerful models than Hopfield nets.
+  * They are less powerful than recurrent neural networks.
+  * They have a beautifully simple learning algorithm.
+
+
 
 
 
