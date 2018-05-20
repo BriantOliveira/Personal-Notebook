@@ -205,5 +205,13 @@ The number of synapes in a human brain.
 
 
 
+#### Recurrent neural networks for modeling sequences
+
+* Recurrent neural networks are a very natural way to model sequential data:
+  * They are equivalent to very deep nets with one hidden layer per time slice. 
+  * Except that they use the same weights ate every time slice and they get input at every time slice. 
+* They have the ability to remember information in their hidden state for a long time.
+  * But its very hard to train them to use this potential.
+
 
 
