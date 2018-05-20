@@ -183,3 +183,19 @@ The number of synapes in a human brain.
 * The fine-scale anatomy of the cortex looks pretty much the same all over.
 * Brain scans show that different functions \(like object recognition and language understanding\) are located in different parts of the cortex 
 
+---
+
+## WEEK 2
+
+#### Feed-forward neural networks
+
+* These are the commonest type of neural networks in practical applications. 
+  * The first layer is the input and the last layer is the output. 
+  * If there is more than one hidden layer, we call them "deep" neural networks
+* They compute a series of transformations that change the similarities between cases. 
+  * The activities of the neurons in each layer are a non-linear function of the activities in the layer below.
+
+#### Recurrent networks
+
+
+
