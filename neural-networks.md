@@ -266,6 +266,13 @@ McCullouch-Pitts\(1943\)
 * First compute a weighted sum of the inputs from other neurons \(plus a bias\)
 * Then output a 1 if the weighted sum exceeds zero.
 
+#### How to learn biases using the same rule as we use for learning weights
+
+* A threshold is equivalent to having a negative bias. 
+* We can avoid having to figure out a separate learning rule for the bias by using a trick:
+  * A bias is exactly equivalent to a weight on a n extra input line that weight on an extra input line that always has an activity of 1. 
+  * We can now learn a bias as if it were a weight.
+
 
 
 
