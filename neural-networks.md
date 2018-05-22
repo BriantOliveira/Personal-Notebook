@@ -294,12 +294,22 @@ Assuming that we have eliminated the threshold, each training case can be repres
 
 * The weights must lie on one side of this hyper-plane to get the answer correct.
 * Each case defines a plane \(shown as a black line\)
+
   * The plane goes through the origin and is perpendicular to the input vector.
   * On one side of the plane the output is wrong because the scalar product of the weight vector with the input vector ha the wrong sign.
 
 * Each training case defines a plane \(shown as a black line\)
+
   * The plane goes through the origin and is perpendicular to the input vector.
   * On one side of the plane the output is wrong because the scalar product of the weight vector with the input vector has the wrong sign. 
+
+#### The cone of feasible solutions
+
+* To get all training cases right we need to find a point on the right side of all the planes.
+  * There may not be any such point!
+* If there are any weight vectors that get the right answer for all cases, they lie in a hyper-cone with its apex at the origin.
+  * So the average of two good weight vectors is a good weight vector.
+    * The problem is convex.
 
 
 
