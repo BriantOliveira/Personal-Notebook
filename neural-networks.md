@@ -246,5 +246,20 @@ The standard paradigm for statistical pattern recognition
 2. Learn how to weight each of the feature activations to get a single scalar quantity.
 3. If this quantity is above some threshold, decide that the input vector is a positive example of the target class.
 
+### The history of perceptrons 
+
+They were popularised by Frank Rosenblatt in the early 1960's.
+
+* They appeared to have a very powerful learning algorithm. 
+* Lots of grand claims were made for what they could learn to do.
+
+In 1969, Misky and Papert published a book called "Perceptrons" that analysed what they could do and showed their limitations.
+
+* Many people thought these limitations applied to all neural network models.
+
+The perceptron learning procedure is still widely used today for tasks with enormous feature vectors that contain many millions of features.
+
+
+
 
 
