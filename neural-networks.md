@@ -159,11 +159,12 @@ _If the relationship between inputs and outputs for old examples has not changed
 
 * Train on a mix of old and new data. 
 * Prevent the system from changing the weights too much.
-* Train two networks, one for old data and one for new data
+* Ignore the issue and hope that everything will be OK.
 
 **3- **_Which of the following are good reasons for why are interested in unsupervised learning?_
 
-* It lets us avoid supervised learning entirely.
+* It allows academic researchers to publish more papers.
+
 * It can be used to learn features that may help with supervised tasks.
 * It allows us to learn from vast amounts of unlabelled data. 
 
@@ -171,7 +172,7 @@ _If the relationship between inputs and outputs for old examples has not changed
 
 * Recognizing fragments of words in a pre-processed sound wave. 
 * Recognizing badly written characters. 
-* logical reasoning
+* Storing lists of names and birth dates.
 
 **5-** Which number is biggest?
 
@@ -181,7 +182,8 @@ The number of synapes in a human brain.
 
 * If part of the cortex is removed early life, the function that would have served often gets relocated to another part of cortex.
 * The fine-scale anatomy of the cortex looks pretty much the same all over.
-* Brain scans show that different functions \(like object recognition and language understanding\) are located in different parts of the cortex 
+
+
 
 ---
 
@@ -211,11 +213,11 @@ The number of synapes in a human brain.
 * They have the ability to remember information in their hidden state for a long time.
   * But its very hard to train them to use this potential.
 
-#### An example of hat recurrent neural nets can now do 
+#### An example of hat recurrent neural nets can now do
 
 Ilya Sutskever \(2011\) trained a special type of recurrent networks to predict the next character in a sequence.
 
-After training for a long time  on a string of half a billion characters from English Wikepedia, he got it to generate new text. 
+After training for a long time  on a string of half a billion characters from English Wikepedia, he got it to generate new text.
 
 * It generates by predicting the probability distribution for the next character and then sampling a character from his distribution.
 * The next slide show an example of the kind of text it generates. Notice how much it knows.
@@ -235,8 +237,6 @@ These are like recurrent networks, but the connections between units are symmetr
   * They are much more powerful models than Hopfield nets.
   * They are less powerful than recurrent neural networks.
   * They have a beautifully simple learning algorithm.
-
-
 
 
 
