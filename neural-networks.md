@@ -166,6 +166,7 @@ _If the relationship between inputs and outputs for old examples has not changed
 * It allows academic researchers to publish more papers.
 
 * It can be used to learn features that may help with supervised tasks.
+
 * It allows us to learn from vast amounts of unlabelled data. 
 
 **4- **Which of the following tasks are neural networks good at?
@@ -182,8 +183,6 @@ The number of synapes in a human brain.
 
 * If part of the cortex is removed early life, the function that would have served often gets relocated to another part of cortex.
 * The fine-scale anatomy of the cortex looks pretty much the same all over.
-
-
 
 ---
 
@@ -237,6 +236,10 @@ These are like recurrent networks, but the connections between units are symmetr
   * They are much more powerful models than Hopfield nets.
   * They are less powerful than recurrent neural networks.
   * They have a beautifully simple learning algorithm.
+
+## The first generation of neural networks
+
+
 
 
 
