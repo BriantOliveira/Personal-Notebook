@@ -167,7 +167,7 @@ _If the relationship between inputs and outputs for old examples has not changed
 
 * It can be used to learn features that may help with supervised tasks.
 
-* It allows us to learn from vast amounts of unlabelled data. 
+* It allows us to learn from vast amounts of unlabelled data.
 
 **4- **Which of the following tasks are neural networks good at?
 
@@ -238,8 +238,6 @@ These are like recurrent networks, but the connections between units are symmetr
   * They have a beautifully simple learning algorithm.
 
 ## The first generation of neural networks
-
-
 
 
 
