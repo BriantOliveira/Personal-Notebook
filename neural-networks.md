@@ -273,7 +273,14 @@ McCullouch-Pitts\(1943\)
   * A bias is exactly equivalent to a weight on a n extra input line that weight on an extra input line that always has an activity of 1. 
   * We can now learn a bias as if it were a weight.
 
+##### The perceptron convergence procedure: Training binary output neurons as classifiers
 
+* Add an extra component with value 1 to each input vector.The "bias" weight on this component is minus the threshold: Now we can forget the threshold.
+* Pick training classes using any policy that ensures that every training case will keep getting picked.
+  * If the output unit is correct, leave its weights alone.
+  * If the output unit incorrectly outputs a zero, add the input vector to the weight vector.
+  * If the output unit incorrectly outputs a 1, subtract the input from the weight vector.
+* This is guaranteed to find a set of weights that gets the right answer for all the training cases if any such set exists.
 
 
 
