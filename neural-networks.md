@@ -239,5 +239,12 @@ These are like recurrent networks, but the connections between units are symmetr
 
 ## The first generation of neural networks
 
+The standard paradigm for statistical pattern recognition
+
+1. Convert the raw input vector into a vector of feature activations. 
+   1. Use hand-written programs based on common-sense to define the features.
+2. Learn how to weight each of the feature activations to get a single scalar quantity.
+3. If this quantity is above some threshold, decide that the input vector is a positive example of the target class.
+
 
 
