@@ -282,5 +282,20 @@ McCullouch-Pitts\(1943\)
   * If the output unit incorrectly outputs a 1, subtract the input from the weight vector.
 * This is guaranteed to find a set of weights that gets the right answer for all the training cases if any such set exists.
 
+#### A geometrical view of perceptrons 
+
+**Weight-space**
+
+This space has one dimension per weight.
+
+A point in the space represents a particular setting of all the weights. 
+
+Assuming that we have eliminated the threshold, each training case can be represented as hyperplane through the origin.
+
+* The weights must lie on one side of this hyper-plane to get the answer correct.
+* Each case defines a plane \(shown as a black line\)
+  * The plane goes through the origin and is perpendicular to the input vector.
+  * On one side of the plane the output is wrong because the scalar product of the weight vector with the input vector ha the wrong sign.
+
 
 
