@@ -321,5 +321,21 @@ So consider "generously feasible" weight vectors that lie within the feasible re
 
 * Every time perceptron makes a mistake, the squared distance to all of these generously feasible weight vectors is always decreased by at  least the squared length of the update vector.
 
+**Informal sketch of proof of convergence** 
+
+* Each time the perceptron makes a mistake, the current weight vector moves to decrease its squared distance from every weight vector in the "generously feasible" region.
+* The squared distance decreases by at least the squared length of the input vector.
+* So after a finite number of mistakes, the weight vector must lie in the feasible region if this region exists.
+
+**The limitations of Perceptrons **
+
+If you are allowed to choose the the features by hand and if you use enough features, you can do almost anything. 
+
+* For binary input vectors, we can have a separate feature unit for each of the exponentially many binary vectors and so we can make any possible discrimination on binary input vectors.
+  * This type of table look-up won't generalize.
+* But once the hand-coded features have been determined, there are very strong limitations on what a perceptron can learn.
+
+
+
 
 
