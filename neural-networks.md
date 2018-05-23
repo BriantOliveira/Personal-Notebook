@@ -311,5 +311,13 @@ Assuming that we have eliminated the threshold, each training case can be repres
   * So the average of two good weight vectors is a good weight vector.
     * The problem is convex.
 
+**Why the learning procedure works**
+
+Consider the squared distance d^2a +d^b between any feasible weight vector and the current weight vector.
+
+* Hopeful claim: Every time the perceptron makes a mistake, the learning algorithm moves the current weight vector closer to all feasible weight vectors.
+
+So consider "generously feasible" weight vectors that lie within the feasible region by a margin at least as great as the length of the input vector that defines each constraint plane.
+
 
 
