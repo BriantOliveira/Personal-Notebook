@@ -319,5 +319,7 @@ Consider the squared distance d^2a +d^b between any feasible weight vector and t
 
 So consider "generously feasible" weight vectors that lie within the feasible region by a margin at least as great as the length of the input vector that defines each constraint plane.
 
+* Every time perceptron makes a mistake, the squared distance to all of these generously feasible weight vectors is always decreased by at  least the squared length of the update vector.
+
 
 
