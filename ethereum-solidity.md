@@ -11,5 +11,13 @@
 * Gas is the unit in which EVM resource usage is measured. 
 * Gas calculations depends on the instructions and the storage.
 
+**Fee Calculation **
+
+gasUsed = Instructions executed \(summed up gas\)
+
+gasPrice = User specified in the transaction
+
+* Miners decides the minimal acceptable price. 
+
 
 
