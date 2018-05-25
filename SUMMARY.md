@@ -22,4 +22,5 @@
 * [CS4](cs4.md)
 * [Neural-networks ](neural-networks.md)
 * [Ethereum-Solidity](ethereum-solidity.md)
+* [QA Testing](qa-testing.md)
 
