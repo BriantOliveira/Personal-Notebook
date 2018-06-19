@@ -27,7 +27,7 @@
 * Competitors. 
 * Legislation
 
-**Key Quality Attributes** 
+**Key Quality Attributes**
 
 **Business**
 
@@ -36,7 +36,28 @@
 * Compliance
 * Usability
 
+**Security**
 
+* Confidentiality 
+* Integrity
+* Availability
+* Accountability
+
+**Performance **
+
+* Scalability
+* Responsiveness
+* Throughput
+
+**Data & Configuration**
+
+* Interoperability
+* Durability
+
+**Other Quality Attributes**
+
+* Monitorability
+* Testability
 
 **What is UML?**
 
