@@ -45,5 +45,13 @@ What is Kruuchten's 4 + 1 model?
 * Sinkhole architecture anti-pattern 
 * Ofter leads to monolithic applications 
 
+**Client-Server Architecture Model**
+
+* Servers provide a service which clients request
+* Centralized
+* Lite vs Fat Clients
+
+
+
 
 
