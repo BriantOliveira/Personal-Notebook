@@ -88,5 +88,18 @@ What is Kruuchten's 4 + 1 model?
 * Increased overheads. 
 * Not suitable for GUI based application or applications which are standalone and short lived. 
 
+**Microservice Architecture**
+
+* Services are:
+  * fine grained 
+  * lightweight
+
+**Advantages**
+
+* Low coupling.
+* Improves modularity.
+* Promotes parallel development.
+* Promotes scalability.
+
 
 
