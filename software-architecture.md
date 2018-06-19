@@ -33,5 +33,16 @@ What is Kruuchten's 4 + 1 model?
 
 **Multi-Tired Architecture**
 
+Advantages 
+
+* Separation of concerns 
+* Easy to define roles and component scope
+* Easier development and testing 
+* Good general purpose pattern 
+
+
+
+
+
 
 
