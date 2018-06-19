@@ -64,5 +64,22 @@ What is Kruuchten's 4 + 1 model?
 * More prone to network congestion issues
 * Cost
 
+**Service Oriented Architecture**
+
+* Loosely coupled services. 
+* A service can be defined as:
+  * It logically represents a business activity with a specified outcome. 
+  * self-contained. 
+  * a black box for its consumers.
+  * may consist of other underlying services. 
+
+**Advantages **
+
+* Low coupling 
+* Code/Service reusability
+* Easier to maintain and test
+* Easier to scale 
+* Promotes parallel development. 
+
 
 
