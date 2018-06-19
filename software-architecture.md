@@ -81,7 +81,7 @@ What is Kruuchten's 4 + 1 model?
 * Easier to scale 
 * Promotes parallel development. 
 
-Drawbacks 
+**Drawbacks**
 
 * Service management can become complex
 * Increased complexity and cost especially at the setup phase
