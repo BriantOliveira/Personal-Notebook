@@ -23,7 +23,7 @@ What is Kruuchten's 4 + 1 model?
   * Process view
   * Scenarios
 
-**Software Architecture Patterns**
+#### **Software Architecture Patterns**
 
 * Defining characteristics of each pattern 
   * Benefits
@@ -31,7 +31,7 @@ What is Kruuchten's 4 + 1 model?
 * Different patterns can be used in the same system. 
 * Assignment: applying architecture patterns to different enterprise systems.
 
-**Multi-Tired Architecture**
+#### **Multi-Tired Architecture**
 
 **Advantages**
 
@@ -45,7 +45,7 @@ What is Kruuchten's 4 + 1 model?
 * Sinkhole architecture anti-pattern 
 * Ofter leads to monolithic applications 
 
-**Client-Server Architecture Model**
+#### **Client-Server Architecture Model**
 
 * Servers provide a service which clients request
 * Centralized
@@ -64,7 +64,7 @@ What is Kruuchten's 4 + 1 model?
 * More prone to network congestion issues
 * Cost
 
-**Service Oriented Architecture**
+#### **Service Oriented Architecture**
 
 * Loosely coupled services. 
 * A service can be defined as:
@@ -88,7 +88,7 @@ What is Kruuchten's 4 + 1 model?
 * Increased overheads. 
 * Not suitable for GUI based application or applications which are standalone and short lived. 
 
-**Microservice Architecture**
+#### **Microservice Architecture**
 
 * Services are:
   * fine grained 
