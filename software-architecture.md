@@ -1,6 +1,6 @@
 ### Software Architecture for the Enterprise Architect
 
-#### Enterprise Architect - The role 
+#### Enterprise Architect - The role
 
 **Key Responsibilities and Challenges**
 
@@ -10,9 +10,17 @@
 * Risk management & impact assessment of the architecture. 
 * Identifying Disruptive Technology. 
 
- 
+#### Understanding Business Requirements
 
-What is UML?
+* Requirements state what the stakeholders want the system to achieve. 
+* We can classify requirements into three different types:
+  1 - Vision: requirements for the future direction for a system.
+  2 - Functional Requirements: what a system needs to be able to 'do'.
+  3 - Performance Requirements: the performance levels that the stakeholders want the system to achieve.
+
+
+
+**What is UML?**
 
 * Standard language for modeling software systems 
 * Pictorial view
