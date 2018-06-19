@@ -51,12 +51,18 @@ What is Kruuchten's 4 + 1 model?
 * Centralized
 * Lite vs Fat Clients
 
-**Advantages** 
+**Advantages**
 
 * Security. 
 * Backup and recovery procedure is simplified. 
 * Easier management and administration.
 * Easier upgrading and scalability.
+
+**Drawbacks **
+
+* Single point of failure 
+* More prone to network congestion issues
+* Cost
 
 
 
