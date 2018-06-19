@@ -59,6 +59,25 @@
 * Monitorability
 * Testability
 
+#### Team Dynamics 
+
+**With the development team...**
+
+* Discuss & make sure architectural decisions and their motivations is clear.
+* Be assertive 
+* Don't be seen as blocker 
+* Influencer 
+* Delegate
+
+**With the stakeholders...**
+
+* Communicate at different of technical knowledge.
+* Presentation
+* Negotiation 
+* Result focused
+
+
+
 **What is UML?**
 
 * Standard language for modeling software systems 
