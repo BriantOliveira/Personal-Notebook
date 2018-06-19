@@ -23,5 +23,15 @@ What is Kruuchten's 4 + 1 model?
   * Process view
   * Scenarios
 
+**Software Architecture Patterns**
+
+* Defining characteristics of each pattern 
+  * Benefits
+  * Where it should be used. 
+* Different patterns can be used in the same system. 
+* Assignment: applying architecture patterns to different enterprise systems.
+
+**Multi-Tired Architecture**
+
 
 
