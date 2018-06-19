@@ -108,5 +108,15 @@ What is Kruuchten's 4 + 1 model?
 * Service management and deployment
 * Nanoservice anti pattern 
 
+#### Domain Driven Design 
+
+**Characteristics **
+
+* Software experts work with domain experts, to build a ubiquitous language which describes the system. 
+* The ubiquitous language will help from the structure of the object oriented design of the software and guides you in a dividing the objects into:
+  * Value objects 
+  * Entities 
+  * Aggregate roots
+
 
 
