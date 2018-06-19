@@ -18,9 +18,24 @@
   2 - Functional Requirements: what a system needs to be able to 'do'.
   3 - Performance Requirements: the performance levels that the stakeholders want the system to achieve.
 
+**Identifying business requirements**
 
+* What are the business' core objectives?
+* Good communication with stakeholders. 
+* Different stakeholders may sometimes have different priorities and business requirements. 
+* Clear prioritization. 
+* Competitors. 
+* Legislation
 
-* 
+**Key Quality Attributes** 
+
+**Business**
+
+* Adaptability 
+* Extensibility
+* Compliance
+* Usability
+
 
 
 **What is UML?**
