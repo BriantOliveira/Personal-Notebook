@@ -1,5 +1,17 @@
 ### Software Architecture for the Enterprise Architect
 
+#### Enterprise Architect - The role 
+
+**Key Responsibilities and Challenges**
+
+* Ensure that a company's IT strategy and business goals are aligned. 
+* Actively involved with the design, maintenance and continual improvement of the company's architecture and continual improvement of the company's architecture at an enterprise level.
+* Development of IT standards and policies within the company. 
+* Risk management & impact assessment of the architecture. 
+* Identifying Disruptive Technology. 
+
+ 
+
 What is UML?
 
 * Standard language for modeling software systems 
