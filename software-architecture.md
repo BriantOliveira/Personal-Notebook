@@ -124,5 +124,12 @@ What is Kruuchten's 4 + 1 model?
 * Initial investment is costly. 
 * Not suitable for systems that do not have a complex domain model, or which are not going to be used for a long time.
 
+#### Event Driven Architecture
+
+**Advantages **
+
+* Decoupling between consumers and procedures, and between the consumers themselves. 
+* Allow for scalability and distribution.
+
 
 
