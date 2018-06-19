@@ -25,5 +25,3 @@ What is Kruuchten's 4 + 1 model?
 
 
 
-
-
