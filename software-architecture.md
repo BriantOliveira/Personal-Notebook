@@ -101,5 +101,12 @@ What is Kruuchten's 4 + 1 model?
 * Promotes parallel development.
 * Promotes scalability.
 
+Drawbacks
+
+* Infrastructure cost are usually higher. 
+* Integration testing complexity
+* Service management and deployment
+* Nanoservice anti pattern 
+
 
 
