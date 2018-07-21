@@ -24,4 +24,5 @@
 * [Ethereum-Solidity](ethereum-solidity.md)
 * [QA Testing](qa-testing.md)
 * [Software Architecture](software-architecture.md)
+* [Streaming Protocols ](streaming-protocols.md)
 
