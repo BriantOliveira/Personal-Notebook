@@ -40,7 +40,7 @@ More specifically, and as the implementations in use today are, adaptive bitrate
 
 
 
-
+**Smooth Streaming** is an IIS Media Services extension that enables adaptive streaming of media to clients over HTTP.
 
 
 
