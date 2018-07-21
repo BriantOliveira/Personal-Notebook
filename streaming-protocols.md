@@ -28,7 +28,9 @@ MPEG-DASH should not be confused with a transport protocol — the transport pro
 
 .MPEG-DASH uses existing HTTP web server infrastructure that is used for delivery of essentially all World Wide Web content. It allows devices like Internet-connected televisions, TV set-top boxes, desktop computers, smartphones, tablets, etc. to consume multimedia content \(video, TV, radio, etc.\) delivered via the Internet, coping with variable Internet receiving conditions. Standardizing an adaptive streaming solution is meant to provide confidence to the market that the solution can be adopted for universal deployment, compared to similar but more proprietary solutions like **Smooth Streaming by Microsoft, or HDS by Adobe.**
 
-## Adaptive Bitrate Streaming 
+## Adaptive Bitrate Streaming
 
-Is a technique used in streaming multimedia over computer networks.While in the past most video or audio streaming technologies utilized streaming protocols such as RTP with RSTP, today's adaptive streaming technologies are almost exclusively based on HTTP and designed to work efficiently over large distributed HTTP networks such as the internet.  
+Is a technique used in streaming multimedia over computer networks.While in the past most video or audio streaming technologies utilized streaming protocols such as RTP with RSTP, today's adaptive streaming technologies are almost exclusively based on HTTP and designed to work efficiently over large distributed HTTP networks such as the internet.
+
+**It works by detecting a user's bandwidth and CPU capacity in real time and adjusting the quality of the media stream accordingly.**
 
