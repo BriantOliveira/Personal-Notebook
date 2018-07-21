@@ -36,3 +36,11 @@ Is a technique used in streaming multimedia over computer networks.While in the 
 
 More specifically, and as the implementations in use today are, adaptive bitrate streaming is a method of video streaming over HTTP where the source content is encoded at multiple bit rates, then each of the different bit rate streams are segmented into small multi-second parts.
 
+**The streaming client is made aware of the available streams at differing bit rates, and segments of the streams by a manifest file.**
+
+
+
+
+
+
+
