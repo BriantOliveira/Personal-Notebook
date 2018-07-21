@@ -20,3 +20,7 @@ The big issue with HDR is the same issue with 4K: You need content shot in that 
 
 
 
+### **MPEG-DASH**
+
+**Dynamic Adaptive Streaming over HTTP, **also known as MPEG-DASH, is an adaptive bitrate streaming technique that enables high quality streaming of media content over the Internet delivered from conventional HTTP web servers. Similar to Apple's HTTP Live Streaming \(HLS\) solution, MPEG-DASH works by breaking the content into a sequence of small HTTP-based file segments, each segment containing a short interval of playback time of content that is potentially many hours in duration, such as a movie or the live broadcast of a sports event.
+
