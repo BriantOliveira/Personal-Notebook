@@ -18,9 +18,13 @@ _**The combination of 4K, HDR and WCG results in a picture that's more vivid and
 
 The big issue with HDR is the same issue with 4K: You need content shot in that native format, and there isn't much of it. While that's changing, with Netflix and Amazon Prime Video getting into the game, HDR has still yet to go mainstream.
 
-
-
 ### **MPEG-DASH**
 
 **Dynamic Adaptive Streaming over HTTP, **also known as MPEG-DASH, is an adaptive bitrate streaming technique that enables high quality streaming of media content over the Internet delivered from conventional HTTP web servers. Similar to Apple's HTTP Live Streaming \(HLS\) solution, MPEG-DASH works by breaking the content into a sequence of small HTTP-based file segments, each segment containing a short interval of playback time of content that is potentially many hours in duration, such as a movie or the live broadcast of a sports event.
+
+MPEG-DASH is the first adaptive bit-rate HTTP-based streaming solution that is an international standard.
+
+MPEG-DASH should not be confused with a transport protocol — the transport protocol that MPEG-DASH uses is TCP. 
+
+.MPEG-DASH uses existing HTTP web server infrastructure that is used for delivery of essentially all World Wide Web content. It allows devices like Internet-connected televisions, TV set-top boxes, desktop computers, smartphones, tablets, etc. to consume multimedia content \(video, TV, radio, etc.\) delivered via the Internet, coping with variable Internet receiving conditions. Standardizing an adaptive streaming solution is meant to provide confidence to the market that the solution can be adopted for universal deployment, compared to similar but more proprietary solutions like **Smooth Streaming by Microsoft, or HDS by Adobe.**
 
