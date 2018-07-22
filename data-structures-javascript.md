@@ -7,6 +7,8 @@ Function User(firstName, lastName, age, gender) {
     this.age = age; 
     this.gender = gender;
 };
+
+var user1 = new User('John', 'Doe', 25, 'male');
 ```
 
 
