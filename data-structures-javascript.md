@@ -17,8 +17,6 @@ var user1 = new User('John', 'Doe', 25, 'male');
 User.prototype.emailDomain = '@facebook.com';
 ```
 
-
-
 **Linked List**
 
 ```
@@ -32,6 +30,8 @@ function Node(value, next, prev) {
     this.next = next;
     this.prev = prev;
 }
+
+var LL = new LinkedList();
 ```
 
 
