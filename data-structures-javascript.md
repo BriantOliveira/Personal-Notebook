@@ -11,5 +11,13 @@ Function User(firstName, lastName, age, gender) {
 var user1 = new User('John', 'Doe', 25, 'male');
 ```
 
+**Prototype Object** - is a simply an object that multiple other objects can refer to get any information or functionality that they need for our needs.
+
+```
+User.prototype.emailDomain = '@facebook.com';
+```
+
+
+
 
 
