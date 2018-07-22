@@ -34,14 +34,22 @@ function Node(value, next, prev) {
 //var LL = new LinkedList()
 //var node1 = new Node(100, 'node2', null);
 
+// adding a method to the linked list
 LinkedList.prototype.addToHead = function(value) {
     var newNode = new Node(value, this.head, null);
+    //If LinkedList is not empty
+    if (this.head) this.head.prev = newNode;
+    // If LinkedList is empty
+    else this.tail = newNode;
+    this.head = newNode;
 }
 
-
-
-
-
+LinkedList.prototype.addToTail = function(value) {
+    var newNode = new Node(value, null, this.tail);
+    if (this.tail) this.tail.next = newNode;
+    else this.head = newNode;
+    this.tail = newNode;
+}
 ```
 
 
