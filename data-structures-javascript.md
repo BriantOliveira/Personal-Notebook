@@ -31,7 +31,17 @@ function Node(value, next, prev) {
     this.prev = prev;
 }
 
-var node1 = new Node(100, 'node2', null);
+//var LL = new LinkedList()
+//var node1 = new Node(100, 'node2', null);
+
+LinkedList.prototype.addToHead = function(value) {
+    var newNode = new Node(value, this.head, null);
+}
+
+
+
+
+
 ```
 
 
