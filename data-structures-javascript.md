@@ -31,7 +31,7 @@ function Node(value, next, prev) {
     this.prev = prev;
 }
 
-var LL = new LinkedList();
+var node1 = new Node(100, 'node2', null);
 ```
 
 
