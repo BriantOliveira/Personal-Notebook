@@ -31,7 +31,7 @@ function Node(value, next, prev) {
     this.prev = prev;
 }
 
-//var LL = new LinkedList()
+
 //var node1 = new Node(100, 'node2', null);
 
 // adding a method to the linked list
@@ -50,6 +50,15 @@ LinkedList.prototype.addToTail = function(value) {
     else this.head = newNode;
     this.tail = newNode;
 }
+
+var myLL = new LinkedList()
+
+myLL.addToTail(10);
+myLL.addToTail(20);
+myLL.addToTail(30);
+
+
+console.log(myLL.tail.prev.prev);
 ```
 
 
