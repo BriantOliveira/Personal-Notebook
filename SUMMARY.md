@@ -26,4 +26,5 @@
 * [Software Architecture](software-architecture.md)
 * [Streaming Protocols ](streaming-protocols.md)
 * [Data Structures - Javascript ](data-structures-javascript.md)
+* [Coding Challeges](coding-challeges.md)
 
