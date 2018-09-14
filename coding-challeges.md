@@ -16,8 +16,6 @@ The **Multipurpose Internet Mail Extensions \(MIME\) type **is a standardized wa
 
 Browsers often use the MIME type \(and not the file extension\) to determine how it will process a document; it is therefore important that servers are set up correctly to attach the correct MIME type to the header of the response object.
 
-
-
 5 - Given an array of int which represents a number. Write a function that and adds 1/2 this number.
 
 ```
@@ -37,8 +35,15 @@ def add_one(given_array):
         result = new int[given_array.length +1]
         result[0] = 1
         return result
-        
 ```
+
+
+
+6 - Given a array of numbers, output the array like this: a1 &lt;= a2 &gt;= a3 &lt;= a4 &gt;= a5.
+
+When we encounter the ith number, if i is even, then if ai ai-1, swap ai and ai-1.
+
+
 
 
 
