@@ -1,8 +1,10 @@
-### Chapter 3 
+### Chapter 3
 
 # **Biopsychology **
 
 The study of how biological and physiological system affect behavior and mental process.
+
+
 
 **Chapter 3**
 
@@ -110,12 +112,6 @@ The study of how biological and physiological system affect behavior and mental 
 
 **Right Hemisphere - Superior at perceiving spatial relations. You would be able to perform a block-design task equally well with either your right and your left hand because your intact corpus callosum would let information from your spatially superior right hemisphere help your left hemisphere control your right hand.**
 
-
-
-
-
-
-
-**  
+**    
 **
 
