@@ -14,3 +14,4 @@
 
 **B** = Brightness 
 
+Colors are cool.
