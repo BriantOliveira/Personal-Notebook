@@ -53,5 +53,17 @@ def conditional_prob_fraction(cond_prob,sample_space):
     return '{} / {} chance of occurence'.format(numerator, denominator)
 ```
 
+```
+ P(A|B) = P(A Ω B)/P(B)
+```
+
+Random variables X and Y are independent if and only if P\( X = x, Y=y \). How does this interact with conditional probability? 
+
+Conditional probabilities equal unconditional probabilities with independence:
+
+P\(X = x/Y\) = P\(X=x\)
+
+Knowing Y tell us about X
+
 
 
