@@ -29,5 +29,5 @@
 * [Coding Challeges](coding-challeges.md)
 * [Psychology](psychology.md)
 * [DS-Inter-Prep](ds.md)
-* DS
+* [DS](ds.md)
 
