@@ -79,17 +79,17 @@ P(X, Y) = P(X, Y) P(Y)/P(Y)
 
 ##### **Bayes rule**
 
-Bayes rule allow us to flip the rder of a conditionality. 
+Bayes rule allow us to flip the rder of a conditionality.
 
 ```
-P(B|A) = P(A|B)P(B)/P(A) 
+P(B|A) = P(A|B)P(B)/P(A)
 ```
 
 1. Start with P\(A\|B\)
 2. Change outcome space from B to Ω: P\(A\|B\)P\(B\)
 3. Change outcome space from Ω to A: P\(A\|B\)P\(B\)/P\(A\)
 
- 
+**Binomial and Discrete Distributions**
 
-
+**Binomial distribution** the Bernoulli distribution is a distribution over some process that has successes and failures.
 
