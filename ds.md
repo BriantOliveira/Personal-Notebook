@@ -25,5 +25,7 @@ P is the probability of the event A occurring  in a set of observed events sampl
 
 **Conditional Probability**
 
-The conditional probability of an event occurring \( called B\) is the probability that the event will occur, given the knowledge that another event \(A\) has already occurred. 
+The conditional probability of an event occurring \( called B\) is the probability that the event will occur, given the knowledge that another event \(A\) has already occurred.
+
+P\(A\|B\) = P\(A & B\) / P\(A\)
 
