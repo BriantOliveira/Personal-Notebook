@@ -100,9 +100,10 @@ P(B|A) = P(A|B)P(B)/P(A)
   * The number of defective TV's in a line of 10,000 TVs
 * Important: each Bernoulli event is assumed to be independent. 
 * Notation: let X be a random variable that describes the number of success out of N trials.
+
   * The possile values of X are integers from 0 to N: {0,1,2,...,N}
 
-* Suppose we flip a coin 3 times. There are 8 possible outcomes: 
+* Suppose we flip a coin 3 times. There are 8 possible outcomes:
 
 ```
 P(HHH) = P(H)P(H)P(H) = 0.125
@@ -116,7 +117,11 @@ P(TTT) = P(T)P(T)P(T) = 0.125
                       = .375
 ```
 
+The probability mass function for the binomial distribution is: 
 
+```
+f(x) = (N x) 0^x(1-)^N-x
+```
 
 
 
