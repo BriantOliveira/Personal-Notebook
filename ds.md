@@ -93,3 +93,14 @@ P(B|A) = P(A|B)P(B)/P(A)
 
 **Binomial distribution** the Bernoulli distribution is a distribution over some process that has successes and failures.
 
+* Bernoulli:distribution over tow values \(success or failure\) from a single event. 
+* Binomial: number of success from multiple Bernoulli events
+* Examples:
+  * The number of times "heads" comes up after flipping a coin 10 times. 
+  * The number of defective TV's in a line of 10,000 TVs
+* Important: each Bernoulli event is assumed to be independent. 
+* Notation: let X be a random variable that describes the number of success out of N trials.
+  * The possile values of X are integers from 0 to N: {0,1,2,...,N}
+
+
+
