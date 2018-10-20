@@ -28,5 +28,6 @@
 * [Data Structures - Javascript ](data-structures-javascript.md)
 * [Coding Challeges](coding-challeges.md)
 * [Psychology](psychology.md)
-* [DS](ds.md)
+* [DS-Inter-Prep](ds.md)
+* DS
 
