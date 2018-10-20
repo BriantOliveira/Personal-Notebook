@@ -74,7 +74,22 @@ P(X, Y) = P(X, Y) P(Y)/P(Y)
         = P(X, Y) P(Y)
 ```
 
-*  For example, 
+* For example, let Y be a disease and X be a symptom. We may know P\(X \| Y\) and P\(Y\) from data. Use the chain rule to obtain the probability of having the disease and the symptom. 
+* In general, for any set of N variables.
+
+##### **Bayes rule**
+
+Bayes rule allow us to flip the rder of a conditionality. 
+
+```
+P(B|A) = P(A|B)P(B)/P(A) 
+```
+
+1. Start with P\(A\|B\)
+2. Change outcome space from B to Ω: P\(A\|B\)P\(B\)
+3. Change outcome space from Ω to A: P\(A\|B\)P\(B\)/P\(A\)
+
+ 
 
 
 
