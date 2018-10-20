@@ -57,13 +57,17 @@ def conditional_prob_fraction(cond_prob,sample_space):
  P(A|B) = P(A Ω B)/P(B)
 ```
 
-Random variables X and Y are independent if and only if P\( X = x, Y=y \). How does this interact with conditional probability? 
+Random variables X and Y are independent if and only if P\( X = x, Y=y \). How does this interact with conditional probability?
 
 Conditional probabilities equal unconditional probabilities with independence:
 
 P\(X = x/Y\) = P\(X=x\)
 
 Knowing Y tell us about X
+
+To turn a condition distribution into a joint distribution for that we'll use the chain rule and sometimes you need to flip the order of the conditionality for that we use Bayes rule the definition of condional probability let us derive what's called the chain rule.
+
+**The chain rule** is what allow us to turn conditional probability into joint probabilities.
 
 
 
