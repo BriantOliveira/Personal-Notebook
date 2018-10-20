@@ -69,5 +69,12 @@ To turn a condition distribution into a joint distribution for that we'll use th
 
 **The chain rule** is what allow us to turn conditional probability into joint probabilities.
 
+```
+P(X, Y) = P(X, Y) P(Y)/P(Y)
+        = P(X, Y) P(Y)
+```
+
+*  For example, 
+
 
 
