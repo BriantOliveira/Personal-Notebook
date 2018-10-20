@@ -27,5 +27,35 @@ P is the probability of the event A occurring  in a set of observed events sampl
 
 The conditional probability of an event occurring \( called B\) is the probability that the event will occur, given the knowledge that another event \(A\) has already occurred.
 
-P\(A\|B\) = P\(A & B\) / P\(A\)
+`P(A|B) = P(A & B) / P(A)`
+
+```
+# To get the conditional probability
+def conditional_prob(subset_count, event_count, sample_space):
+    subset_prob = subset_count/ sample_space
+    event_prob = event_count / sample_space
+    conditional_p = (subset_prob)/ event_prob
+    return 'The conditional probability of this occuring out of {} events is {}'.format(sample_space,conditional_p)
+
+
+
+# To get the percentage of the conditional probability
+def conditional_prob_percentage(cond_prob):
+    percentage = cond_prob * 100
+    return '{}% chance of occuring'.format(percentage)
+
+
+
+# To get the fracitonal representation
+def conditional_prob_fraction(cond_prob,sample_space):
+    numerator = round(cond_prob / cond_prob)
+    denominator = round(sample_space / cond_prob)
+    return '{} / {} chance of occurence'.format(numerator, denominator)
+
+
+```
+
+
+
+
 
