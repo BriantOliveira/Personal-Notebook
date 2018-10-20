@@ -102,5 +102,21 @@ P(B|A) = P(A|B)P(B)/P(A)
 * Notation: let X be a random variable that describes the number of success out of N trials.
   * The possile values of X are integers from 0 to N: {0,1,2,...,N}
 
+* Suppose we flip a coin 3 times. There are 8 possible outcomes: 
+
+```
+P(HHH) = P(H)P(H)P(H) = 0.125
+P(HHT) = P(H)P(H)P(T) = 0.125
+P(HTH) = P(H)P(T)P(H) = 0.125
+P(HTT) = P(H)P(T)P(T) = 0.125
+P(THH) = P(T)P(H)P(H) = 0.125
+P(THT) = P(T)P(H)P(T) = 0.125
+P(TTH) = P(T)P(T)P(H) = 0.125
+P(TTT) = P(T)P(T)P(T) = 0.125 
+                      = .375
+```
+
+
+
 
 
