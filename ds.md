@@ -117,11 +117,15 @@ P(TTT) = P(T)P(T)P(T) = 0.125
                       = .375
 ```
 
-The probability mass function for the binomial distribution is: 
+The probability mass function for the binomial distribution is:
 
 ```
 f(x) = (N x) 0^x(1-)^N-x
 ```
+
+* Like the Bernoulli, the binomial parameter 0 is the probability of success from one event. 
+* Binomial has second parameter N: number of trials.
+* The PMF important: difficult to figure out the entire distribution by hand. 
 
 
 
