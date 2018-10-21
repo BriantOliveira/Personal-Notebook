@@ -138,14 +138,22 @@ For example, the number of ways to choose 2 heads from 3 coin flips: HTT, HTH, T
 (k)   k!(n-k)!
 ```
 
-
-
-
-
 **Mean** - calculated the average of numbers of occurrences or the average numerical value if all the data was distributed evenly among all the samples..
 
 ```
 .mean()
+```
+
+**Median** - is the medium value, that represents half of the number being above and half of the numbers being below it. 
+
+```
+.median()
+```
+
+**Mode** - is the number that appears the most in dataset. 
+
+```
+.mode()
 ```
 
 
