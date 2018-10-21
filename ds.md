@@ -127,15 +127,25 @@ f(x) = (N x) 0^x(1-)^N-x
 * Binomial has second parameter N: number of trials.
 * The PMF important: difficult to figure out the entire distribution by hand. 
 
-The expression \(nk\) is called a binomial coefficient. Also called a combination in combinatorics. 
+The expression \(nk\) is called a binomial coefficient. Also called a combination in combinatorics.
 
-\(kn\) is the number of ways to choose k elements from a set of n elements. 
+\(kn\) is the number of ways to choose k elements from a set of n elements.
 
 For example, the number of ways to choose 2 heads from 3 coin flips: HTT, HTH, THH
 
 ```
 (n) =  n!
 (k)   k!(n-k)!
+```
+
+
+
+
+
+**Mean** - calculated the average of numbers of occurrences or the average numerical value if all the data was distributed evenly among all the samples..
+
+```
+.mean()
 ```
 
 
