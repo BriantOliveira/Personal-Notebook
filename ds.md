@@ -156,9 +156,15 @@ For example, the number of ways to choose 2 heads from 3 coin flips: HTT, HTH, T
 .mode()
 ```
 
-
-
 **Null Hypothesis**
 
-A null hypothesis is a precise statement about a population that we try to reject with sample data. 
+A null hypothesis is a precise statement about a population that we try to reject with sample data.
+
+**P-values**
+
+A p-value is the probability of finding some sample outcome or a more extreme one if the null hypothesis is true. 
+
+
+
+
 
