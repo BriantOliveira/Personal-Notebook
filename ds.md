@@ -144,17 +144,21 @@ For example, the number of ways to choose 2 heads from 3 coin flips: HTT, HTH, T
 .mean()
 ```
 
-**Median** - is the medium value, that represents half of the number being above and half of the numbers being below it. 
+**Median** - is the medium value, that represents half of the number being above and half of the numbers being below it.
 
 ```
 .median()
 ```
 
-**Mode** - is the number that appears the most in dataset. 
+**Mode** - is the number that appears the most in dataset.
 
 ```
 .mode()
 ```
 
 
+
+**Null Hypothesis**
+
+A null hypothesis is a precise statement about a population that we try to reject with sample data. 
 
