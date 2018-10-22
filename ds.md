@@ -166,7 +166,7 @@ A p-value is the probability of finding some sample outcome or a more extreme on
 
 ### **Data Mining**
 
-**Unsupervised Learning** - Analyze the dataset patterns of the dataset without any labels. Without you being the architech of the data.\(Clusters/Reduction Analysis\) Ex: K-mean
+**Unsupervised Learning** - Analyze the dataset patterns of the dataset without any labels. Without you being the architech of the data.\(Clusters/Reduction Analysis\) Ex: K-mean, Gaussian Mixture
 
 * Looking for patterns in your data
 * Looking for clusters in your data
@@ -179,7 +179,5 @@ A p-value is the probability of finding some sample outcome or a more extreme on
 
 **Cross Validation** -  You should **always** cross validate, either with Supervised or Unsupervised learning. Train 80% of your data against 20% and keep track of the accuracy.
 
-
-
-**Kmeans** -  
+**Kmeans** -
 
