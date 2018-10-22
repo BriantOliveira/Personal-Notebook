@@ -179,8 +179,8 @@ A p-value is the probability of finding some sample outcome or a more extreme on
 
 For supervised learning it is possible to evaluate the model from train and test data. For regression, the evaluation metrics are:
 
-1. Mean squared Error\(MSE\)
-2. Mean Absolute Error\(MAE\)
+1. Mean squared Error\(MSE\) - How fair are we.
+2. Mean Absolute Error\(MAE\) - How ofter are we close
 
 And for classification:
 
