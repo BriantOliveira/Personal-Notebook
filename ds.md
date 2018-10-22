@@ -177,5 +177,5 @@ A p-value is the probability of finding some sample outcome or a more extreme on
 * Labeling new data
 * Training data/ Test data 
 
-**Cross Validation** -  You should always cross validate, either with Supervised or Unsupervised learning. Train 80% of your data against 20% and keep track of the accuracy. 
+**Cross Validation** -  You should **always** cross validate, either with Supervised or Unsupervised learning. Train 80% of your data against 20% and keep track of the accuracy.
 
