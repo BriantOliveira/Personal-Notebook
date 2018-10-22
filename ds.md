@@ -177,7 +177,17 @@ A p-value is the probability of finding some sample outcome or a more extreme on
 * Labeling new data
 * Training data/ Test data 
 
-**Cross Validation** -  You should **always** cross validate, either with Supervised or Unsupervised learning. Train 80% of your data against 20% and keep track of the accuracy.
+For supervised learning it is possible to evaluate the model from train and test data. For regression, the evaluation metrics are: 
 
-**Kmeans** -
+1. Mean squared Error\(MSE\)
+2. Mean Absolute Error\(MAE\)
+
+And for classification:
+
+1. Classification Accuracy
+2. Classification Recall, Precision and F1 scores.  
+
+**Cross Validation** -  You should **always** cross validate, either with Supervised learning. Train 80% of your data against 20% and keep track of the accuracy. For unsupervised learning there are no systematic approach to evaluate to models but the are ways to do it. 
+
+
 
