@@ -164,11 +164,7 @@ A null hypothesis is a precise statement about a population that we try to rejec
 
 A p-value is the probability of finding some sample outcome or a more extreme one if the null hypothesis is true.
 
+**Unsupervised Learning** - Analyze the dataset patterns of the dataset without any labels. \(Without you being the architech of the data\)
 
-
-**Unsupervised Learning** - Analyze the dataset patterns of the dataset without any labels. 
-
-**Supervised Learning - **
-
-
+**Supervised Learning - **This type of learning is a little different from Unsupervised. It assumes that you know something about your data , so you would classify your data. 
 
