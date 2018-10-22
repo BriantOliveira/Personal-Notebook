@@ -171,11 +171,11 @@ A p-value is the probability of finding some sample outcome or a more extreme on
 * Looking for patterns in your data
 * Looking for clusters in your data
 
-**Supervised Learning - **This type of learning is a little different from Unsupervised. It assumes that you know something about your data , so you would classify your data. \(Classification/Regression\) 
+**Supervised Learning - **This type of learning is a little different from Unsupervised. It assumes that you know something about your data , so you would classify your data. \(Classification/Regression\)
 
 * You provide labels for data
 * Labeling new data
 * Training data/ Test data 
 
-**Cross Validation** -  You should always cross validate, either with Supervised or Unsupervised learning. 
+**Cross Validation** -  You should always cross validate, either with Supervised or Unsupervised learning. Train 80% of your data against 20% and keep track of the accuracy. 
 
