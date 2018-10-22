@@ -184,7 +184,7 @@ For supervised learning it is possible to evaluate the model from train and test
 
 And for classification:
 
-1. Classification Accuracy
+1. Classification Accuracy  \(Confusion Matrix\).
 2. Classification Recall, Precision and F1 scores.  
 
 **Cross Validation** -  You should **always** cross validate, either with Supervised learning. Train 80% of your data against 20% and keep track of the accuracy. For unsupervised learning there are no systematic approach to evaluate to models but the are ways to do it.
