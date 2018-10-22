@@ -162,9 +162,13 @@ A null hypothesis is a precise statement about a population that we try to rejec
 
 **P-values**
 
-A p-value is the probability of finding some sample outcome or a more extreme one if the null hypothesis is true. 
+A p-value is the probability of finding some sample outcome or a more extreme one if the null hypothesis is true.
 
 
+
+**Unsupervised Learning** - Analyze the dataset patterns of the dataset without any labels. 
+
+**Supervised Learning - **
 
 
 
