@@ -30,4 +30,5 @@
 * [Psychology](psychology.md)
 * [DS-Inter-Prep](ds.md)
 * [DS](ds.md)
+* [Ruby](ruby.md)
 
