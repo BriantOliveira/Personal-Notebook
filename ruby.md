@@ -1,16 +1,16 @@
-**Rails Advantages** 
+**Rails Advantages**
 
-* Convention over configuration 
+* Convention over configuration
 
-* Don't repeat yourself 
+* Don't repeat yourself
 
-* Object Relational Mapping 
+* Object Relational Mapping
 
-* MVC 
+* MVC
 
 * Reuse of code
 
-Convention over Configuration 
+**Convention over Configuration**
 
 * Table and foreign key naming 
   * Tables are multiples \(users, orders\)
@@ -20,6 +20,8 @@ Convention over Configuration
 * Naming 
   * Class names: CamelCase 
   * Files: lowercase\_underscored.rb
+
+
 
 
 
