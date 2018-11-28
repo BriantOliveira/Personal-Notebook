@@ -79,7 +79,7 @@ P(X, Y) = P(X, Y) P(Y)/P(Y)
 
 ##### **Bayes rule**
 
-Bayes rule allow us to flip the rder of a conditionality.
+Bayes rule allow us to flip the order of a conditionality.
 
 ```
 P(B|A) = P(A|B)P(B)/P(A)
@@ -189,9 +189,5 @@ And for classification:
 
 **Cross Validation** -  You should **always** cross validate, either with Supervised learning. Train 80% of your data against 20% and keep track of the accuracy. For unsupervised learning there are no systematic approach to evaluate to models but the are ways to do it.
 
-
-
 Pior ?
-
-
 
