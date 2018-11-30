@@ -1,6 +1,6 @@
 # Big O
 
-Big O is used for describing the complexity and performance of an algorithm. With Big O we can get something called the best, average, and worse case of an algorithm. Big O is important for seeing how an algorithm will scale up.  
+Big O is used for describing the complexity and performance of an algorithm. With Big O we can get something called the best, average, and worse case of an algorithm. Big O is important for seeing how an algorithm will scale up.
 
 The best way to understand Big O is by just doing Big O. So let's try to decipher this.
 
@@ -162,5 +162,5 @@ The Big O notation is like the type of transport and the complexity that we writ
 
 ### Wrap Up
 
-We have gotten the basic premise of Big O. The thing is we only covered 6 of the 8 possible outcomes. The remain four are either vary rare or very special cases. If you would like to look into them more, then by all means do it. I personally think the things I described are the only things you need. Hopefully now you can go get the Big O of all your code.
+We have gotten the basic premise of Big O. The thing is we only covered 6 of the 8 possible outcomes. The remain four are either vary rare or very special cases. If you would like to look into them more, then by all means do it. I personally think the things I described are the only things you need. Hopefully now you can go get the Big O of all your code. jibkldj 
 
