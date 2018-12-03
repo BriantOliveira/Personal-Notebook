@@ -19,6 +19,7 @@ There is two types of testing which are Functional and Non-functional test. A fe
 * Performance test
 
 * Stress testing
+
 * Load testing
 * Reliability testing, and others. 
 
@@ -40,12 +41,13 @@ If you are going to create a test  for a given function or component of your cod
 
 End-to-end testing involves an application flow from start to end. The purpose of this type of testing methodology is to simulate the real world as in a user scenario in order to validate the system that is under test for data integrity.
 
-The goals is to identify system dependencies and to ensure that the right information is passed between various systems components and system. 
+The goals is to identify system dependencies and to ensure that the right information is passed between various systems components and system.
 
 It is performed from start to finish under real-world scenarios like communication of the application with hardware, network, database and other applications.
 
-  
+### What is Harness Testing?
 
+Test harness is a methodology that enables the automation of tests. Automation test is a collection of software and test data with the purpose  to test a program unit by running it under varying conditions and monitoring its behavior and outputs. 
 
-
+Test harness executes test, by using a test library and generate a report. 
 
