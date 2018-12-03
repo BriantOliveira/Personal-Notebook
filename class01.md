@@ -22,7 +22,7 @@ There is two types of testing which are Functional and Non-functional test. A fe
 
 * Load testing
 
-* Reliability testing, and others. 
+* Reliability testing, and others.
 
 During this tutorial we will talk about three very important tests.
 
@@ -51,6 +51,10 @@ It is performed from start to finish under real-world scenarios like communicati
 Test harness is a methodology that enables the automation of tests. Automation test is a collection of software and test data with the purpose  to test a program unit by running it under varying conditions and monitoring its behavior and outputs.
 
 Test harness executes test, by using a test library and generates a report.
+
+
+
+### TDD vs. BDD
 
 
 
