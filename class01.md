@@ -10,7 +10,8 @@ Testing your code will save you and your team a lot of time, it will make your d
 
 There is two types of testing which are Functional and Non-functional test. A few of the most common functional test are:
 
-* Unit testing, Integration testing
+* Unit testing, 
+* Integration testing
 * System testing
 * Interface testing, and others.
 
@@ -54,7 +55,7 @@ Test harness executes test, by using a test library and generates a report.
 
 ### TDD vs. BDD
 
-TDD \(Test-Driven Development\) is a process for when you write and and run your test. TDD makes it very  possible to have high test coverage. Test coverage refers to the percentage of you code base that is tested automatically, so a higher number is better. 
+TDD \(Test-Driven Development\) is a process for when you write and and run your test. TDD makes it very  possible to have high test coverage. Test coverage refers to the percentage of you code base that is tested automatically, so a higher number is better.
 
 The TDD process consist of the following steps:
 
@@ -62,7 +63,7 @@ The TDD process consist of the following steps:
 2. Write test against your function or container, testing for edge cases.
 3. Write the minimum amount of code to make it pass. 
 4. Optionally refactor your code.
-5. Repeat section 1
+5. Repeat all this cycle.
 
 BDD \(Behavior-Driven Development\) is a set practice that aim to reduce  wasteful activities in software development. A good trick to remember how to a BDD is the formula 'Given-When-Then'.
 
@@ -76,11 +77,7 @@ A practical example would be:
 
 1. **Given** the User has not entered any data on the form
 2. **When** he clicks the submit button
-3. **Then** proper validation messages should be show.
-
-
-
-
+3. **Then** proper validation messages should be shown.
 
 
 
