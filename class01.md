@@ -52,9 +52,35 @@ Test harness is a methodology that enables the automation of tests. Automation t
 
 Test harness executes test, by using a test library and generates a report.
 
-
-
 ### TDD vs. BDD
+
+TDD \(Test-Driven Development\) is a process for when you write and and run your test. TDD makes it very  possible to have high test coverage. Test coverage refers to the percentage of you code base that is tested automatically, so a higher number is better. 
+
+The TDD process consist of the following steps:
+
+1. Start by writing test.
+2. Write test against your function or container, testing for edge cases.
+3. Write the minimum amount of code to make it pass. 
+4. Optionally refactor your code.
+5. Repeat section 1
+
+BDD \(Behavior-Driven Development\) is a set practice that aim to reduce  wasteful activities in software development. A good trick to remember how to a BDD is the formula 'Given-When-Then'.
+
+The BDD process consist of the following steps:
+
+1. **Given** a certain scenario
+2. **When** an action takes place
+3. **Then** this should be the outcome.
+
+A practical example would be:
+
+1. **Given** the User has not entered any data on the form
+2. **When** he clicks the submit button
+3. **Then** proper validation messages should be show.
+
+
+
+
 
 
 
