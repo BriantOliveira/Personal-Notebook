@@ -4,7 +4,7 @@
 
 Testing is something that a lot of engineering teams take very seriously from day one and as result, it's a big part of a work environment and development culture. If you haven't done testing before it's ok, hopefully by the end of this tutorial you will become a wizard when it comes to testing.
 
-Testing your code will save you and your team a lot of time, it will make your development experience much easier and work happier by writing unit tests.  Writing test is one of the best ways to get on board with a larger code base.
+Testing your code will save you and your team a lot of time, it will make your development experience much easier and work happier by writing unit tests.  Writing test is one of the best ways to get on board with a larger codebase.
 
 ### Different types of software testing?
 
@@ -78,8 +78,6 @@ A practical example would be:
 1. **Given** the User has not entered any data on the form
 2. **When** he clicks the submit button
 3. **Then** proper validation messages should be shown.
-
-
 
 
 

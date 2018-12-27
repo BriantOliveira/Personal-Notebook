@@ -172,5 +172,39 @@ Now in let's add something to the **.eslintrc.json** file:
 }
 ```
 
+The **.eslintrc.json **is a configuration file that will enable the Airbnb style guide in your code. Now that we have the style guide up and running, let's create our server. Go to the **app.js** file, the first thing that we will need is to import all the dependencies that will be used:
+
+```
+/* eslint-disable no-console */
+/*
+*   Bookstore Tutorial
+*   REST API Unit Test
+*/
+
+require('dotenv').config();
+const cookieParser = require('cookie-parser');
+const express = require('express');
+const path = require('path');
+const mongoose = require('mongoose');
+const sanitizer = require('sanitize');
+const expressSanitizer = require('express-sanitizer');
+const bodyParser = require('body-parser');
+```
+
+The next step is to instantiate your server and add a listening PORT number that your server will be running on:
+
+```
+/** Instantiate the server */
+const app = express();
+
+/** Instantiate a PORT number */
+const PORT = process.env.PORT || 3000;
+
+
+app.listen(PORT, () => {
+  console.log('Bookstore listening on port', PORT);
+});
+```
+
 
 
