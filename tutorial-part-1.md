@@ -99,7 +99,64 @@ node_modules
 .env
 ```
 
-Notice that we are ignoring the **node\_modules** folder. The reason why we are ignoring this folder, is because all the dependencies that will be used in this project will be located in the folder, which is a lot of memory space to the repository, plus we want to ensure that whomever clones this code gets the most updated version of the dependencies. 
+Notice that we are ignoring the **node\_modules** folder. The reason why we are ignoring this folder, is because all the dependencies that will be used in this project will be located in the folder, which is a lot of memory space to the repository, plus we want to ensure that whomever clones this code gets the most updated version of the dependencies. All the other files that are being ignored are IDE's default files, expect the **.env** file, which is being ignore because we **don't** want people to have our environment variables values.
+
+In this project I will be using the [Airbnb style guide](https://github.com/airbnb/javascript) in order to make the codebase more readable. I extremely recommend that you go on your IDE settings and install the [ESLint](https://eslint.org/) plugging.
+
+_**Warnings:** Initially the linter and the style guide might drive you a bit crazy, but trust me if you stick with it until the end, you will start noticing the these tools will turn you into a much organized developer._
+
+In oder to make the style guide work in your codebase and to ensure that everyone working in the given repository is using the same style guide, we need to make do a few things. First let's install a few dependencies, go to you terminal again and type:
+
+```
+$ npm install eslint eslint-config-airbnb-base eslint-plugin-import --save-dev
+```
+
+Notice that we are** --save-dev** in the end. This command will create an devDependencies section in your package.json, this means that those given dependencies are only to be accessible to the development environment. So now your package.json should look like this: 
+
+```
+{
+  "name": "bookstore-api",
+  "version": "1.0.0",
+  "description": "This is a simple rest api tutorial",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Elliot Briant",
+  "license": "MIT",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "bcrypt": "^3.0.1",
+    "compression": "^1.7.3",
+    "cookie-parser": "^1.4.3",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "express-sanitizer": "^1.0.4",
+    "express-session": "^1.15.6",
+    "jsonwebtoken": "^8.3.0",
+    "mongo-to-knex": "^0.5.0",
+    "mongoose": "^4.13.17",
+    "morgan": "^1.7.0",
+    "nodemon": "^1.18.4",
+    "path": "^0.12.7",
+    "sanitize": "^2.1.0",
+    "winston": "^3.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+  }
+}
+```
 
 
 
