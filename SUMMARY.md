@@ -32,4 +32,5 @@
 * [DS](ds.md)
 * [Ruby](ruby.md)
 * [Class01](class01.md)
+* [Tutorial Part 1](tutorial-part-1.md)
 
