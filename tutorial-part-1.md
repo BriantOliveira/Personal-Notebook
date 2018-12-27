@@ -111,7 +111,7 @@ In oder to make the style guide work in your codebase and to ensure that everyon
 $ npm install eslint eslint-config-airbnb-base eslint-plugin-import --save-dev
 ```
 
-Notice that we are** --save-dev** in the end. This command will create an devDependencies section in your package.json, this means that those given dependencies are only to be accessible to the development environment. So now your package.json should look like this: 
+Notice that we are** --save-dev** in the end. This command will create an devDependencies section in your package.json, this means that those given dependencies are only to be accessible to the development environment. So now your package.json should look like this:
 
 ```
 {
@@ -155,6 +155,20 @@ Notice that we are** --save-dev** in the end. This command will create an devDep
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.14.0",
   }
+}
+```
+
+Now that we've installed the dependencies needed, we need to create a file in the root directory called **.eslintrc.json**
+
+```
+$ touch .eslintrc.json
+```
+
+Now in let's add something to the **.eslintrc.json** file:
+
+```
+{
+  "extends": "airbnb-base"
 }
 ```
 
