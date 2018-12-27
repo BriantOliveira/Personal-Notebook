@@ -2,7 +2,7 @@
 
 In this tutorial we building a simple RESTful API.
 
-### Part 1
+### Part 1 - Setting up 
 
 Let's set up our server structure, for this project we will be using MVC architecture.
 
@@ -85,7 +85,7 @@ $ npm install
 or if you prefer, you can also install each dependency individually with:
 
 ```
-$ npm install <dependency name> --save 
+$ npm install <dependency name> --save
 ```
 
 
