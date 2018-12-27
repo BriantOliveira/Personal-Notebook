@@ -2,7 +2,7 @@
 
 In this tutorial we building a simple RESTful API.
 
-### Part 1 - Setting up 
+### Part 1 - Setting up
 
 Let's set up our server structure, for this project we will be using MVC architecture.
 
@@ -22,6 +22,7 @@ Let's create our files and folder structures we need for this project. It should
   |     ├─ books.js
   ├── views
   ├── test
+  ├── utils
   ├── app.js
   ├── .env
   ├── .gitignore
@@ -87,6 +88,18 @@ or if you prefer, you can also install each dependency individually with:
 ```
 $ npm install <dependency name> --save
 ```
+
+So far we structure all the files and folders and installed the main dependencies needed. But before we move on, let's edit our **.gitignore** file. This file tells git what needs to be ignored and not commited along with everything else in the repository.
+
+```
+node_modules
+.DS_Store
+.idea
+.vscode
+.env
+```
+
+Notice that we are ignoring the **node\_modules** folder. The reason why we are ignoring this folder, is because all the dependencies that will be used in this project will be located in the folder, which is a lot of memory space to the repository, plus we want to ensure that whomever clones this code gets the most updated version of the dependencies. 
 
 
 
