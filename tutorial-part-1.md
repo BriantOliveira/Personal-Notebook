@@ -206,7 +206,7 @@ app.listen(PORT, () => {
 });
 ```
 
-Now let's add the middlewares: 
+Now let's add the middlewares:
 
 ```
 /** Set up static public directory */
@@ -220,10 +220,9 @@ app.use(sanitizer.middleware);
 app.use(expressSanitizer());
 app.use(bodyParser.text());
 app.use(bodyParser.json({ type: 'application/json' }));
-
 ```
 
-So far your main server should look like this:
+So far your **app.js** server file should look like this:
 
 ```
 /* eslint-disable no-console */
@@ -270,7 +269,6 @@ app.use(bodyParser.json({ type: 'application/json' }));
 app.listen(PORT, () => {
   console.log('Bookstore listening on port', PORT);
 });
-
 ```
 
 
