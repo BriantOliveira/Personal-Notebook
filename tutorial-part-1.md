@@ -335,7 +335,7 @@ On the **index.js **file, we are going to add this:
 
     module.exports = config;
 
-Now that we have the database configuration files all set up, let's import the database configuration and add the database connection to the **app.js** file. 
+Now that we have the database configuration files all set up, let's import the database configuration and add the database connection to the **app.js** file.
 
 ```
 const config = require('./config/env');
@@ -417,7 +417,6 @@ Your **app.js** file should look like this:
     app.listen(PORT, () => {
       console.log('Bookstore listening on port', PORT);
     });
-
 
 
 
