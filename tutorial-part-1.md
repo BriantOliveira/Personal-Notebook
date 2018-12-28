@@ -271,6 +271,8 @@ app.listen(PORT, () => {
 });
 ```
 
+---
+
 ## Step 2 - Connecting Database
 
 On this project we will be using MongoDB. The way that we will be connecting the database will be a little different from the conventional way. We are going to connect to the database accordantly to the environment that the server is running on, that way you can switch between environments easily.
