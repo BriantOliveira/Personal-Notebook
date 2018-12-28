@@ -208,6 +208,20 @@ app.listen(PORT, () => {
 
 Now let's add the middlewares:
 
+Research what [body parser](https://www.npmjs.com/package/body-parser) is on the [npm website](https://npmjs.com/).
+
+While you're at it, also research the role of [express validator](https://www.npmjs.com/package/express-validator). What role does it play alongside the`body-parser`middleware?
+
+Essentially,`body-parser`is a necessary middleware to communicate with your`POST`requests.
+
+`express-validator`is a wrapper around [validator.js](https://github.com/chriso/validator.js)that validates and sanitizes string inputs. In production, your users will try to type in all kinds of nonsense into your forms --- even things your site wasn't intended to deal with!`express-validator`plugs into the Express.js ecosystem and helps keep you and your code safe.
+
+You should install`express-validator`now:`npm install express-validator`so you can continue implementing the code below.
+
+Next, add the following two requirements to the top of your`app.js`file.
+
+Finally, pass`body-parser`through the`app.use()`module:
+
 ```
 /** Set up static public directory */
 app.use(express.static(path.join(__dirname, '..', 'public')));
@@ -220,6 +234,7 @@ app.use(sanitizer.middleware);
 app.use(expressSanitizer());
 app.use(bodyParser.text());
 app.use(bodyParser.json({ type: 'application/json' }));
+app.use(expressValidator());
 ```
 
 So far your **app.js** server file should look like this:
@@ -335,7 +350,7 @@ On the **index.js **file, we are going to add this:
 
     module.exports = config;
 
-Great! Now that we have the database configuration files all set up, let's import the database configuration and add the database connection to the **app.js** file. 
+Great! Now that we have the database configuration files all set up, let's import the database configuration and add the database connection to the **app.js** file.
 
 ```
 const config = require('./config/env');
@@ -450,7 +465,6 @@ BookSchema.pre('save', (next) => {
 });
 
 module.exports = mongoose.model('book', BookSchema);
- 
 ```
 
 
