@@ -324,7 +324,7 @@ If you have already a live database on MLab or Mongo Atlas, don't forget to add 
 DBURI='mongodb://<db user>:<db password>.mlab.com:56789/mydb
 ```
 
-Now on the **index.js file** we are going to add this:
+On the **index.js **file, we are going to add this:
 
     // This sipped of code is just telling the server that if there isn't a environment
     // being declared already, to connect to the development database.
@@ -334,6 +334,90 @@ Now on the **index.js file** we are going to add this:
     const config = require(`./${env}`);
 
     module.exports = config;
+
+Now that we have the database configuration files all set up, let's import the database configuration and add the database connection to the **app.js** file. 
+
+```
+const config = require('./config/env');
+```
+
+    /** MongoDB connection */
+    mongoose.Promise = global.Promise;
+
+    mongoose.connect(config.db, { useMongoClient: true });
+    mongoose.connection.on('error', () => {
+      throw new Error(`unable to connect to database: ${config.db}`);
+    });
+    mongoose.connection.on('connected', () => {
+      console.log(`Connected to database: ${config.db}`);
+    });
+
+    if (config.env === 'development') {
+      mongoose.set('debug', true);
+    }
+
+Your **app.js** file should look like this:
+
+    /* eslint-disable no-console */
+    /*
+    *   Bookstore Tutorial
+    *   REST API Unit Test
+    */
+
+    require('dotenv').config();
+    const cookieParser = require('cookie-parser');
+    const express = require('express');
+    const path = require('path');
+    const mongoose = require('mongoose');
+    const sanitizer = require('sanitize');
+    const expressSanitizer = require('express-sanitizer');
+    const bodyParser = require('body-parser');
+    const config = require('./config/env');
+
+    /** Instantiate the server */
+    const app = express();
+
+    /** Instantiate a PORT number */
+    const PORT = process.env.PORT || 3000;
+
+    /** Import Routes */
+
+
+    /** Set up static public directory */
+    app.use(express.static(path.join(__dirname, '..', 'public')));
+
+    /** Middleware */
+    app.use(cookieParser());
+    app.use(express.json());
+    app.use(express.urlencoded({ extended: true }));
+    app.use(sanitizer.middleware);
+    app.use(expressSanitizer());
+    app.use(bodyParser.text());
+    app.use(bodyParser.json({ type: 'application/json' }));
+
+
+    /** MongoDB connection */
+    mongoose.Promise = global.Promise;
+
+    mongoose.connect(config.db, { useMongoClient: true });
+    mongoose.connection.on('error', () => {
+      throw new Error(`unable to connect to database: ${config.db}`);
+    });
+    mongoose.connection.on('connected', () => {
+      console.log(`Connected to database: ${config.db}`);
+    });
+
+    if (config.env === 'development') {
+      mongoose.set('debug', true);
+    }
+
+    /** Set up routes */
+
+    /** Listening PORT */
+    app.listen(PORT, () => {
+      console.log('Bookstore listening on port', PORT);
+    });
+
 
 
 
