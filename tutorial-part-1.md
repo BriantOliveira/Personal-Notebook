@@ -271,21 +271,47 @@ app.listen(PORT, () => {
 });
 ```
 
-
-
 ## Step 2 - Connecting Database
 
-On this project we will be using MongoDB. The way that we will be connecting the database will be a little different from the conventional way. We are going to connect to the database accordantly to the environment that the server is running on, that way you can switch between environments easily. 
+On this project we will be using MongoDB. The way that we will be connecting the database will be a little different from the conventional way. We are going to connect to the database accordantly to the environment that the server is running on, that way you can switch between environments easily.
 
-On the config folder, create another folder called **env**. Now inside the environment folder, create these 3 files: 
+On the config folder, create another folder called **env**. Now inside the environment folder, create these 4 files:
 
 ```
 ├── config
 | ├── env
 |     ├─ development.js
 |     ├─ index.js
+|     ├─ production.js
 |     └─ test.js
 └── ...
+```
+
+Inside **development.js** we are going to this:
+
+```
+module.exports = {
+  env: 'development',
+  db: 'mongodb://localhost/bookstore',
+};
+```
+
+Inside **production.js** we are going to this:
+
+```
+module.exports = {
+  env: 'development',
+  db: process.env.DBURI,
+};
+```
+
+Inside** test.js** we are going to this:
+
+```
+module.exports =  {
+  env: 'test',
+  db: 'mongodb://localhost/test-bookstore',
+};
 ```
 
 
