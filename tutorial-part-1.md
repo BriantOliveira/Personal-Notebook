@@ -467,5 +467,15 @@ BookSchema.pre('save', (next) => {
 module.exports = mongoose.model('book', BookSchema);
 ```
 
+---
+
+## Step 3 - Create a Router
+
+Awesome! We have made this far. 
+
+Before we create our first controller, we are going to create a helper function that will handle the api response body. 
+
+Since we are creating a RESTful API, it's important that as the client sends a request to our sever, we should return a response body, with a message and a status code. 
+
 
 
