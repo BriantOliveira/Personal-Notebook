@@ -316,7 +316,7 @@ module.exports =  {
 
 Notice that we are creating environment variables. These variables will allow us to connect to a specific database according to the environment that the server is running on. That way if you run **npm test** on your terminal, it will only connect to you test database.
 
-If you have already a live database on MLab or Mongo Atlas, don't forget to add the database URL to your **.env** file. In case if you don't, no worries, I will teach you further down the tutorial. 
+If you have already a live database on MLab or Mongo Atlas, don't forget to add the database URL to your **.env** file. In case if you don't, no worries, I will teach you further down in the tutorial.
 
 ```
 DBURI='mongodb://<db user>:<db password>.mlab.com:56789/mydb
