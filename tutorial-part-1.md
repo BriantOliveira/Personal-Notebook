@@ -322,5 +322,16 @@ If you have already a live database on MLab or Mongo Atlas, don't forget to add 
 DBURI='mongodb://<db user>:<db password>.mlab.com:56789/mydb
 ```
 
+Now on the **index.js file** we are going to add this:
+
+    // This sipped of code is just telling the server that if there isn't a environment
+    // being declared already, to connect to the development database.
+
+    const env = process.env.NODE_ENV || 'development';
+    // eslint-disable-next-line import/no-dynamic-require
+    const config = require(`./${env}`);
+
+    module.exports = config;
+
 
 
