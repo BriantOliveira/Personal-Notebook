@@ -206,5 +206,72 @@ app.listen(PORT, () => {
 });
 ```
 
+Now let's add the middlewares: 
+
+```
+/** Set up static public directory */
+app.use(express.static(path.join(__dirname, '..', 'public')));
+
+/** Middleware */
+app.use(cookieParser());
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+app.use(sanitizer.middleware);
+app.use(expressSanitizer());
+app.use(bodyParser.text());
+app.use(bodyParser.json({ type: 'application/json' }));
+
+```
+
+So far your main server should look like this:
+
+```
+/* eslint-disable no-console */
+/*
+*   Bookstore Tutorial
+*   REST API Unit Test
+*/
+
+require('dotenv').config();
+const cookieParser = require('cookie-parser');
+const express = require('express');
+const path = require('path');
+const mongoose = require('mongoose');
+const sanitizer = require('sanitize');
+const expressSanitizer = require('express-sanitizer');
+const bodyParser = require('body-parser');
+
+/** Instantiate the server */
+const app = express();
+
+/** Instantiate a PORT number */
+const PORT = process.env.PORT || 3000;
+
+/** Import Routes */
+
+
+/** Set up static public directory */
+app.use(express.static(path.join(__dirname, '..', 'public')));
+
+/** Middleware */
+app.use(cookieParser());
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+app.use(sanitizer.middleware);
+app.use(expressSanitizer());
+app.use(bodyParser.text());
+app.use(bodyParser.json({ type: 'application/json' }));
+
+
+/** Set up routes */
+
+
+/** Listening PORT */
+app.listen(PORT, () => {
+  console.log('Bookstore listening on port', PORT);
+});
+
+```
+
 
 
