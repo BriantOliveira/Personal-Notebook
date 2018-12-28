@@ -275,7 +275,7 @@ app.listen(PORT, () => {
 
 ## Step 2 - Connecting Database
 
-On this project we will be using MongoDB. The way that we will be connecting the database will be a little different from the conventional way. We are going to connect to the database accordantly to the environment that the server is running on, that way you can switch between environments easily.
+You're going to need to connect to a NoSQL database called [MongoDB](https://docs.mongodb.com/). Look through the documentation as a reference if you get stuck. It's just a good habit to get into. The way that we will be connecting the database will be a little different from the conventional way. We are going to connect to the database accordantly to the environment that the server is running on, that way you can switch between environments easily.
 
 On the config folder, create another folder called **env**. Now inside the environment folder, create these 4 files:
 
@@ -335,7 +335,7 @@ On the **index.js **file, we are going to add this:
 
     module.exports = config;
 
-Now that we have the database configuration files all set up, let's import the database configuration and add the database connection to the **app.js** file.
+Great! Now that we have the database configuration files all set up, let's import the database configuration and add the database connection to the **app.js** file. 
 
 ```
 const config = require('./config/env');
@@ -417,6 +417,41 @@ Your **app.js** file should look like this:
     app.listen(PORT, () => {
       console.log('Bookstore listening on port', PORT);
     });
+
+In order to interact with the MongoDB database we're going to use the npm module[`mongoose`](https://www.npmjs.com/package/mongoose). Mongoose is the ODM - the Object Document Mapper. That means that it maps JavaScript objects in our application to documents in the database. Mongoose works through schemas, written in code, called Models.
+
+Inside the folder `models` create a file called `books.js`file. Here's a sample model for our book resource.
+
+```
+const mongoose = require('mongoose');
+// eslint-disable-next-line prefer-destructuring
+const Schema = mongoose.Schema;
+
+const BookSchema = new Schema(
+  {
+    title: { type: String, require: true },
+    author: { type: String, required: true },
+    year: { type: Number, required: true },
+    pages: { type: Number, required: true },
+    createdAt: { type: Date, default: Date.now },
+  },
+  {
+    versionKey: false,
+  },
+);
+
+/** Setting the createdAt == to the current time */
+BookSchema.pre('save', (next) => {
+  const now = new Date();
+  if (!this.createdAt) {
+    this.createdAt = now;
+  }
+  next();
+});
+
+module.exports = mongoose.model('book', BookSchema);
+ 
+```
 
 
 
