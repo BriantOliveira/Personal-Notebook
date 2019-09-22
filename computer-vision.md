@@ -43,3 +43,13 @@ But ultimately what that will do is returning a new image that we simply called 
 
 The main thing you should take away from this is that we're using a gaussian blur to reduce noise in our greyscale scale image and now will simply show the blurred image. If we run this code Python Laine's dot p why there is our blurred greyscale image later on when we apply the Kenni method. It should be noted that this step was actually optional since the kidney function is going to internally apply a 5 by 5 Gaussian when we call it regardless. Now we know the theory with a 10 hour grayscale with smoothen data and reduced noise with a gaussian blur.
 
+```
+Strong Gradient        Small Gradient 
+[0 0 255 255]            [0 0 20 20]
+[0 0 255 255]            [0 0 20 20]
+[0 0 255 255]            [0 0 20 20]
+[0 0 255 255]            [0 0 20 20]
+```
+
+
+
