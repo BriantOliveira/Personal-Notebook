@@ -73,3 +73,44 @@ That's the line that we draw. Since it was voted as the line of best fit in desc
 
 
 
+---
+
+#### **Intro to Neural Networks**
+
+Machine learning is the concept of building computational systems that learn over time based on experience at its most basic level rather than explicitly programming hard coded instructions into a system machine learning uses a variety of algorithms to describe and analyze data learn from it improve and predict useful outcomes.
+
+Often times it is not enough to directly program a computer to perform a specific task tasks such as driving a car. Speech recognition and object detection are way too complex to just program whereas the machine learning algorithm can learn and improve based on experience interact with its environment learn to detect and predict meaningful patterns to achieve desired results.The learning occurs between a learner and the environment. On that note it's important to distinguish between supervised and unsupervised learning. Supervised learning is the most popular machine learning technique but act as a guide to teach the algorithm what conclusions it should come up with.
+
+Supervised learning typically begins with a data set that's associated with labeled features which define the meaning of our data and find patterns that can be applied to an analytics process. Another machine learning approach that occurs between the learner and its environment is unsupervised learning. In this case all the learner gets as training as large data sets with no labels and the learners task is to process that data find similarities and differences in the information provided and act on that information without prior training.
+
+Let us first consider supervised learning. Consider the task of learning to classify handwritten digits in such a case the learner must figure out a rule for labeling a newly hand or in digit on that basis. _**A supervised learning algorithm with process images of hand or digits along with correct labels which denote the number. Each image represents what that will do is provide significant information that is missing in the newly inputted data which don't have a label to which we can apply the learning expertise and predict that missing information.**_
+
+That is the learner is initially being supervised as it is provided with extra information in the beginning and then through convolutional neural networks learns the relationship between the hand ran images and the associated numbers and applies to that relationship to classify completely new images that the machine hasn't seen before. In essence whatever data set is presented to it it will try and predict its value based on prior training with previously labeled datasets. In this course we're mostly going to deal with supervised learning.
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
