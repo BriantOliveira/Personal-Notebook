@@ -71,8 +71,6 @@ All three lines intersect at the same points. Characterized by theta value of 0.
 
 That's the line that we draw. Since it was voted as the line of best fit in describing our data later on when we start implementing this we'll talk about the concept of thresholds. But for now that is all for transform. We're just trying to find the lines that best describe our points. And that's what we're going to use to find the lines that best find the etch points in our gradient.
 
-
-
 ---
 
 #### **Intro to Neural Networks**
@@ -87,30 +85,16 @@ Let us first consider supervised learning. Consider the task of learning to clas
 
 That is the learner is initially being supervised as it is provided with extra information in the beginning and then through convolutional neural networks learns the relationship between the hand ran images and the associated numbers and applies to that relationship to classify completely new images that the machine hasn't seen before. In essence whatever data set is presented to it it will try and predict its value based on prior training with previously labeled datasets. In this course we're mostly going to deal with supervised learning.
 
+
+
+We mentioned that in supervised learning the learner is trained and makes use of data sets associated with labelled features which define the meaning of our data. That way when it's introduced to newly inputted data it's able to predict missing information based on established rule sets and patterns. In other words unsupervised learning a learner is provided examples of certain inputs and outputs and based on that training given a new input it's able to predict the corresponding outputs. In this lesson we'll talk about linear regression a supervised learning algorithm that allows us to make predictions based on linearly arranged datasets. For now we'll look into an example of a simple linear regression model which would model the relationship of a quantitative response variable and the explanatory variable the response variable is the dependent variable whose value we want to explain and predict based on the values of the independent variable. More specifically we'll look to establish a linear relationship between the price of the house with respect to its size the price of the house will be dependent on the size and as such it will represent our response variable whereas the size of the house is the independent variable whose value is we're going to use to try and make predictions about the price accordingly.
+
+The size of the house is the inputs and the output is what we're trying to predict the price itself. We're currently given a set of data points which reflect the price of some houses based on their size and for each house with a given size. It's given a price label this small 400 square foot house is $210000. And the larger 600 square foot house is about $480000 What about the value of the 500 square foot house. Well we could just eyeball it and estimate that it's somewhere over here or even knew some kind of interpellation to get the exact value or we can draw the line that best fits our data. We're applying a linear function that best approximates the relationship between our two variables.This creates a predictive model for our data showing trends in our data and can thereby predict the values of new data which were not initially labeled. This is known as a linear regression.
+
+Thanks to the linear function that we established from our previously labeled datasets. If we're given new inputs which don't have a label we're able to predict and estimate the output based on where the y of value falls on the regression line. That's one form of supervised learning predicting the values of new data based on a linear regression. And it's important to note that realistically data does not behave like a straight line. They are random x and y observations that on average may follow a linear pattern. Which is why we use linear regression models to represent them as such. The linear regression model also accounts for an error value.
+
+Our predictive model through some of the learning rates learns to minimize this error by updating its linear function until no further improvement is possible. Thanks to this linear function that we established for my relabelled data sets one were given new inputs which don't have an output it's able to predict the most accurate value based on where its value falls on the regression line. Linear Regression is one of the most well-known and understood algorithms in machine learning. This actually segues into our next discussion where we'll also learn how we can use lines to classify data among discrete classes. This is another form of supervised learning called classification. A very important concept in self-driving cars.
+
   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
