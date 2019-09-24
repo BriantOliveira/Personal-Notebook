@@ -49,8 +49,7 @@ Given a number K, we would want to reformat the strings such that each group con
 
 Given a non-empty string S and a number K, format the string according to the rules described above.
 
-**Example 1:**  
-
+**Example 1:**
 
 ```
 Input:
@@ -64,13 +63,9 @@ Output:
 Explanation:
  The string S has been split into two parts, each part has 4 characters.
 Note that the two extra dashes are not needed and can be removed.
-
 ```
 
-
-
-**Example 2:**  
-
+**Example 2:**
 
 ```
 Input:
@@ -83,31 +78,40 @@ Output:
 
 Explanation:
  The string S has been split into three parts, each part has 2 characters except the first part as it could be shorter as mentioned above.
-
 ```
 
-
-
-**Note:**  
-
+**Note:**
 
 1. The length of string S will not exceed 12,000, and K is a positive integer.
 2. String S consists only of alphanumerical characters \(a-z and/or A-Z and/or 0-9\) and dashes\(-\).
 3. String S is non-empty.
 
-    function isAlphaNumeric(char) {
-      var code = char.charCodeAt();
-      if (
-        !(code > 47 && code < 58) &&
-        !(code > 64 && code < 91) &&
-        !(code > 96 && code < 123) &&
-        !(code === 45 || code === 47)
-      ) {
-        return false;
-      }
-      return true;
-    }
+   ```
+   Step 1 - Check if string is has continues dashes like "----" and if so, return empty string
+   Step 2 - If the string S contains only 1 character, return that character in uppercase.
+   Step 3 - If the string S doesn’t contain any character, return invalid.
+   Step 4 - Check if string length is equal to 1, and if true check if the value is not a single dash "-" and
+   return string to upperCase
+   Step 5 - If the string S doesn’t consists only of alphanumerical characters (a−z and/or A−Z
+    and/or 0−9) and/or dashes (-), return invalid.
+   Step 6 - Second, I must take all of dashes out of the string S. And I could transform the string to uppercase at this point also
+   Step 7 - Third, loop through the string and add “-” where it should be, depend on variable K
+   Step 8 - Lastly, return the finished String.
 
+   ```
+
+    function isAlphaNumeric(char) {
+       var code = char.charCodeAt();
+       if (
+         !(code > 47 && code < 58) &&
+         !(code > 64 && code < 91) &&
+         !(code > 96 && code < 123) &&
+         !(code === 45 || code === 47)
+       ) {
+         return false;
+       }
+       return true;
+     }
 
     /**
      * @param {string} S
