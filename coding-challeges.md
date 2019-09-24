@@ -37,13 +37,117 @@ def add_one(given_array):
         return result
 ```
 
-
-
 6 - Given a array of numbers, output the array like this: a1 &lt;= a2 &gt;= a3 &lt;= a4 &gt;= a5.
 
 When we encounter the ith number, if i is even, then if ai ai-1, swap ai and ai-1.
 
+---
 
+You are given a license key represented as a string S which consists only alphanumeric character and dashes. The string is separated into N+1 groups by N dashes.
+
+Given a number K, we would want to reformat the strings such that each group contains exactly K characters, except for the first group which could be shorter than K, but still must contain at least one character. Furthermore, there must be a dash inserted between two groups and all lowercase letters should be converted to uppercase.
+
+Given a non-empty string S and a number K, format the string according to the rules described above.
+
+**Example 1:**  
+
+
+```
+Input:
+ S = "5F3Z-2e-9-w", K = 4
+
+
+Output:
+ "5F3Z-2E9W"
+
+
+Explanation:
+ The string S has been split into two parts, each part has 4 characters.
+Note that the two extra dashes are not needed and can be removed.
+
+```
+
+
+
+**Example 2:**  
+
+
+```
+Input:
+ S = "2-5g-3-J", K = 2
+
+
+Output:
+ "2-5G-3J"
+
+
+Explanation:
+ The string S has been split into three parts, each part has 2 characters except the first part as it could be shorter as mentioned above.
+
+```
+
+
+
+**Note:**  
+
+
+1. The length of string S will not exceed 12,000, and K is a positive integer.
+2. String S consists only of alphanumerical characters \(a-z and/or A-Z and/or 0-9\) and dashes\(-\).
+3. String S is non-empty.
+
+    function isAlphaNumeric(char) {
+      var code = char.charCodeAt();
+      if (
+        !(code > 47 && code < 58) &&
+        !(code > 64 && code < 91) &&
+        !(code > 96 && code < 123) &&
+        !(code === 45 || code === 47)
+      ) {
+        return false;
+      }
+      return true;
+    }
+
+
+    /**
+     * @param {string} S
+     * @param {number} K
+     * @return {string}
+     */
+    var licenseKeyFormatting = function(S, K) {
+
+      const exp = `([\-]){${S.length}, ${S.length}}`
+      const regex = new RegExp(exp)
+      if (S.search(regex) == 1)
+        { return ""}
+
+      if (S.length < 1) return "invalid";
+      if (S.length == 1 && S[0] !== '-') return S.toUpperCase();
+      if (K < 0) return "invalid";
+
+      for (let k in S) {
+        if (!isAlphaNumeric(S[k])) return "invalid";
+      }
+      let key = 0;
+      let strObj = {};
+      for (let c of S) {
+        if (c != "/" && c != "-") {
+          strObj[key] = c.toUpperCase();
+          key++;
+        }
+      }
+      let newStr = "";
+      let counter = key - 1;
+
+      for (let k in strObj) {
+        newStr += strObj[k];
+        if (counter !== 0 && counter % K === 0) {
+          newStr += "-";
+        }
+        counter--;
+      }
+      return newStr;
+    };
 
 
 
