@@ -139,5 +139,41 @@ And how does it do it. Pacifically How does it know how to adjust the weights in
 
 Where I essentially training the neural network. But how is it going to do that. Let's go back to our first line. Clearly these two points are misclassified. Suppose this is really in your equation. If you take the linear combination of each point each one would result in a negative score a value of less than zero. And I would step function would then predict each one the value is zero. But this is wrong since we initially assigned these points a label of 1. But our linear model predicts their value is zero. The key metric to solving this problem is the error which tells us if our model is doing well or not depending on how large or how small the error is.
 
-And now through a gradient since our network is going to take tiny steps to reduce this error in every iteration these tiny steps correspond to the learning rate which needs to be sufficiently small since when that line is fixing itself you never want it to move drastically in one direction especially when you have a lot of points at every step. The line will move closer to them misclassified points and it keeps doing so until there are no errors or until the error is sufficiently small. And by doing so we eventually obtain the perfect linear model. Suppose the perfect linear model for the set of data was defined by the following equation. We cannot conclude that in classifying our data our linear model clearly gives more weight to X to rather the next one. The main theme of this lesson being the algorithm starts with a random line defined by random weights. The neural network as it calculates the errors it starts to learn more about the input data and then readjust the weights to minimize these errors and thus better classify our data. How does it calculate the air. How do we determine which points have the largest error relative to the current linear model. 
+And now through a gradient since our network is going to take tiny steps to reduce this error in every iteration these tiny steps correspond to the learning rate which needs to be sufficiently small since when that line is fixing itself you never want it to move drastically in one direction especially when you have a lot of points at every step. The line will move closer to them misclassified points and it keeps doing so until there are no errors or until the error is sufficiently small. And by doing so we eventually obtain the perfect linear model. Suppose the perfect linear model for the set of data was defined by the following equation. We cannot conclude that in classifying our data our linear model clearly gives more weight to X to rather the next one. The main theme of this lesson being the algorithm starts with a random line defined by random weights. The neural network as it calculates the errors it starts to learn more about the input data and then readjust the weights to minimize these errors and thus better classify our data. How does it calculate the air. How do we determine which points have the largest error relative to the current linear model.
+
+
+
+How does it actually calculate the air.
+
+Well we're going to need a continuous error function we'll call it.
+
+Looking at this diagram clearly there are two misclassified points.
+
+We know the Bluepoint need to be below the line and the red one above.
+
+So it's going to happen is this error function is going to assign each misclassified point a big penalty.
+
+As for the correctly classified points we're going to see very small penalties will have said that the
+
+size of the points reflects the size of the penalty assigned to them.
+
+The misclassified points have the largest penalties since they are misclassified.
+
+And what we'll do is detect these error variations and thus figure out which direction we need to move
+
+the line the most the total error and then results from some of these penalties associated with each
+
+point.
+
+We'll see if we assume that the total error is very high. So what we'll do is actually move the line in the direction with the most errors. We keep doing that until all error penalties are sufficiently small and thus we're minimizing the errors as we adjust the weight of our linear model to better classify the points and thereby minimizing and decreasing our total error some. Now what is this error function in order to answer this question and let's rethink our perception model. And the second node based on the score of each point predictive value of 0 or 1 any point with the positive score gets a 1 otherwise 0. These are discrete predictions which are derived from our step function.
+
+The problem with this is being a step function increases or decreases very abruptly from one constant value to another. There is no in-between based on the value of the linear combination. The step function is discrete it's not continuous it's discrete in the sense that it only predicts values of either 0 or 1 instead of representing our predictions as discrete values of zeros and ones they need to be continuous probabilities. Which is why we cannot use the step function because Suppose we want it to predict the likeliness of someone who is let's say 62 years old with your blood sugar of 7.5 million miles per liter. We want to predict the likeliness of this person being diabetic.
+
+The value of that person's linear combination based on this model is negative point one time 62 years old minus 7.5 plus 14. All of this equals 0.3. As expected it's a positive value since our point is below the line in the positive region. Our step function would simply check if that value is bigger or smaller than zero. In this case it is so predictive value of 1. This activation function doesn't actually return the likeliness of someone having diabetes or not. It's either a yes or no.
+
+A very firm value. Well instead of a step function to determine the probability of someone being diabetic our activation function is going to be a sigmoid. There are many types of activation functions but we'll stick with the sigmoid which is represented by the following equation what that's going to do is take the value of our linear combination and subbing into the sigmoid function which returns a value of zero point five seven which means that according to our model this person who's 62 years old with blood sugar of 7.5 per liter is 57 percent likely to be healthy to not be diabetic. Let's say we test a person who's 20 years old with only two multi-multi per liter of blood sugar. There are linear combination would result in a value of 10. If we saw this value in our sigmoid one divided by one plus either the negative 10 results in the value of 99 percent which makes perfect sense. The younger someone is the more they tend to exercise.
+
+And generally speaking would carry less weight as opposed to when they're older and the lower the blood sugar the more effective insulin is in storing sugar inside the cell the less diabetic risk. In other words the further you are from the line in the positive region the lower your blood sugar the younger you are and thus the more likely you are to be healthy the more you're in the positive region. And obviously the opposite occurs as you go into the negative region. As far as errors go with the sigmoid activation function Let's go back to this dataset and assume everyone who has already been tested and we've determined they are not diabetic they already have a label of one and never on and run has also been tested. We've determined they are diabetic. They are already labeled as 0. This is our training data. Our algorithm will try and classify this data and it will start with some random line. Looking at this data we can see that this point is misclassified if we know that the person isn't diabetic than his predicted probability of being healthy by the neural network should be higher than 50 percent.
+
+However according to our linear model this person is in its negative region which is an error by adjusting both the weights and bias of our line. It then makes the correct prediction going forward will be using the sigmoid function as the activation function not the step function that is we'll proceed with the notion of what is the probability of someone being healthy or not instead of it being a discrete yes or no.
 
