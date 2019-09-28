@@ -291,21 +291,5 @@ This makes regular size generalization a central concern in machine learning and
 
 To avoid overfitting we can simply tune the hyper parameters in this case minimize its complexity fine tuning hyper parameters such as learning rates and number of hidden units is exactly why we make use of the validation. So its revalidation set as per the official definition is a set of examples we use to fine tune the hyper parameters of a classifier. By doing so we're able to modify the complexity of our model providing it with just enough capacity to fit our data capture the underlying trend just enough to generalize it to newly inputted data what happens first is we're using the training needed to help our model learn the standard parameters the weights and biases needed to classify them.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+But then we use the validation sets to fine tune the hyper parameters the depth the learning rate and so on. And there is a very good reason why we don't fine tune the hyper parameters during this training stage and that's because during the training stage the goal is to minimize the training error. So naturally fine tuning the hyper parameters during the training stage based on the training sets will aim to maximize the model capacity. That way the model can fit our training data to the maximal accuracy eventually reaching a high enough capacity that results in overfitting. That's why we cannot tune the hyper parameters based on the training circuits we must make use of the validation set in the validation stage specifically when dealing with amnesty.
 
