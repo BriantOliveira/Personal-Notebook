@@ -287,3 +287,25 @@ The generalization is quite low in this optimal zone is the smallest gap between
 
 This makes regular size generalization a central concern in machine learning and this course we've learned about optimization algorithms like gradient descent which aim to reduce the training error whereas regularization techniques aim to reduce the generalization error. This is just as important and will use regularization techniques later on in the course but at the same time this segues into our next discussion on validation sets.
 
+**Validation Set**
+
+To avoid overfitting we can simply tune the hyper parameters in this case minimize its complexity fine tuning hyper parameters such as learning rates and number of hidden units is exactly why we make use of the validation. So its revalidation set as per the official definition is a set of examples we use to fine tune the hyper parameters of a classifier. By doing so we're able to modify the complexity of our model providing it with just enough capacity to fit our data capture the underlying trend just enough to generalize it to newly inputted data what happens first is we're using the training needed to help our model learn the standard parameters the weights and biases needed to classify them.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
