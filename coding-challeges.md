@@ -99,58 +99,58 @@ Explanation:
    Step 8 - Lastly, return the finished String.
    ```
 
-`function isAlphaNumeric(char) {    
-    var code = char.charCodeAt();    
-    if (    
-      !(code > 47 && code < 58) &&    
-      !(code > 64 && code < 91) &&    
-      !(code > 96 && code < 123) &&    
-      !(code === 45 || code === 47)    
-    ) {    
-      return false;    
-    }    
-    return true;    
+`function isAlphaNumeric(char) {      
+    var code = char.charCodeAt();      
+    if (      
+      !(code > 47 && code < 58) &&      
+      !(code > 64 && code < 91) &&      
+      !(code > 96 && code < 123) &&      
+      !(code === 45 || code === 47)      
+    ) {      
+      return false;      
+    }      
+    return true;      
   }`
 
 `/**`
 
 * `@param {string} S`
 * `@param {number} K`
-* `@return {string}    
-  */    
+* `@return {string}      
+  */      
   var licenseKeyFormatting = function(S, K) {`
 
-  `const exp = ([\-]){${S.length}, ${S.length}}    
-  const regex = new RegExp(exp)    
-  if (S.search(regex) == 1)    
+  `const exp = ([\-]){${S.length}, ${S.length}}      
+  const regex = new RegExp(exp)      
+  if (S.search(regex) == 1)      
    { return ""}`
 
-  `if (S.length < 1) return "invalid";    
-  if (S.length == 1 && S[0] !== '-') return S.toUpperCase();    
+  `if (S.length < 1) return "invalid";      
+  if (S.length == 1 && S[0] !== '-') return S.toUpperCase();      
   if (K < 0) return "invalid";`
 
-  `for (let k in S) {    
-   if (!isAlphaNumeric(S[k])) return "invalid";    
-  }    
-  let key = 0;    
-  let strObj = {};    
-  for (let c of S) {    
-   if (c != "/" && c != "-") {    
-     strObj[key] = c.toUpperCase();    
-     key++;    
-   }    
-  }    
-  let newStr = "";    
+  `for (let k in S) {      
+   if (!isAlphaNumeric(S[k])) return "invalid";      
+  }      
+  let key = 0;      
+  let strObj = {};      
+  for (let c of S) {      
+   if (c != "/" && c != "-") {      
+     strObj[key] = c.toUpperCase();      
+     key++;      
+   }      
+  }      
+  let newStr = "";      
   let counter = key - 1;`
 
-  `for (let k in strObj) {    
-   newStr += strObj[k];    
-   if (counter !== 0 && counter % K === 0) {    
-     newStr += "-";    
-   }    
-   counter--;    
-  }    
-  return newStr;    
+  `for (let k in strObj) {      
+   newStr += strObj[k];      
+   if (counter !== 0 && counter % K === 0) {      
+     newStr += "-";      
+   }      
+   counter--;      
+  }      
+  return newStr;      
   };`
 
 
